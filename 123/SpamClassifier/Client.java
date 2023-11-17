@@ -49,13 +49,16 @@ public class Client {
 
                 System.out.println("Result: " + c.classify(e));
             } else if (choice == 2) {
-                List<Classifiable> data = new ArrayList<>(loadEmails("./data/test/spam"));
-                List<String> labels = new ArrayList<>(Collections.nCopies(data.size(), "spam"));
+                List<Classifiable> spam = new ArrayList<>(loadEmails("./data/test/spam"));
+                double spamAccuracy = c.calculateAccuracy(spam, Collections.nCopies(spam.size(), "spam"));
 
-                data.addAll(loadEmails("./data/test/ham"));
-                labels.addAll(Collections.nCopies(data.size() - labels.size(), "ham"));
+                List<Classifiable> ham = new ArrayList<>(loadEmails("./data/test/ham"));
+                double hamAccuracy = c.calculateAccuracy(ham, Collections.nCopies(ham.size(), "ham"));
 
-                System.out.println("Accuracy: " + c.calculateAccuracy(data, labels));
+                double overallAccuracy = ((spamAccuracy * spam.size()) + (hamAccuracy * ham.size())) / (spam.size() + ham.size());
+                System.out.println("Spam accuracy   : " + spamAccuracy);
+                System.out.println("Ham accuracy    : " + hamAccuracy);
+                System.out.println("Overall accuracy: " + overallAccuracy);
             } else if (choice == 3) {
                 System.out.print("Please enter the file name you'd like to save to: ");
                 String fileName = console.next();
