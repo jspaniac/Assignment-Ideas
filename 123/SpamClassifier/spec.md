@@ -1,7 +1,7 @@
 # 123 Classification Tree
 ___
 ## Background
-The rise of "Machine Learning" and "Artificial Intelligence" has been hard to ignore in the past decade. While the more well-known applications include ChatGPT and Dall-E, there are a number of other uses for these powerful algorithms. These include assisting biologists in the drug discovery process, helping medical professions diagnose and treat diseases early, and relaying wildfire movement to firefighers preventing out of control spread.
+The rise of "Machine Learning" and "Artificial Intelligence" has been hard to ignore in the past decade. While the more well-known applications include ChatGPT and Dall-E, there are a number of other uses for these powerful algorithms. These include assisting biologists in the drug discovery process, helping medical professions diagnose and treat diseases early, and predicting erratic wildfire movement to save lives.
 
 In essence, these branches are subsets of Computer Science concerned with using trends from known input data to predict things about unknown and unseen data. Yet, it is important to remember that these algorithms aren't magic with limitless potential - they are simply high fidelity probability models built on a vast amount of input data. This means that your predictions are only as good as the data it is built upon, which can easily be biased in some way - as we've seen before. Thus, it is important to recognize and advocate for appropriate uses of these algorithms, regardless of how miraculous they seem.
 
