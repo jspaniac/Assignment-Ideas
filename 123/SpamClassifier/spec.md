@@ -145,7 +145,7 @@ ___
 ### 3. Create a classification forest
 Classification trees are models that tend to overfit to the training data they're built on - you can imagine that a model that creates a split for every single piece of input data will perfectly classify the input data but likely struggle on any unseen datapoints. One way to counteract this is to create something called a forest. Forests average out the results from a many trees, picking the label that appears the most. In this extension, you'll be creating a `ClassificationForest` class that embodies this concept. Namely, you should run an input through a provided number of trees and pick the label that appears most often, breaking ties arbitrarily.
 
-Your new `Classifier` must implement the appropriate interface along with the following constructors:
+Your new `Classifier` must extend the abstract class and include the following constructors:
 
 ```java
 public ClassificationForest(int n, List<Classifiable> data, List<String> labels)
