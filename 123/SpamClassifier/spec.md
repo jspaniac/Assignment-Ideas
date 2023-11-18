@@ -137,7 +137,7 @@ Note that we recommend whatever feature you add is also a percentage. Doing so w
 Your additions are also not required to *improve* the model in terms of its overall accuracy. If you find that your addition causes your model to perform worse, we'd encourage you to think about why that might be the case! (Does more data always mean a better model?)
 ___
 ### 2. Extend the Classifiable class for a dataset of your choosing.
-Note that our `Classifier` can work on anything that extends the `Classifiable` class. Let's try it out with some more interesting data! In this extension you'll take an existing dataset, load it into a list of `Classifiable` objects and see how well our model works. Below is a list of datasets we'd recommend messing aroudn with (although you're welcome to explore whatever interests you)
+Note that our `Classifier` can work on anything that extends the `Classifiable` class. Let's try it out with some more interesting data! In this extension you'll take an existing dataset, load it into a list of `Classifiable` objects and see how well our model works. Below is a list of datasets we'd recommend messing around with (although you're welcome to explore whatever interests you)
 1) Weather and atmospheric data
 2) TODO
 3) Your choice!
