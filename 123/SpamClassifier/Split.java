@@ -1,29 +1,25 @@
 public class Split {
     private double threshold;
-    private String key;
+    private String feature;
 
     public Split(double threshold, String key) {
         this.threshold = threshold;
-        this.key = key;
+        this.feature = feature;
     }
 
     public double getThreshold() {
         return threshold;
     }
 
-    public String getKey() {
-        return key;
-    }
-
-    public String getSplittedKey() {
-        return key.split(Classifiable.SPLITTER)[0];
+    public String getFeature() {
+        return feature.split(Classifiable.SPLITTER)[0];
     }
 
     public boolean evaluate(Classifiable value) {
-        return value.get(this.key) < this.threshold;
+        return value.get(this.feature) < this.threshold;
     }
 
     public String toString() {
-        return this.key + "\n" + this.threshold;
+        return this.feature + "\n" + this.threshold;
     }
 }

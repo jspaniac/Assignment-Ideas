@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Email extends Classifiable {
-    public static final List<String> KEYS = Arrays.asList("wordPercent");
+    public static final List<String> FEATURES = Arrays.asList("wordPercent");
     
     private Map<String, Integer> words;
     private double totalWords;
@@ -24,13 +24,13 @@ public class Email extends Classifiable {
         }
     }
 
-    public List<String> getKeys() {
-        return KEYS;
+    public List<String> getFeatures() {
+        return FEATURES;
     }
 
-    public double get(String key) {
-        String[] splitted = key.split(Classifiable.SPLITTER);
-        int index = KEYS.indexOf(splitted[0]);
+    public double get(String feature) {
+        String[] splitted = feature.split(Classifiable.SPLITTER);
+        int index = FEATURES.indexOf(splitted[0]);
         if (index == -1) {
             throw new IllegalArgumentException();
         }
@@ -69,6 +69,6 @@ public class Email extends Classifiable {
 
         // Calculate halfway between the two points
         double halfway = Math.min(this.getWordPercentage(bestWord), otherEmail.getWordPercentage(bestWord)) + (highestDiff / 2);
-        return new Split(halfway, KEYS.get(0) + Classifiable.SPLITTER + bestWord);
+        return new Split(halfway, FEATURES.get(0) + Classifiable.SPLITTER + bestWord);
     }
 }

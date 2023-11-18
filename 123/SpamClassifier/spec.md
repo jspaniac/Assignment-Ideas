@@ -28,7 +28,7 @@ ___
 `Split` is a wrapper class that stores a feature and threshold for any intermediary node within our tree. Outside of the typical getter methods for the above, it has a number of useful methods:
 
 ```java
-public String getSplittedFeature()
+public String getFeature()
 ```
 Returns the feature name without any specific component tied to it. In the case of our email example it would return "wordPercentage" without the specific word tied to it (instead of "wordPercentage~hello")
 

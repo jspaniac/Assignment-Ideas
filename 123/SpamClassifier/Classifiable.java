@@ -20,7 +20,7 @@ public abstract class Classifiable {
     // For use in an extension, if chosen!
     public static final Set<String> DICT = Classifiable.loadDict(DICT_PATH);
 
-    public abstract double get(String key);
-    public abstract List<String> getKeys();
+    public abstract double get(String feature);
+    public abstract List<String> getFeatures();
     public abstract Split partition(Classifiable other);
 }

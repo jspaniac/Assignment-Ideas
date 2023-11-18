@@ -61,7 +61,7 @@ public class ClassificationTree extends Classifier {
 
     private boolean canClassify(Classifiable input, ClassificationNode root) {
         if (root != null && root.left != null && root.right != null) {
-            return input.getKeys().contains(root.split.getSplittedKey()) &&
+            return input.getFeatures().contains(root.split.getFeature()) &&
                    canClassify(input, root.left) &&
                    canClassify(input, root.right);
         }
