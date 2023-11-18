@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class ClassificationTree implements Classifier {
+public class ClassificationTree extends Classifier {
     private ClassificationNode overallRoot;
 
     public ClassificationTree(List<Classifiable> data, List<String> results) {
@@ -37,8 +37,8 @@ public class ClassificationTree implements Classifier {
         return root;
     }
 
-    public ClassificationTree(String fileName) throws FileNotFoundException {
-        overallRoot = load(new Scanner(new File(fileName)));
+    public ClassificationTree(Scanner sc) {
+        overallRoot = load(sc);
         if (overallRoot == null) {
             throw new IllegalStateException();
         }
@@ -80,8 +80,7 @@ public class ClassificationTree implements Classifier {
         }
     }
 
-    public void save(String fileName) throws FileNotFoundException {
-        PrintStream ps = new PrintStream(fileName);
+    public void save(PrintStream ps) {
         save(overallRoot, ps);
     }
 
@@ -93,24 +92,6 @@ public class ClassificationTree implements Classifier {
             save(root.left, ps);
             save(root.right, ps);
         }
-    }
-
-    public double calculateAccuracy(List<Classifiable> data, List<String> labels) {
-        if (data.size() != labels.size()) {
-            throw new IllegalArgumentException();
-        }
-        
-        double correct = 0;
-        for (int i = 0; i < data.size(); i++) {
-            if (!canClassify(data.get(i))) {
-               throw new IllegalArgumentException();
-            }
-            String result = classify(data.get(i));
-            if (result.equals(labels.get(i))) {
-                correct ++;
-            }
-        }
-        return correct / data.size();
     }
 
     private static class ClassificationNode {

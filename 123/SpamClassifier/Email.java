@@ -43,7 +43,7 @@ public class Email extends Classifiable {
     }
 
     private double getWordPercentage(String word) {
-        return this.words.getOrDefault(word, 0) / totalWords;
+        return totalWords == 0 ? 0.0 : this.words.getOrDefault(word, 0) / totalWords;
     }
 
     public Split partition(Classifiable other) {

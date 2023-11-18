@@ -21,7 +21,8 @@ public class Client {
             c = trainModel();
         } else if (choice == 2) {
             System.out.print("Please enter the path to the file you'd like to load: ");
-            c = new ClassificationTree(console.next());
+            String fileName = console.next();
+            c = new ClassificationTree(new Scanner(new File(fileName)));
         }
         // More options to add here depending on extension chosen!
 
@@ -62,7 +63,7 @@ public class Client {
             } else if (choice == 3) {
                 System.out.print("Please enter the file name you'd like to save to: ");
                 String fileName = console.next();
-                c.save(fileName);
+                c.save(new PrintStream(fileName));
             } else {
                 loop = false;
             }
