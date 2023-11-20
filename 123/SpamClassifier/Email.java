@@ -6,8 +6,7 @@ public class Email extends Classifiable {
     private Map<String, Integer> words;
     private double totalWords;
 
-    public Email(String subject, String content) {
-        // Can do something with subject in an extension!
+    public Email(String content) {
         this.words = new HashMap<>();
         parseContent(content);
     }
@@ -30,6 +29,7 @@ public class Email extends Classifiable {
 
     public double get(String feature) {
         String[] splitted = feature.split(Classifiable.SPLITTER);
+
         int index = FEATURES.indexOf(splitted[0]);
         if (index == -1) {
             throw new IllegalArgumentException();

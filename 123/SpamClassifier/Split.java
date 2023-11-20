@@ -2,7 +2,7 @@ public class Split {
     private double threshold;
     private String feature;
 
-    public Split(double threshold, String key) {
+    public Split(double threshold, String feature) {
         this.threshold = threshold;
         this.feature = feature;
     }
@@ -20,6 +20,6 @@ public class Split {
     }
 
     public String toString() {
-        return this.feature + "\n" + this.threshold;
+        return "Feature: " + this.feature + "\n" + "Threshold: " + this.threshold;
     }
 }
