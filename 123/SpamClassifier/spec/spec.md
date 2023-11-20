@@ -85,7 +85,7 @@ public static final Set<String> DICT;
 **At this point, stop and think!** What is a feature? What is a threshold? What is a label? How can you easily determine a split between two points in our dataset?
 ___
 ### Classifier
-This is another abstract class that your classification tree will extend. It defines a number of methods that are required to be considered a "Classifier":
+Now, we'll move into the code you're required to implement for this assignment. This is another abstract class that your classification tree will extend. It defines a number of methods that are required to be considered a "Classifier":
 
 ```java
 public boolean canClassify(Classifiable input);
@@ -108,7 +108,7 @@ Saves this current classifier to the given PrintStream.
 
 For our classification tree, this format should be pre-order. Every intermediary node will print two lines of data (one for feature and one for threshold). For leaf nodes, you should only print the label.
 
-Note that this class also implements a `calculateAccuracy` method that returns the model's accuracy on provided testing data and labels. This is useful to see how well our model actually works!
+Note that this class also implements a `calculateAccuracy` method that returns the model's accuracy on all labels in a provided testing dataset. This is useful to see how well our model actually works, and what labels it is struggling with classifying.
 
 You'll also have to implement two constructors for your Classification Tree, not listed in the interface
 ```java
@@ -127,7 +127,7 @@ Create a classification tree from the input data and corresponding labels. This 
 
 *Note that ideally we'd like to keep track of all input data that falls under a specific leaf node such that when creating a new split, we can make sure it's valid for our entire dataset. For simplicity, only worry about the first datapoint used to create a label node.
 
-Once those methods are implemented, you'll have a working classifier! Try it out using `Client.java` and see how well it does. Also, try saving your tree to a file and see what it looks like. Is it splitting on features you'd expect? Why or why not? (Note that this is a big area of current CS research called "explainable AI" - how can we interpret the results from these massive probability models that are often difficult to understand).
+Once those methods are implemented, you'll have a working classifier! Try it out using `Client.java` and see how well it does (what is it's accuracy on our test data). Also, try saving your tree to a file and see what it looks like. Is it splitting on features you'd expect? Why or why not? (Note that this is a big area of current CS research called "explainable AI" - how can we interpret the results from these massive probability models that are often difficult for humans to understand).
 ___
 ## Creative Portion
 For this assignment, there are 3 recommended creative extensions you can implement:
@@ -138,7 +138,7 @@ For this assignment, there are 3 recommended creative extensions you can impleme
 All of these are described more in depth below.
 ___
 ### 1. Add more features to the current model.
-Our current model isn't horrible, but could use some more information from the original dataset for determining splits. Your job is to add an additional feature (or features if you so choose) to the `Email` class. Some ideas include:
+Our current model has ~60-70% accuracy, which is better than a coin flip but could use some improvement. Your job is to add an additional feature (or features if you so choose) to the `Email` class. Some ideas include:
 
 1) Character percentage.
 2) Removing special characters from input
@@ -146,7 +146,7 @@ Our current model isn't horrible, but could use some more information from the o
 4) Valid english word percentage (using `Classifiable.DICT`)
 5) Your choice!
 
-Note that we recommend whatever feature you add is also a percentage. Doing so will simplify the logic within `partition()` although you are welcome to consider additional features that interest you.
+Note that we recommend whatever feature you add is also a percentage. Doing so will simplify the logic within `partition()` as it will be easier to compare to the existing wordPercent feature. However, you are welcome to consider additional features that interest you and experiment with weighting their importance in the partition differently.
 
 Your additions are also not required to *improve* the model in terms of its overall accuracy. If you find that your addition causes your model to perform worse, we'd encourage you to think about why that might be the case! (Does more information always mean a better model? Are you potentially removing some important information?)
 ___
@@ -154,9 +154,9 @@ ___
 Note that our `Classifier` can work on anything that extends the `Classifiable` class. Let's try it out with some more interesting data! In this extension you'll take an existing dataset, load it into a list of `Classifiable` objects and see how well our model works. Below is a list of datasets we'd recommend messing around with (although you're welcome to explore whatever interests you)
 1) Weather (./data/weather/weather.csv) - predict summary from temperature, humidity, wind speed, etc.
 2) Spotify (./data/songs/spotify_songs.csv) - predict popularity from danceability, energy, key, etc.
-3) Your choice! (It might be worth checking out a website like https://www.kaggle.com/datasets?tags=13302-Classification). Remember that often times a machine learning model is not the best solution to all problems!
+3) Your choice! (It might be worth checking out a website like https://www.kaggle.com/datasets?tags=13302-Classification). When exploring these datasets, consider whether a machine learning model is actually the best solution to a problem or if it has the potential to do more harm than good.
 
-Make sure that the dataset you choose has features that are ints/doubles such that they are able to be classified by our threshold splits! You'll also have to make some changes to `Client.java` to load your dataset into whatever `Classifiable` class you write. We'd recommend changing out all instances of the `toEmails` method with a method you write to load data into your created class.
+Make sure that the dataset you choose has features that are ints/doubles such that they are able to be classified by our threshold splits! You'll also have to make some changes to `Client.java` to load your dataset into whatever `Classifiable` class you write. We'd recommend changing out all instances of the `toEmails` method with a similar one that constructs the object that you write.
 ___
 ### 3. Create a classification forest
 Classification trees are models that tend to overfit to the training data they're built on - you can imagine that a model that creates a split for every single piece of input data will perfectly classify the input data but likely struggle on any unseen datapoints. One way to counteract this is to create something called a forest. Forests average out the results from a many trees, picking the label that appears most frequently. In this extension, you'll be creating a `ClassificationForest` class that embodies this concept. Namely, you should run an input through a provided number of trees and pick the label that appears most often, breaking ties arbitrarily.
@@ -166,11 +166,11 @@ Your new `Classifier` must extend the corresponding abstract class and include t
 ```java
 public ClassificationForest(int n, List<Classifiable> data, List<String> labels)
 ```
-Construct a forest with `n` trees from the provided data and labels. Note that in order for this to be a valid forest of different trees, you must shuffle the data and labels the *same* way between tree construction.
+Construct a forest with `n` trees from the provided data and labels. Note that in order for this to be a valid forest of different trees, you must shuffle the data and labels the *same* way between tree construction (see `Client.java` for an example).
 
 ```java
 public ClassificationForest(Scanner sc)
 ```
-Construct a forest from a scanner attached to a file. The first line of the file should be the total number of trees within the forest. Everything following is the stored tree data formatted as per the `ClassificationTree`'s `save` method. Your forest's save method should follow this format as well. Note that like our tree's Scanner constructor you should only be reading data from the scanner using `nextLine` and converting it to the approiate data type using `Integer.parseInt`
+Construct a forest from a scanner attached to a file. The first line of the file should be the total number of trees within the forest. Everything following is the stored tree data formatted as per the `ClassificationTree`'s `save` method. Your forest's save method should follow this format as well. Note that like our tree's Scanner constructor you should only be reading data from the scanner using `nextLine` and converting it to the appropriate data type using `Integer.parseInt`
 
 Once you've created your new model, change uncomment the corresponding lines in `Client.java` to test out it's accuracy. Does it perform better than a single tree like we'd expect? (It's ok if it doesn't!)
