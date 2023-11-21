@@ -1,12 +1,12 @@
 import java.util.*;
 import java.io.*;
 
-public class ClassificationTree1 extends Classifier {
-    public ClassificationTree1(List<Classifiable> data, List<String> labels) {
+public class ClassificationTree extends Classifier {
+    public ClassificationTree(List<Classifiable> data, List<String> labels) {
         throw new UnsupportedOperationException("Not yet implemented!");
     }
 
-    public ClassificationTree1(Scanner sc) {
+    public ClassificationTree(Scanner sc) {
         throw new UnsupportedOperationException("Not yet implemented!");
     }
     

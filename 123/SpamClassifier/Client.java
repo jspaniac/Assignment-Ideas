@@ -77,7 +77,7 @@ public class Client {
         // if (!tree) {
         //     return new ClassificationForest(n, data, labels);
         // }
-        return new ClassificationTree(data.subList(0, 10), labels.subList(0, 10));
+        return new ClassificationTree(data, labels);
     }
 
     private static void testModel(Classifier c) throws FileNotFoundException {

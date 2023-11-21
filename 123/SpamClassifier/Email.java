@@ -15,13 +15,11 @@ public class Email extends Classifiable {
         Scanner sc = new Scanner(content);
         while (sc.hasNext()) {
             String word = sc.next();
-            if (Classifiable.DICT.contains(word)) {
-                if (!words.containsKey(word)) {
-                    words.put(word, 0);
-                }
-                words.put(word, words.get(word) + 1);
-                totalWords++;
+            if (!words.containsKey(word)) {
+                words.put(word, 0);
             }
+            words.put(word, words.get(word) + 1);
+            totalWords++;
         }
     }
 
