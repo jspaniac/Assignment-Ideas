@@ -8,11 +8,11 @@ public class Client {
         System.out.println();
         System.out.println("1) Train email classification model");
         System.out.println("2) Load model from file");
-        System.out.println("3) Train random forest");
+        //System.out.println("3) Train random forest");
         System.out.print("Enter your choice here: ");
 
         int choice = console.nextInt();
-        while (choice != 1 && choice != 2 && choice != 3) {
+        while (choice != 1 && choice != 2 /* && choice != 3 */) {
             System.out.print("Please enter a valid option from above: ");
             choice = console.nextInt();
         }
@@ -25,11 +25,11 @@ public class Client {
             String fileName = console.next();
             c = new ClassificationTree(new Scanner(new File(fileName)));
         }
-        else if (choice == 3) {
-            System.out.print("How many trees would you like in the forest: ");
-            int n = console.nextInt();
-            c = trainModel(false, n);
-        }
+        // else if (choice == 3) {
+        //     System.out.print("How many trees would you like in the forest: ");
+        //     int n = console.nextInt();
+        //     c = trainModel(false, n);
+        // }
 
         System.out.println();
         System.out.println("What would you like to do with your model?");
@@ -74,7 +74,10 @@ public class Client {
         Collections.shuffle(data, new Random(seed));
         Collections.shuffle(labels, new Random(seed));
 
-        return tree ? new ClassificationTree(data, labels) : new ClassificationForest(n, data, labels);
+        // if (!tree) {
+        //     return new ClassificationForest(n, data, labels);
+        // }
+        return new ClassificationTree(data.subList(0, 10), labels.subList(0, 10));
     }
 
     private static void testModel(Classifier c) throws FileNotFoundException {

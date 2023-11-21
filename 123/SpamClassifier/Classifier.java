@@ -6,7 +6,7 @@ public abstract class Classifier {
 
     public abstract String classify(Classifiable input);
 
-    public abstract void save(PrintStream ps) throws FileNotFoundException;
+    public abstract void save(PrintStream ps);
 
     public Map<String, Double> calculateAccuracy(List<Classifiable> data, List<String> labels) {
         if (data.size() != labels.size()) {

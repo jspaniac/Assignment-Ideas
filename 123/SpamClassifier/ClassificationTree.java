@@ -1,123 +1,24 @@
 import java.util.*;
 import java.io.*;
 
-public class ClassificationTree extends Classifier {
-    private ClassificationNode overallRoot;
-
-    public ClassificationTree(List<Classifiable> data, List<String> results) {
-        if (data.size() != results.size() || data.size() == 0) {
-            throw new IllegalArgumentException();
-        }
-        
-        for (int i = 0; i < data.size(); i++) {
-            overallRoot = train(overallRoot, data.get(i), results.get(i));
-        }
+public class ClassificationTree1 extends Classifier {
+    public ClassificationTree1(List<Classifiable> data, List<String> labels) {
+        throw new UnsupportedOperationException("Not yet implemented!");
     }
 
-    private ClassificationNode train(ClassificationNode root, Classifiable curr, String result) {
-        if (root == null) {
-            root = new ClassificationNode(curr, result);
-        } else if (root.left == null && root.right == null) {
-            if (!root.label.equals(result)) {
-                // Need to partition
-                Split s = curr.partition(root.data);
-                if (s.evaluate(curr)) {
-                    // curr belongs on the left
-                    root = new ClassificationNode(s, new ClassificationNode(curr, result), root);
-                } else {
-                    // curr belongs on the right
-                    root =  new ClassificationNode(s, root, new ClassificationNode(curr, result));
-                }
-            }
-        } else if (root.evaluate(curr)) {
-            root.left = train(root.left, curr, result);
-        } else {
-            root.right = train(root.right, curr, result);
-        }
-        return root;
-    }
-
-    public ClassificationTree(Scanner sc) {
-        overallRoot = load(sc);
-        if (overallRoot == null) {
-            throw new IllegalStateException();
-        }
-    }
-
-    private ClassificationNode load(Scanner sc) {
-        String line = sc.nextLine();
-        if (!line.contains(Classifiable.SPLITTER)) {
-            // Leaf node
-            return new ClassificationNode(line);
-        } else {
-            double threshold = Double.parseDouble(sc.nextLine());
-            return new ClassificationNode(new Split(threshold, line), load(sc), load(sc));
-        }
+    public ClassificationTree1(Scanner sc) {
+        throw new UnsupportedOperationException("Not yet implemented!");
     }
     
     public boolean canClassify(Classifiable input) {
-        return canClassify(input, overallRoot);
-    }
-
-    private boolean canClassify(Classifiable input, ClassificationNode root) {
-        if (root != null && root.left != null && root.right != null) {
-            return input.getFeatures().contains(root.split.getFeature()) &&
-                   canClassify(input, root.left) &&
-                   canClassify(input, root.right);
-        }
-        return true;
+        throw new UnsupportedOperationException("Not yet implemented!");
     }
 
     public String classify(Classifiable input) {
-        return classify(input, overallRoot);
-    }
-
-    private String classify(Classifiable input, ClassificationNode root) {
-        if (root.left == null && root.right == null) {
-            return root.label;
-        } else {
-            return root.evaluate(input) ? classify(input, root.left) : classify(input, root.right);
-        }
+        throw new UnsupportedOperationException("Not yet implemented!");
     }
 
     public void save(PrintStream ps) {
-        save(overallRoot, ps);
-    }
-
-    private void save(ClassificationNode root, PrintStream ps) {
-        if (root.left == null && root.right == null) {
-            ps.println(root.label);
-        } else {
-            ps.println(root.split);
-            save(root.left, ps);
-            save(root.right, ps);
-        }
-    }
-
-    private static class ClassificationNode {
-        public Split split;
-        public String label;
-        public Classifiable data;
-        public ClassificationNode left;
-        public ClassificationNode right;
-
-        public ClassificationNode(Split split, ClassificationNode left, ClassificationNode right) {
-            this.split = split;
-            this.left = left;
-            this.right = right;
-        }
-
-        public ClassificationNode(String label) {
-            this(null, label);
-        }
-
-        public ClassificationNode(Classifiable data, String label) {
-            this.data = data;
-            this.label = label;
-        }
-
-        public boolean evaluate(Classifiable value) {
-            return split.evaluate(value);
-        }
+        throw new UnsupportedOperationException("Not yet implemented!");
     }
 }
