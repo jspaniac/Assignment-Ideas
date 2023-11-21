@@ -173,4 +173,4 @@ public ClassificationForest(Scanner sc)
 ```
 Construct a forest from a scanner attached to a file. The first line of the file should be the total number of trees within the forest. Everything following is the stored tree data formatted as per the `ClassificationTree`'s `save` method. Your forest's save method should follow this format as well. Note that like our tree's Scanner constructor you should only be reading data from the scanner using `nextLine` and converting it to the appropriate data type using `Integer.parseInt`
 
-Once you've created your new model, change uncomment the corresponding lines in `Client.java` to test out it's accuracy. Does it perform better than a single tree like we'd expect? (It's ok if it doesn't!)
+Once you've created your new model, uncomment the corresponding lines in `Client.java` to test out it's accuracy. Does it perform better than a single tree like we'd expect? (It's ok if it doesn't!)
