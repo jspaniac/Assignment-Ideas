@@ -156,7 +156,7 @@ Note that our `Classifier` can work on anything that extends the `Classifiable` 
 2) Spotify (./data/songs/spotify_songs.csv) - predict popularity from danceability, energy, key, etc.
 3) Your choice! (It might be worth checking out a website like https://www.kaggle.com/datasets?tags=13302-Classification). When exploring these datasets, consider whether a machine learning model is actually the best solution to a problem or if it has the potential to do more harm than good.
 
-Make sure that the dataset you choose has features that are ints/doubles such that they are able to be classified by our threshold splits! You'll also have to make some changes to `Client.java` to load your dataset into whatever `Classifiable` class you write. We'd recommend changing out all instances of the `toEmails` method with a similar one that constructs the object that you write.
+Make sure that the dataset you choose has features that are ints/doubles such that they are able to be classified by our threshold splits! You'll also have to make some changes to the constants in `Client.java` to load the appropriate dataset into whatever `Classifiable` class you write. You will also have to implement an equivalent `toEmail` method that will create an instance of your new object from a row in the .csv file.
 ___
 ### 3. Create a classification forest
 Classification trees are models that tend to overfit to the training data they're built on - you can imagine that a model that creates a split for every single piece of input data will perfectly classify the input data but likely struggle on any unseen datapoints. One way to counteract this is to create something called a forest. Forests average out the results from a many trees, picking the label that appears most frequently. In this extension, you'll be creating a `ClassificationForest` class that embodies this concept. Namely, you should run an input through a provided number of trees and pick the label that appears most often, breaking ties arbitrarily.
@@ -166,7 +166,7 @@ Your new `Classifier` must extend the corresponding abstract class and include t
 ```java
 public ClassificationForest(int n, List<Classifiable> data, List<String> labels)
 ```
-Construct a forest with `n` trees from the provided data and labels. Note that in order for this to be a valid forest of different trees, you must shuffle the data and labels the *same* way between tree construction (see `Client.java` for an example).
+Construct a forest with `n` trees from the provided data and labels. Note that in order for this to be a valid forest of different trees, you must shuffle the data and labels the *same* way between tree construction (see `DataLoader.shuffle` for an example). Make sure to update the appropriate constant in the Client class once you're done!
 
 ```java
 public ClassificationForest(Scanner sc)
