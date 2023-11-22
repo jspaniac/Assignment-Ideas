@@ -1,0 +1,24 @@
+2
+Feature: wordPercent~you
+Threshold: 0.1111111111111111
+ham
+Feature: wordPercent~meet
+Threshold: 0.1
+Feature: wordPercent~now
+Threshold: 0.125
+spam
+ham
+ham
+Feature: wordPercent~you
+Threshold: 0.1111111111111111
+ham
+Feature: wordPercent~all
+Threshold: 0.05555555555555555
+Feature: wordPercent~meet
+Threshold: 0.1
+Feature: wordPercent~now
+Threshold: 0.125
+spam
+ham
+ham
+ham

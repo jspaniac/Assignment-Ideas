@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Email extends Classifiable {
+    // TODO: Change this class if choosing improvement extension!
     public static final List<String> FEATURES = Arrays.asList("wordPercent");
     
     private Map<String, Integer> words;

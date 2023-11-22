@@ -7,8 +7,7 @@ public class CsvReader {
         List<List<String>> lines = new ArrayList<>();
         
         Scanner sc = new Scanner(new File(fileName));
-        // Skip the first row since it's just titles
-        sc.nextLine();
+        sc.nextLine();      // Skip the first row since it's just titles
         while (sc.hasNextLine()) {
             String line = sc.nextLine();
             lines.add(Arrays.asList(line.split(COMMA)));

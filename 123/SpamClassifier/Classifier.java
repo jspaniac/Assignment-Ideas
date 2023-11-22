@@ -14,8 +14,8 @@ public abstract class Classifier {
         }
         
         Map<String, Integer> labelToTotal = new HashMap<>();
-        labelToTotal.put("Overall", 0);
         Map<String, Double> labelToCorrect = new HashMap<>();
+        labelToTotal.put("Overall", 0);
         labelToCorrect.put("Overall", 0.0);
         
         for (int i = 0; i < data.size(); i++) {
@@ -25,11 +25,17 @@ public abstract class Classifier {
 
             String result = classify(data.get(i));
             String label = labels.get(i);
+            if (!labelToTotal.containsKey(label)) {
+                labelToTotal.put(label, 0);
+            }
+            if (!labelToCorrect.containsKey(label)) {
+                labelToCorrect.put(label, 0.0);
+            }
 
-            labelToTotal.put(label, labelToTotal.getOrDefault(label, 0) + 1);
+            labelToTotal.put(label, labelToTotal.get(label) + 1);
             labelToTotal.put("Overall", labelToTotal.get("Overall") + 1);
             if (result.equals(label)) {
-                labelToCorrect.put(result, labelToCorrect.getOrDefault(result, 0.0) + 1);
+                labelToCorrect.put(result, labelToCorrect.get(result) + 1);
                 labelToCorrect.put("Overall", labelToCorrect.get("Overall") + 1);
             }
         }

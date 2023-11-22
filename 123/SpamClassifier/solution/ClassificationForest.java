@@ -49,7 +49,7 @@ public class ClassificationForest extends Classifier {
         return best;
     }
 
-    public void save(PrintStream ps) throws FileNotFoundException {
+    public void save(PrintStream ps) {
         ps.println(forest.size());
         for (ClassificationTree tree : forest) {
             tree.save(ps);
