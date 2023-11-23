@@ -23,4 +23,3 @@ public class ClassificationForest extends Classifier {
         throw new UnsupportedOperationException("Not yet implemented!");
     }
 }
-*/
