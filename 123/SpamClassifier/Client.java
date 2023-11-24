@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Client {
     // TODO: Change this if choosing forest extension!
-    public static final boolean FOREST = true;
+    public static final boolean FOREST = false;
     // TODO: Change these if choosing new data type!
     public static final String TRAIN_FILE = "data/emails/train.csv";
     public static final String TEST_FILE = "data/emails/test.csv";
@@ -13,7 +13,7 @@ public class Client {
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner console = new Scanner(System.in);
-        System.out.println("Welcome to the CSE 123 Email Classifier! To begin, enter your desired mode of operation:");
+        System.out.println("Welcome to the CSE 123 Classifier! To begin, enter your desired mode of operation:");
         System.out.println();
         Classifier c = createModel(console);
 
@@ -47,7 +47,7 @@ public class Client {
     }
 
     private static Classifier createModel(Scanner console) throws FileNotFoundException {
-        System.out.println("1) Train email classification model");
+        System.out.println("1) Train classification model");
         System.out.println("2) Load model from file");
         System.out.print("Enter your choice here: ");
 

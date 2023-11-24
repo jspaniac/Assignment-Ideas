@@ -22,4 +22,8 @@ public class Split {
     public String toString() {
         return "Feature: " + this.feature + "\n" + "Threshold: " + this.threshold;
     }
+
+    public static double midpoint(double one, double two) {
+        return Math.min(one, two) + (Math.abs(one - two) / 2.0);
+    }
 }

@@ -69,7 +69,7 @@ public class Email extends Classifiable {
         }
 
         // Calculate halfway between the two points
-        double halfway = Math.min(this.getWordPercentage(bestWord), otherEmail.getWordPercentage(bestWord)) + (highestDiff / 2);
+        double halfway = Split.midpoint(this.getWordPercentage(bestWord), otherEmail.getWordPercentage(bestWord));
         return new Split(halfway, FEATURES.get(0) + Classifiable.SPLITTER + bestWord);
     }
 }
