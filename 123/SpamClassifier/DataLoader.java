@@ -29,8 +29,12 @@ public class DataLoader {
 
     public static final Random RAND = new Random();
     public static void shuffle(DataLoader loader) {
+        DataLoader.shuffle(loader.data, loader.labels);
+    }
+
+    public static void shuffle(List<Classifiable> data, List<String> labels) {
         int seed = RAND.nextInt(Integer.MAX_VALUE);
-        Collections.shuffle(loader.data, new Random(seed));
-        Collections.shuffle(loader.labels, new Random(seed));
+        Collections.shuffle(data, new Random(seed));
+        Collections.shuffle(labels, new Random(seed));
     }
 }
