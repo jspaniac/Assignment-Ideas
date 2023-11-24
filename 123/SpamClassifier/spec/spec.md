@@ -24,6 +24,8 @@ In this assignment, you'll be writing a classification tree implementation and u
 ![](./Simple.png)
 
 Note that for simplicity the only feature we'll be exploring is the percentage of certain words within our emails, named wordPercent. In the example above, an email input will only be classified as spam given <10% of the words are "here", <3.75% of the words are "dolphin", and <5.814% of the words are "you".
+
+**At this point, stop and think!** What is a feature? What is a threshold? What is a label?
 ___
 ## Code
 There's a decent amount of starter code, so here is a description of each of the classes and how they relate to one another
@@ -57,7 +59,7 @@ This is an abstract class that any data we wish to classify must extend. Althoug
 ```java
 public abstract double get(String feature);
 ```
-Gets the corresponding value for the given feature. Although there are classification trees where it would make sense to return something else (imagine a color feature within a ____ dataset), since you're only dealing with thresholds this must return a double.
+Gets the corresponding value for the given feature. Although there are classification trees where it would make sense to return something else (imagine a color feature within a real estate dataset), since you're only dealing with thresholds this must return a double.
 
 ```java
 public abstract List<String> getFeatures();
@@ -82,7 +84,7 @@ There also exists a dictionary constant to be used in potential creative extensi
 public static final Set<String> DICT;
 ```
 
-**At this point, stop and think!** What is a feature? What is a threshold? What is a label? How can you easily determine a split between two points in our dataset?
+**At this point, stop and think!** How can you easily determine a split between two points in our dataset?
 ___
 ### Classifier
 Now, we'll move into the code you're required to implement for this assignment. This is another abstract class that your classification tree will extend. It defines a number of methods that are required to be considered a "Classifier":
@@ -156,7 +158,7 @@ Note that our `Classifier` can work on anything that extends the `Classifiable` 
 2) Spotify (./data/songs/spotify_songs.csv) - predict popularity from danceability, energy, key, etc.
 3) Your choice! (It might be worth checking out a website like https://www.kaggle.com/datasets?tags=13302-Classification). When exploring these datasets, consider whether a machine learning model is actually the best solution to a problem or if it has the potential to do more harm than good.
 
-Make sure that the dataset you choose has features that are ints/doubles such that they are able to be classified by our threshold splits! You'll also have to make some changes to the constants in `Client.java` to load the appropriate dataset into whatever `Classifiable` class you write. You will also have to implement an equivalent `toEmail` method that will create an instance of your new object from a row in the .csv file.
+Make sure that the dataset you choose has features that are ints/doubles such that they are able to be classified by our threshold splits! You'll also have to make some changes to the constants in `Client.java` to load the appropriate dataset into whatever `Classifiable` class you write. These changes include implementing an equivalent `toEmail` method that will create an instance of your new object from a row in the .csv file. Note in all of these cases that you don't have to use every single possible feature in the .csv file, just the one(s) you think will be useful for your model!
 ___
 ### 3. Create a classification forest
 Classification trees are models that tend to overfit to the training data they're built on - you can imagine that a model that creates a split for every single piece of input data will perfectly classify the input data but likely struggle on any unseen datapoints. One way to counteract this is to create something called a forest. Forests average out the results from a many trees, picking the label that appears most frequently. In this extension, you'll be creating a `ClassificationForest` class that embodies this concept. Namely, you should run an input through a provided number of trees and pick the label that appears most often, breaking ties arbitrarily.
@@ -166,11 +168,11 @@ Your new `Classifier` must extend the corresponding abstract class and include t
 ```java
 public ClassificationForest(int n, List<Classifiable> data, List<String> labels)
 ```
-Construct a forest with `n` trees from the provided data and labels. Note that in order for this to be a valid forest of different trees, you must shuffle the data and labels the *same* way between tree construction (see `DataLoader.shuffle` for an example). Make sure to update the appropriate constant in the Client class once you're done!
+Construct a forest with `n` trees from the provided data and labels. Note that in order for this to be a valid forest of different trees, you must shuffle the data and labels the *same* way between tree construction (see the second `DataLoader.shuffle` method). Make sure to update the appropriate constant in the Client class once you're done!
 
 ```java
 public ClassificationForest(Scanner sc)
 ```
 Construct a forest from a scanner attached to a file. The first line of the file should be the total number of trees within the forest. Everything following is the stored tree data formatted as per the `ClassificationTree`'s `save` method. Your forest's save method should follow this format as well. Note that like our tree's Scanner constructor you should only be reading data from the scanner using `nextLine` and converting it to the appropriate data type using `Integer.parseInt`
 
-Once you've created your new model, uncomment the corresponding lines in `Client.java` to test out it's accuracy. Does it perform better than a single tree like we'd expect? (It's ok if it doesn't!)
+Once you've created your new model, change the FOREST constant in `Client.java` to test out it's accuracy. Does it perform better than a single tree like we'd expect? (It's ok if it doesn't!)
