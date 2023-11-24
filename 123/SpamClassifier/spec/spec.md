@@ -52,6 +52,11 @@ Returns whether or not the given value falls below the threshold of this split (
 public String toString()
 ```
 Returns a String representation of the given Split. This consists of the feature information on the first line and the threshold on the second.
+
+```java
+public static double midpoint(double one, double two)
+```
+Finds the value in the middle of two doubles. Called with `Split.midpoint`.
 ___
 ### Classifiable
 This is an abstract class that any data we wish to classify must extend. Although there is a reason for it being an abstract class that will be discussed in the creative portion, for all intents you can consider it an interface as it defines three abstract methods that any datapoint must implement.
@@ -94,12 +99,12 @@ public boolean canClassify(Classifiable input);
 ```
 Given a piece of classifiable data, returns whether or not this tree is capable of classifying it.
 
-You can imagine that it wouldn't make much sense to try and run an email input through our weather classifier above, which is why this method is useful!
+You can imagine that it wouldn't make much sense to try and run an email input through our weather classifier above, which is why this method is useful! Note that this should check all nodes within the tree are valid rather than those just along the classification path.
 
 ```java
 public String classify(Classifiable input);
 ```
-Given a piece of classifiable data, return the appropriate label that this classifier predicts. If the input is unable to be classified by this classifier, this method should throw an `IllegalArrgumentException`.
+Given a piece of classifiable data, return the appropriate label that this classifier predicts. If the input is unable to be classified by this classifier, this method should throw an `IllegalArgumentException`.
 
 This method should model the steps taken in our weather example above: at every split point, evaluate our input data and determine if its less than our threshold. If so, continue left - otherwise continue right. Repeat this process until a leaf node is reached.
 
@@ -108,9 +113,9 @@ public void save(PrintStream ps);
 ```
 Saves this current classifier to the given PrintStream.
 
-For our classification tree, this format should be pre-order. Every intermediary node will print two lines of data (one for feature and one for threshold). For leaf nodes, you should only print the label.
+For our classification tree, this format should be pre-order. Every intermediary node will print two lines of data (one for feature preceeded by "Feature:" and one for threshold preceeded by "Threshold:"). For leaf nodes, you should only print the label. Examples of the format can be seen through `tree_simple.txt` and `tree_complex.txt`.
 
-Note that this class also implements a `calculateAccuracy` method that returns the model's accuracy on all labels in a provided testing dataset. This is useful to see how well our model actually works, and what labels it is struggling with classifying.
+Note that this class also implements a `calculateAccuracy` method that returns the model's accuracy on all labels in a provided testing dataset. This is useful to see how well our model actually works, and what labels it is struggling with classifying correctly.
 
 You'll also have to implement two constructors for your Classification Tree, not listed in the interface
 ```java
@@ -156,7 +161,7 @@ ___
 Note that our `Classifier` can work on anything that extends the `Classifiable` class. Let's try it out with some more interesting data! In this extension you'll take an existing dataset, load it into a list of `Classifiable` objects and see how well our model works. Below is a list of datasets we'd recommend messing around with (although you're welcome to explore whatever interests you)
 1) Weather (./data/weather/train.csv) - predict summary from temperature, humidity, wind speed, etc.
 2) Spotify (./data/songs/train.csv) - predict genre from danceability, energy, key, etc.
-3) Your choice! (It might be worth checking out a website like [kaggle](https://www.kaggle.com/datasets?tags=13302-Classification)). When exploring these datasets, consider whether a machine learning model is actually the best solution to a problem or if it has the potential to do more harm than good.
+3) Your choice! (It might be worth checking out a website like [kaggle](https://www.kaggle.com/datasets?tags=13302-Classification)). When exploring these datasets, consider whether a machine learning model is actually the best solution to a problem or if it will likely do more harm than good.
 
 Make sure that the dataset you choose has features that are ints/doubles such that they are able to be classified by our threshold splits! You'll also have to make some changes to the constants in `Client.java` to load the appropriate dataset into whatever `Classifiable` class you write. These changes include implementing an equivalent `toEmail` method that will create an instance of your new object from a row in the .csv file. Note in all of these cases that you don't have to use every single possible feature in the .csv file, just the one(s) you think will be useful for your model!
 ___
@@ -175,4 +180,4 @@ public ClassificationForest(Scanner sc)
 ```
 Construct a forest from a scanner attached to a file. The first line of the file should be the total number of trees within the forest. Everything following is the stored tree data formatted as per the `ClassificationTree`'s `save` method. Your forest's save method should follow this format as well. Note that like our tree's Scanner constructor you should only be reading data from the scanner using `nextLine` and converting it to the appropriate data type using `Integer.parseInt`
 
-Once you've created your new model, change the FOREST constant in `Client.java` to test out it's accuracy. Does it perform better than a single tree like we'd expect? (It's ok if it doesn't!)
+Once you've created your new model, change the `FOREST` constant in `Client.java` to test out it's accuracy. Does it perform better than a single tree like we'd expect? (It's ok if it doesn't!)
