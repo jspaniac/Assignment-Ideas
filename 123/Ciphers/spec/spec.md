@@ -9,7 +9,7 @@ For this assignment, you'll be required to implement a number of [classical ciph
 That being said, the course staff would like to reinforce a message commonly said by the security and privacy community: **"Never roll your own crypto"**. In other words, **do not** use this assignment in any future applications in which you'd like to encrypt some confidential user information. Classical ciphers are known to be remarkably weak against the capabilites of modern computation and thus anything encrypted with them should not be considered secure.
 ___
 ## Code
-Below is a description of the encryption scheme's you'll be required to implement in this assignment:
+Below is a description of the encryption schemes you're required to implement in this assignment:
 ___
 ### Ceaser.java
 The Ceaser Cipher is likely the most commonly known encryption algorithm. It consists of assigning each input character a unique output character, and replacing all characters appropriately when encoding / decoding. This mapping is provided via a shifter string. Vertically aligning this shifter string with the alphabet and looking at the corresponding columns allows us to see the appropriate character mappings. Consider the following example:
