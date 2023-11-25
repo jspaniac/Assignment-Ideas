@@ -6,7 +6,7 @@ Cryptography (not to be confused with crypto and blockchain) is a branch of Comp
 ## Assignment
 For this assignment, you'll be required to implement a number of [classical ciphers](https://en.wikipedia.org/wiki/Classical_cipher) making use of your knowledge of abstract classes and inheritence to reduce redundancy whenever possible. Once completed, you should be able to encode information past the point of any human being able to easily determine what the input plaintext was!
 
-That being said, the course staff would like to reinforce a message commonly said by the security and privacy community: **"Never roll your own crypto"**. In other words, **do not** use this assignment in any future applications in which you'd like to encrypt some confidential user information. Classical ciphers are known to be remarkably weak against the capabilites of modern computation and thus anything encrypted with them is not actually secure.
+That being said, the course staff would like to reinforce a message commonly said by the security and privacy community: **"Never roll your own crypto"**. In other words, **do not** use this assignment in any future applications in which you'd like to encrypt some confidential user information. Classical ciphers are known to be remarkably weak against the capabilites of modern computation and thus anything encrypted with them should not be considered secure.
 ___
 ## Code
 Below is a description of the encryption scheme's you'll be required to implement in this assignment:
@@ -35,7 +35,7 @@ public setShifter(String shifter)
 ```
 Updates the shifter for this Ceaser Cipher. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match number of characters handled by our Ciphers or any individual character falls outside our range of valid characters.
 
-Since we're allowing clients to construct a cipher without a shifter, your `handleInput` method should throw an `IllegalStateException` if a shifter was never set (and thus no encryption/decryption can occur).
+Since we're allowing clients to set a shifter after construction, your `handleInput` method should throw an `IllegalStateException` if a shifter was never set (and thus no encryption/decryption can occur).
 ___
 ### CeaserShift.java
 
@@ -68,10 +68,10 @@ Note that the shifter string starts with "BAG" (the key) and then is followed by
 ```java
 public CeaserKey(String key)
 ```
-This constructor should throw an `IllegalArgumentException` in the case that the key contains a character outside our range of valid characters or duplicate characters.
+This constructor should throw an `IllegalArgumentException` in the case that the key contains a character outside our range of valid characters or any duplicate characters.
 ___
 ### MultiCipher.java
-The above ciphers are interesting, but on they're own are pretty solvable. A more complicated approach would be to chain these ciphers together to really confuse any possible adversaries! This is what you'll be implementing in this class: given a list of ciphers, use all of them them in order to handle a message. Below is the appropriate method signature for the constructor:
+The above ciphers are interesting, but on their own they're pretty solvable. A more complicated approach would be to chain these ciphers together to really confuse any possible adversaries! This is what you'll be implementing in this class: given a list of ciphers, use all of them them in order to encrypt / decrypt a message. Below is the appropriate method signature for the constructor:
 ```java
 public MultiCipher(List<Cipher> ciphers)
 ```
