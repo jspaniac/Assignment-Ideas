@@ -53,6 +53,9 @@ Note that the shifter string consists of the alphabet with each character shifte
 public CeaserShift(int shift)
 ```
 An `IllegalArgumentException` should be thrown in the case that shift is 0 (as no encryption would be occuring).
+
+#### Hint
+* One way of viewing the modulo operator (%) is that it shrinks our integer numberline to one having a certain length (i.e. %10 only allows numbers +/- 0-9 to exist). This is useful in situations where we want to loop back to the beginning after passing a specific value and will likely be useful in your solution to the above.
 ___
 ### CeaserKey.java
 
@@ -77,9 +80,6 @@ public MultiCipher(List<Cipher> ciphers)
 ```
 An `IllegalArgumentException` should be thrown in the case that the list is empty (as no encryption would be occuring).
 ___
-## Hints
-
-___
 ## Creative Portion
 For the creative portion of this assignment, you'll be implementing another cipher that interests you! Below is the recommended list:
 
@@ -91,15 +91,17 @@ For the creative portion of this assignment, you'll be implementing another ciph
 ___
 ### 1. Concealment
 
-This scheme involves confusing any potential adversary with a jumble of random characters, and placing the important characters at specific locations within the encrypted message. For example, looking at every fourth character in the below string reveals the message:
+This scheme involves confusing any potential adversary with a jumble of random characters, and placing the important characters at specific locations within the encrypted message. For example, looking at the character following four filler characters in the below string reveals the message:
 
-""
+k:w'[S]()\[_`j[E]()?T\[k[C]()zU=L[R]()h;5k[E]()o]R8[T]()
+
+SECRET
 
 Your solution should contain the following constructor:
 ```java
-public Concealment(int position)
+public Concealment(int filler)
 ```
-An `IllegalArgumentException` should be thrown in the case that position is not positive.
+An `IllegalArgumentException` should be thrown in the case that filler is not positive.
 ___
 ### 2. Vigenere
 
