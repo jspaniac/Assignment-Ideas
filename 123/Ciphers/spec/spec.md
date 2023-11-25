@@ -18,24 +18,12 @@ alpha   = "ABCDEFG"
 
 shifter = "GCBEAFD"
 
-Given the shifter string above, the plaintext "FAD" would be encoded into "FGE" and decoding the ciphertext "CGE" gives the plaintext "BAD". Your solution must implement the following methods:
-
-```java
-public Ceaser()
-```
-Constructs a new Ceaser Cipher with an empty shifter
+Given the shifter string above, the plaintext "FAD" would be encoded into "FGE" and decoding the ciphertext "CGE" gives the plaintext "BAD". Your solution must implement the following constructor:
 
 ```java
 public Ceaser(String shifter)
 ```
 Constructs a new Ceaser Cipher with the provided shifter. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match number of characters handled by our Ciphers or any individual character falls outside our range of valid characters.
-
-```java
-public setShifter(String shifter)
-```
-Updates the shifter for this Ceaser Cipher. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match the number of valid characters handled by our Ciphers or any individual character falls outside our range of valid characters.
-
-Since we're allowing clients to set a shifter after construction, your `handleInput` method should throw an `IllegalStateException` if a shifter was never set (and thus no encryption/decryption can occur).
 ___
 ### CeaserShift.java
 
