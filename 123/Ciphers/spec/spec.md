@@ -86,7 +86,8 @@ For the creative portion of this assignment, you'll be implementing another ciph
 1) [Concealment](https://en.wikipedia.org/wiki/Classical_cipher#Concealment_ciphers)
 2) [Vigenere](https://en.wikipedia.org/wiki/Classical_cipher#Substitution_ciphers)
 3) [Transposition](https://en.wikipedia.org/wiki/Classical_cipher#Transposition_ciphers)
-4) Your choice!
+4) CeaserRandom
+5) Your choice!
 
 ___
 ### 1. Concealment
@@ -105,12 +106,24 @@ An `IllegalArgumentException` should be thrown in the case that filler is not po
 ___
 ### 2. Vigenere
 
-TODO: Describe
+The Vigenère cipher is a hybrid between the CeaserKey and CeaserShift. It is created with a key that is repeated such that its length matches that of the input text:
+
+input = "hello"
+
+key = "cse"
+
+repeatKey = "csecs"
+
+This value at each position of this key then determines the CeaserShift to use for a specific character. If you imagine that the example above is only using lowercase alphabetic characters, that would mean index 0 would shift by 2 (c - a), index 1 would shift by 18 (s - a), index 2 would shift by 4 (e - a), and so on. This would leave us with the following ciphertext.
+
+cipher = ""
 ___
 ### 3. Transposition
 
 TODO: Describe
 ___
-### 4. Your choice!
+### 4. CeaserRandom
+___
+### 5. Your choice!
 
 Here, you'll implement an encryption scheme that sounds most interesting to you! There are no constraints on this option, other than your encryption scheme must be 1:1 (every output sequence must have a *single* unique input sequence).
