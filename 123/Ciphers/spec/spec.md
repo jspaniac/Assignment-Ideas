@@ -72,9 +72,9 @@ ___
 ## Creative Portion
 For the creative portion of this assignment, you'll be implementing another cipher that interests you! Below is the recommended list:
 
-1) [Concealment](https://en.wikipedia.org/wiki/Classical_cipher#Concealment_ciphers)
-2) [Vigenere](https://en.wikipedia.org/wiki/Classical_cipher#Substitution_ciphers)
-3) [Transposition](https://en.wikipedia.org/wiki/Classical_cipher#Transposition_ciphers)
+1) Concealment
+2) Vigenere
+3) Transposition
 4) CeaserRandom
 5) Your choice!
 
