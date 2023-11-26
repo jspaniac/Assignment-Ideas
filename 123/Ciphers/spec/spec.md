@@ -95,21 +95,19 @@ ___
 
 The Vigenère cipher is a hybrid between the CeaserKey and CeaserShift. It is created with a key that is repeated such that its length matches that of the input text:
 
-input = "HELLO"
+![A diagram showing how a key is repeated to match length input "HELLO", key "CSE" becomes "CSECS"](./Vigenere1.png)
 
-key = "CSE"
+This value at each position of this key then determines the CeaserShift to use for a specific character. If you imagine that the example above is only using uppercase alphabetic characters, that would mean index 0 would shift by 2 (c - a), index 1 would shift by 18 (s - a), index 2 would shift by 4 (e - a), and so on.
 
-repeatKey = "CSECS"
-![](./Vigenere1.png)
-![](./Vigenere2.png)
+![A diagram showing how each of the shifts affect an character of the input string (H + 2 => J, E + 18 => W, L + 4 => P, L + 2 => N, O + 18 => G)](./Vigenere2.png)
 
-This value at each position of this key then determines the CeaserShift to use for a specific character. If you imagine that the example above is only using uppercase alphabetic characters, that would mean index 0 would shift by 2 (c - a), index 1 would shift by 18 (s - a), index 2 would shift by 4 (e - a), and so on. This would leave us with the following ciphertext.
+This results in a ciphertext of "JWPNG". Another way to envision this is using a Vigenère square pictured below
 
-cipher = "JWPNG"
-
-Another way to envision this is using a Vigenère square pictured below
+![A diagram showing a vigenere square, which is a matrix of alphabet sequences, the first one starting "ABCD", the next starting "BCDE", the next "CDEF" and so on for every starting character](./VigenereGrid.png)
 
 To encode, use the current key character to determine the row (total shift value) and the current input character at the top of the square to determine the column. To decode, again use the current key character as the row, but this time determine the column from the row itself. Following the column to the top shows the correct decoded character.
+
+![A diagram showing how the rows of a Vigenere cipher are picked from the key character, and the column is picked from the input character. Finding where the row and column intercept gives the encrypted character](./VigenereGridFilled.png)
 
 **Before continuing**, trace through the above example and make sure you understand how to encode and decode an input given a key. What changes when we are considering more than just alphabetic characters?
 
