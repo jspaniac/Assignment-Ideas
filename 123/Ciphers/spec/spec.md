@@ -54,8 +54,7 @@ public CeaserShift(int shift)
 ```
 An `IllegalArgumentException` should be thrown in the case that shift is 0 (as no encryption would be occuring).
 
-#### Hint
-* One way of viewing the modulo operator (%) is that it shrinks our integer numberline to one having a certain length (i.e. %10 only allows numbers +/- 0-9 to exist). This is useful in situations where we want to loop back to the beginning after passing a specific value and will likely be useful in your solution to the above.
+**HINT**: One way of viewing the modulo operator (%) is that it shrinks our integer numberline to one having a certain length (i.e. %10 only allows numbers +/- 0-9 to exist). This is useful in situations where we want to loop back to the beginning after passing a specific value and will likely be useful in your solution to the above.
 ___
 ### CeaserKey.java
 
@@ -108,21 +107,73 @@ ___
 
 The Vigenère cipher is a hybrid between the CeaserKey and CeaserShift. It is created with a key that is repeated such that its length matches that of the input text:
 
-input = "hello"
+input = "HELLO"
 
-key = "cse"
+key = "CSE"
 
-repeatKey = "csecs"
+repeatKey = "CSECS"
 
-This value at each position of this key then determines the CeaserShift to use for a specific character. If you imagine that the example above is only using lowercase alphabetic characters, that would mean index 0 would shift by 2 (c - a), index 1 would shift by 18 (s - a), index 2 would shift by 4 (e - a), and so on. This would leave us with the following ciphertext.
+This value at each position of this key then determines the CeaserShift to use for a specific character. If you imagine that the example above is only using uppercase alphabetic characters, that would mean index 0 would shift by 2 (c - a), index 1 would shift by 18 (s - a), index 2 would shift by 4 (e - a), and so on. This would leave us with the following ciphertext.
 
-cipher = ""
+cipher = "JWPNG"
+
+Another way to envision this is using a Vigenère square pictured below
+
+![](./Vigenere.png)
+
+To encode, use the current key character to determine the row (total shift value) and the current input character at the top of the square to determine the column. To decode, again use the current key character as the row, but this time determine the column from the row itself. Following the column to the top shows the correct decoded character.
+
+**Before continuing**, trace through the above example and make sure you understand how to encode and decode an input given a key. What changes when we are considering more than just alphabetic characters?
+
+Below is the appropriate constructor signature for your solution:
+
+```java
+public Vigenere(String key)
+```
+An `IllegalArgumentException` should be thrown if the key is empty, or if it contains only `Cipher.MIN_CHAR` (as no encryption will occur).
 ___
 ### 3. Transposition
 
-TODO: Describe
+Unlike our previous ciphers, a transposition cipher involves shuffling the position of characters rather than substituting them with new ones. Most of these involve creating a grid with a certain width, filling it in with an input string, and then traversing the grid in a different way to get the encryption. For example:
+
+input = "HELLO"
+
+width = 2
+
+grid = \[\['H', 'E'\], \['L', 'L'\], \['O', ' '\]\]
+
+cipher = "HLOEL "
+
+Here, the grid was filled in by traversing rows, and the cipher was created by traversing columns. Decrypting would involve the opposite, filling in the grid by traversing columns, and creating the plaintext by traversing rows. Alternative traversals are possible, but we recommend this approach as it is the easiest to implement.
+
+Below is the appropraite constructor signature for your solution:
+```java
+public Transposition(int width)
+```
+An `IllegalArgumentException` should be thrown if the width is <= 0 (not possible) or == 1 (as no encryption will occur).
+
+**HINT**: Given an input string, you'll likely want to make sure it is a length that's a multiple of width by padding with spaces (this avoids null/empty values in your grid). When decrypting, just make sure to remove these spaces that were added before returning (take a look at the String's `trim` method).
 ___
 ### 4. CeaserRandom
+Here, you'll implement another variation of a Ceaser Cipher that uses a randomly shuffled shifter string. This initially sounds impossible as if we randomly create the shifter string, how do we possibly decrypt? The answer lies in being able to control a Random object in java via a seed value. Any two Random objects constructd with the same seed will produce random values in the same order as one another. Below is an example:
+```java
+int seed = 123;
+Random rand = new Random(seed);
+Random rand2 = new Random(seed);
+System.out.println(rand.nextInt(10) == rand2.nextInt(10));
+```
+Thus, if you know the seed used to randomly create a shifter string, you can recreate it when decrypting. Your solution should store this seed somewhere in the encrypted message such that it is retreivable on decryption (i.e. front, end, etc.).
+
+**HINT**: There exists a method that will shuffle the values of a list with a given random object called `Collections.shuffle(list, rand)`. You may use this if you'd like.
+
+The length of the seed will be determined by a number of digits provided by the constructor. It is your choice if you want to include leading 0's in the number of digits a number has. Alternatively stated, you get to pick whether given 3 digits if the smallest number will be 000 or 100.
+
+Below is the appropriate constructor signature for your solution:
+
+```java
+public CeaserRandom(int digits)
+```
+An `IllegalArgumentException` should be thrown if digits isn't positive or if it is greater than the max number of digits for an integer, which is 9. (Note that the max integer value is 2,147,483,647 which is 10 digits, but larger 10-digit numbers can't be represented).
 ___
 ### 5. Your choice!
 
