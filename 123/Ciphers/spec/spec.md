@@ -100,14 +100,14 @@ input = "HELLO"
 key = "CSE"
 
 repeatKey = "CSECS"
+![](./Vigenere1.png)
+![](./Vigenere2.png)
 
 This value at each position of this key then determines the CeaserShift to use for a specific character. If you imagine that the example above is only using uppercase alphabetic characters, that would mean index 0 would shift by 2 (c - a), index 1 would shift by 18 (s - a), index 2 would shift by 4 (e - a), and so on. This would leave us with the following ciphertext.
 
 cipher = "JWPNG"
 
 Another way to envision this is using a Vigenère square pictured below
-
-![](./Vigenere.png)
 
 To encode, use the current key character to determine the row (total shift value) and the current input character at the top of the square to determine the column. To decode, again use the current key character as the row, but this time determine the column from the row itself. Following the column to the top shows the correct decoded character.
 
@@ -124,11 +124,11 @@ ___
 
 Unlike our previous ciphers, a transposition cipher involves shuffling the position of characters rather than substituting them with new ones. Most of these involve creating a grid with a certain width, filling it in with an input string, and then traversing the grid in a different way to get the encryption. For example:
 
-![A diagram showing how to create an encryption grid from input "HELLO" and width 2. The resulting grid is [['H', 'E'], ['L', 'L'], ['O', ' ']] and the output is "HLOEL "](./Transposition.png)
+![A diagram showing how to create an encryption grid from input "HELLO" and width 2. The resulting grid is [['H', 'E'], ['L', 'L'], ['O', '~']] and the output is "HLOEL~"](./Transposition.png)
 
-Here, the grid was filled in by traversing rows, and the cipher was created by traversing columns. Decrypting would involve the opposite, filling in the grid by traversing columns, and creating the plaintext by traversing rows. Alternative traversals are possible, but we recommend this approach as it is the easiest to implement.
+Here, the grid was filled in by traversing rows, and the cipher was created by traversing columns. Decrypting would involve the opposite, filling in the grid by traversing columns, and creating the plaintext by traversing rows. Alternative traversals are possible, but we recommend this approach as it is the easiest to implement. You should also fill blank spots in the grid with the character given by `Cipher.MAX_VALUE` + 1 (~'s in the diagram above).
 
-Below is the appropraite constructor signature for your solution:
+Below is the appropriate constructor signature for your solution:
 ```java
 public Transposition(int width)
 ```
