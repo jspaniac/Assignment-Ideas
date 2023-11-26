@@ -70,6 +70,8 @@ public MultiCipher(List<Cipher> ciphers)
 An `IllegalArgumentException` should be thrown in the case that the list is empty (as no encryption would be occuring).
 ___
 Now that you're done, create a MultiCipher consisting of the following: a CeaserShift(4), a CeaserKey("123"), a CeaserShift(12), and a CeaserKey("lemon"). Decrypt the following!
+
+`Nelwnq! (el(vyly xylw(!xy (q  ywl}ul!)(Ne"|t(&e"(!u||($xq!(!xy (}u  qwu($q (ruvenu(tusetylwJ(E1`
 ___
 ## Creative Portion
 For the creative portion of this assignment, you'll be implementing another cipher that interests you! Below is the recommended list:
