@@ -1,7 +1,7 @@
 # 123 Encryption Schemes
 ___
 ## Background
-Cryptography (not to be confused with crypto and blockchain) is a branch of Computer Science and Mathematics concerned with turning input messages (plaintexts) into encrypted ones (ciphertexts) that allow for safe transfer past adversaries. The most modern and secure of these protocols are heavily influenced by advanced mathematical concepts such that they can be proven to leak 0 information about the plaintext. As the Internet itself consists of sending messages through other devices to reach an eventual endpoint, this feature is crucial! Without it, much of the Internet we take for granted would be impossible to implement safely (giving credit card info to retailers, authenticating senders, secure messaging, etc.)
+Cryptography (not to be confused with crypto and blockchain) is a branch of Computer Science and Mathematics concerned with turning input messages (plaintexts) into encrypted ones (ciphertexts) that allow for discreet transfer past adversaries. The most modern and secure of these protocols are heavily influenced by advanced mathematical concepts such that they are proven to leak 0 information about the plaintext. As the Internet itself consists of sending messages through other devices to reach an endpoint, this feature is crucial! Without it, much of the Internet we take for granted would be impossible to implement safely (giving credit card info to retailers, authenticating senders, secure messaging, etc.) as anyone could gather anyone else's private information.
 
 ## Assignment
 For this assignment, you'll be required to implement a number of [classical ciphers](https://en.wikipedia.org/wiki/Classical_cipher) making use of your knowledge of abstract classes and inheritence to reduce redundancy whenever possible. Once completed, you should be able to encode information past the point of any human being able to easily determine what the input plaintext was!
@@ -14,9 +14,7 @@ ___
 ### Ceaser.java
 The Ceaser Cipher is likely the most commonly known encryption algorithm. It consists of assigning each input character a unique output character, and replacing all characters appropriately when encoding / decoding. This mapping is provided via a shifter string. Vertically aligning this shifter string with the alphabet and looking at the corresponding columns allows us to see the appropriate character mappings. Consider the following example:
 
-alpha   = "ABCDEFG"
-
-shifter = "GCBEAFD"
+![Diagram that outlines the process for input string "ABCDEFG" and shifter "GCBEAFD", these strings are stacked one on top of the other and the mapping can be seen from the top and bottom values in each column.](./CeaserCipher.png)
 
 Given the shifter string above, the plaintext "FAD" would be encoded into "FGE" and decoding the ciphertext "CGE" gives the plaintext "BAD". Your solution must implement the following methods:
 
@@ -41,11 +39,7 @@ ___
 
 This encryption scheme is extremely similar to the one described above, except it involves shifting the entire alphabet forwards (or backwards) by the provided shift amount. Consider the following example:
 
-alpha   = "ABCDEFG"
-
-shift   = 3
-
-shifter = "EFGABCD"
+![Diagram that outlines how to generate a shifter string with every character shifted forward 3 places, looping back to the start if needed](./CeaserShift.png)
 
 Note that the shifter string consists of the alphabet with each character shifted forwards 3 places (looping back to the beginning if required). Below is the method signature for the classes' constructor:
 
@@ -60,11 +54,7 @@ ___
 
 Much like the CeaserShift, the CeaserKey scheme also builds off of the base Ceaser Cipher. Namely, this one involves a key that is placed at the front of the shifter string, with the rest of the alphabet following normally (minus the characters included in the key). Consider the following example:
 
-alpha = "ABCDEFG"
-
-key = "BAG"
-
-shifter = "BAGCDEF"
+![Diagram that outlines created a shifter from a key. The key is first, and the rest of the alphabet (minus the keyed characters) follow in order](./CeaserKey.png)
 
 Note that the shifter string starts with "BAG" (the key) and then is followed by the alphabet in its original order (minus the characters B, A, and G as they're already in the shifter). Below is the method signature for the classes' constructor:
 ```java
@@ -91,11 +81,9 @@ For the creative portion of this assignment, you'll be implementing another ciph
 ___
 ### 1. Concealment
 
-This scheme involves confusing any potential adversary with a jumble of random characters, and placing the important characters at specific locations within the encrypted message. For example, looking at the character following four filler characters in the below string reveals the message:
+This scheme involves confusing any potential adversary with a jumble of random characters, and placing the important characters at specific locations within the encrypted message. For example, looking at the character following two filler characters in the below string reveals the message:
 
-k:w'[S]()\[_`j[E]()?T\[k[C]()zU=L[R]()h;5k[E]()o]R8[T]()
-
-SECRET
+![A diagram showing a concealment cipher with a filler of 2 and a ciphertext of "k:S{jE?TCz=RSkEo\]T](./Concealment.png)
 
 Your solution should contain the following constructor:
 ```java
@@ -136,13 +124,7 @@ ___
 
 Unlike our previous ciphers, a transposition cipher involves shuffling the position of characters rather than substituting them with new ones. Most of these involve creating a grid with a certain width, filling it in with an input string, and then traversing the grid in a different way to get the encryption. For example:
 
-input = "HELLO"
-
-width = 2
-
-grid = \[\['H', 'E'\], \['L', 'L'\], \['O', ' '\]\]
-
-cipher = "HLOEL "
+![A diagram showing how to create an encryption grid from input "HELLO" and width 2. The resulting grid is [['H', 'E'], ['L', 'L'], ['O', ' ']] and the output is "HLOEL "](./Transposition.png)
 
 Here, the grid was filled in by traversing rows, and the cipher was created by traversing columns. Decrypting would involve the opposite, filling in the grid by traversing columns, and creating the plaintext by traversing rows. Alternative traversals are possible, but we recommend this approach as it is the easiest to implement.
 
@@ -151,8 +133,6 @@ Below is the appropraite constructor signature for your solution:
 public Transposition(int width)
 ```
 An `IllegalArgumentException` should be thrown if the width is <= 0 (not possible) or == 1 (as no encryption will occur).
-
-**HINT**: Given an input string, you'll likely want to make sure it is a length that's a multiple of width by padding with spaces (this avoids null/empty values in your grid). When decrypting, just make sure to remove these spaces that were added before returning (take a look at the String's `trim` method).
 ___
 ### 4. CeaserRandom
 Here, you'll implement another variation of a Ceaser Cipher that uses a randomly shuffled shifter string. This initially sounds impossible as if we randomly create the shifter string, how do we possibly decrypt? The answer lies in being able to control a Random object in java via a seed value. Any two Random objects constructd with the same seed will produce random values in the same order as one another. Below is an example:
