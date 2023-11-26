@@ -148,7 +148,7 @@ Thus, if you know the seed used to randomly create a shifter string, you can rec
 
 **HINT**: There exists a method that will shuffle the values of a list with a given random object called `Collections.shuffle(list, rand)`. You may use this if you'd like.
 
-The length of the seed will be determined by a number of digits provided by the constructor. It is your choice if you want to include leading 0's in the number of digits a number has. Alternatively stated, you get to pick whether given 3 digits if the smallest number will be 000 or 100.
+You should randomly generate a new seed every time you encrypt a message. The length of the seed will be determined by a number of digits provided by the constructor. It is your choice if you want to include leading 0's in the number of digits a number has. Alternatively stated, you get to pick whether given 3 digits if the smallest number will be 000 or 100.
 
 Below is the appropriate constructor signature for your solution:
 
