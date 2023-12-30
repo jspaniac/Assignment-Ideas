@@ -1,0 +1,9115 @@
+Feature: energy
+Threshold: 0.7765
+Feature: dance
+Threshold: 0.7304999999999999
+Feature: dance
+Threshold: 0.507
+Feature: energy
+Threshold: 0.6405000000000001
+Feature: dance
+Threshold: 0.443
+Feature: energy
+Threshold: 0.495
+Feature: energy
+Threshold: 0.343
+Feature: dance
+Threshold: 0.379
+Feature: dance
+Threshold: 0.35450000000000004
+Feature: energy
+Threshold: 0.2805
+Feature: energy
+Threshold: 0.21550000000000002
+Feature: energy
+Threshold: 0.195
+Feature: energy
+Threshold: 0.151
+pop
+Feature: dance
+Threshold: 0.3195
+r&b
+rap
+Feature: dance
+Threshold: 0.28800000000000003
+rock
+r&b
+Feature: dance
+Threshold: 0.332
+rock
+pop
+rock
+rap
+Feature: dance
+Threshold: 0.422
+Feature: energy
+Threshold: 0.29900000000000004
+Feature: energy
+Threshold: 0.1995
+Feature: energy
+Threshold: 0.11055000000000001
+rock
+pop
+Feature: dance
+Threshold: 0.4085
+pop
+r&b
+Feature: energy
+Threshold: 0.321
+Feature: dance
+Threshold: 0.411
+Feature: dance
+Threshold: 0.39349999999999996
+latin
+rock
+r&b
+Feature: dance
+Threshold: 0.40149999999999997
+rock
+Feature: energy
+Threshold: 0.3285
+r&b
+pop
+Feature: energy
+Threshold: 0.239
+r&b
+latin
+Feature: energy
+Threshold: 0.4505
+Feature: dance
+Threshold: 0.356
+Feature: dance
+Threshold: 0.329
+Feature: energy
+Threshold: 0.387
+Feature: dance
+Threshold: 0.299
+Feature: dance
+Threshold: 0.23099999999999998
+rock
+pop
+Feature: energy
+Threshold: 0.3685
+pop
+latin
+Feature: dance
+Threshold: 0.2175
+pop
+r&b
+Feature: energy
+Threshold: 0.38849999999999996
+Feature: energy
+Threshold: 0.3665
+r&b
+rock
+Feature: dance
+Threshold: 0.3355
+r&b
+rock
+Feature: energy
+Threshold: 0.40049999999999997
+Feature: dance
+Threshold: 0.40800000000000003
+Feature: dance
+Threshold: 0.3825
+r&b
+Feature: energy
+Threshold: 0.3805
+latin
+Feature: dance
+Threshold: 0.387
+r&b
+pop
+Feature: energy
+Threshold: 0.366
+Feature: energy
+Threshold: 0.352
+r&b
+edm
+Feature: dance
+Threshold: 0.4215
+r&b
+latin
+Feature: dance
+Threshold: 0.3835
+r&b
+Feature: energy
+Threshold: 0.435
+Feature: energy
+Threshold: 0.41400000000000003
+Feature: dance
+Threshold: 0.4115
+latin
+r&b
+Feature: energy
+Threshold: 0.4285
+Feature: dance
+Threshold: 0.41600000000000004
+pop
+rap
+r&b
+rock
+Feature: energy
+Threshold: 0.4685
+Feature: dance
+Threshold: 0.3975
+Feature: dance
+Threshold: 0.3775
+rock
+Feature: dance
+Threshold: 0.3945
+latin
+r&b
+Feature: dance
+Threshold: 0.40800000000000003
+edm
+rap
+Feature: dance
+Threshold: 0.3785
+rock
+Feature: dance
+Threshold: 0.40549999999999997
+pop
+rock
+Feature: energy
+Threshold: 0.55
+Feature: dance
+Threshold: 0.3765
+Feature: dance
+Threshold: 0.297
+Feature: energy
+Threshold: 0.523
+Feature: dance
+Threshold: 0.2595
+pop
+edm
+rock
+r&b
+Feature: dance
+Threshold: 0.39849999999999997
+Feature: energy
+Threshold: 0.532
+Feature: energy
+Threshold: 0.5155000000000001
+pop
+r&b
+rock
+Feature: dance
+Threshold: 0.4205
+r&b
+Feature: energy
+Threshold: 0.513
+Feature: energy
+Threshold: 0.5
+r&b
+rock
+Feature: energy
+Threshold: 0.5335000000000001
+edm
+pop
+Feature: energy
+Threshold: 0.6014999999999999
+Feature: dance
+Threshold: 0.378
+Feature: energy
+Threshold: 0.5765
+Feature: dance
+Threshold: 0.3665
+Feature: dance
+Threshold: 0.3285
+rock
+Feature: energy
+Threshold: 0.5665
+edm
+rap
+pop
+Feature: dance
+Threshold: 0.33799999999999997
+Feature: dance
+Threshold: 0.2855
+Feature: dance
+Threshold: 0.255
+pop
+rock
+Feature: dance
+Threshold: 0.302
+rock
+Feature: dance
+Threshold: 0.3115
+pop
+edm
+r&b
+Feature: dance
+Threshold: 0.401
+Feature: dance
+Threshold: 0.386
+Feature: energy
+Threshold: 0.571
+latin
+rock
+rock
+Feature: energy
+Threshold: 0.578
+pop
+r&b
+Feature: dance
+Threshold: 0.40900000000000003
+Feature: dance
+Threshold: 0.3725
+Feature: dance
+Threshold: 0.3435
+Feature: dance
+Threshold: 0.2835
+Feature: dance
+Threshold: 0.236
+rock
+Feature: dance
+Threshold: 0.26449999999999996
+rap
+rock
+rock
+pop
+Feature: energy
+Threshold: 0.634
+r&b
+Feature: dance
+Threshold: 0.3805
+rock
+pop
+Feature: dance
+Threshold: 0.432
+Feature: energy
+Threshold: 0.625
+Feature: dance
+Threshold: 0.418
+r&b
+rock
+rock
+pop
+Feature: energy
+Threshold: 0.4125
+Feature: energy
+Threshold: 0.3245
+Feature: dance
+Threshold: 0.469
+Feature: energy
+Threshold: 0.243
+rock
+Feature: energy
+Threshold: 0.267
+pop
+Feature: energy
+Threshold: 0.3055
+r&b
+rock
+Feature: energy
+Threshold: 0.2465
+Feature: energy
+Threshold: 0.1765
+Feature: energy
+Threshold: 0.14450000000000002
+rap
+pop
+Feature: dance
+Threshold: 0.4855
+rock
+rap
+Feature: dance
+Threshold: 0.4895
+rock
+Feature: energy
+Threshold: 0.2675
+r&b
+Feature: dance
+Threshold: 0.4975
+edm
+Feature: energy
+Threshold: 0.2835
+r&b
+Feature: energy
+Threshold: 0.2965
+edm
+r&b
+Feature: energy
+Threshold: 0.35850000000000004
+Feature: energy
+Threshold: 0.3355
+pop
+r&b
+Feature: dance
+Threshold: 0.46499999999999997
+Feature: energy
+Threshold: 0.385
+latin
+rock
+Feature: energy
+Threshold: 0.38749999999999996
+rock
+r&b
+Feature: energy
+Threshold: 0.499
+Feature: energy
+Threshold: 0.4445
+Feature: dance
+Threshold: 0.47250000000000003
+Feature: energy
+Threshold: 0.4245
+Feature: energy
+Threshold: 0.4195
+pop
+rock
+r&b
+Feature: energy
+Threshold: 0.4335
+r&b
+Feature: dance
+Threshold: 0.503
+rap
+r&b
+Feature: dance
+Threshold: 0.494
+Feature: energy
+Threshold: 0.46299999999999997
+Feature: energy
+Threshold: 0.4555
+Feature: dance
+Threshold: 0.47350000000000003
+pop
+rock
+Feature: dance
+Threshold: 0.47550000000000003
+r&b
+edm
+Feature: dance
+Threshold: 0.46699999999999997
+pop
+Feature: dance
+Threshold: 0.4795
+Feature: dance
+Threshold: 0.4735
+r&b
+rap
+Feature: energy
+Threshold: 0.475
+pop
+rock
+Feature: energy
+Threshold: 0.455
+r&b
+Feature: energy
+Threshold: 0.46950000000000003
+pop
+rock
+Feature: dance
+Threshold: 0.474
+Feature: energy
+Threshold: 0.5609999999999999
+Feature: energy
+Threshold: 0.553
+Feature: dance
+Threshold: 0.4545
+Feature: energy
+Threshold: 0.5425
+latin
+rock
+Feature: energy
+Threshold: 0.5315000000000001
+rap
+Feature: energy
+Threshold: 0.5425
+r&b
+rock
+rap
+Feature: energy
+Threshold: 0.591
+Feature: dance
+Threshold: 0.4565
+Feature: energy
+Threshold: 0.5705
+edm
+Feature: energy
+Threshold: 0.5765
+Feature: dance
+Threshold: 0.449
+pop
+edm
+r&b
+latin
+Feature: dance
+Threshold: 0.4575
+Feature: energy
+Threshold: 0.6114999999999999
+Feature: energy
+Threshold: 0.6005
+r&b
+pop
+latin
+Feature: energy
+Threshold: 0.6094999999999999
+rock
+pop
+Feature: energy
+Threshold: 0.6065
+Feature: energy
+Threshold: 0.5465
+Feature: dance
+Threshold: 0.49
+Feature: energy
+Threshold: 0.517
+rap
+Feature: energy
+Threshold: 0.5295000000000001
+latin
+rock
+Feature: energy
+Threshold: 0.5105
+latin
+edm
+Feature: energy
+Threshold: 0.5914999999999999
+Feature: dance
+Threshold: 0.4885
+Feature: energy
+Threshold: 0.573
+pop
+r&b
+Feature: energy
+Threshold: 0.579
+Feature: dance
+Threshold: 0.4985
+rock
+r&b
+latin
+pop
+Feature: dance
+Threshold: 0.476
+edm
+Feature: energy
+Threshold: 0.621
+Feature: dance
+Threshold: 0.4925
+pop
+rap
+pop
+Feature: dance
+Threshold: 0.4625
+Feature: energy
+Threshold: 0.73
+Feature: energy
+Threshold: 0.704
+Feature: dance
+Threshold: 0.4415
+Feature: dance
+Threshold: 0.4165
+Feature: dance
+Threshold: 0.37849999999999995
+Feature: dance
+Threshold: 0.3335
+Feature: dance
+Threshold: 0.2605
+rock
+Feature: energy
+Threshold: 0.6910000000000001
+Feature: dance
+Threshold: 0.30200000000000005
+pop
+Feature: energy
+Threshold: 0.674
+latin
+Feature: dance
+Threshold: 0.326
+r&b
+rock
+Feature: dance
+Threshold: 0.323
+pop
+edm
+Feature: energy
+Threshold: 0.6845
+Feature: energy
+Threshold: 0.6735
+edm
+rap
+latin
+Feature: dance
+Threshold: 0.398
+Feature: energy
+Threshold: 0.67
+Feature: dance
+Threshold: 0.386
+rock
+r&b
+Feature: energy
+Threshold: 0.6855
+rap
+pop
+Feature: energy
+Threshold: 0.6845
+r&b
+Feature: dance
+Threshold: 0.404
+r&b
+rock
+Feature: energy
+Threshold: 0.685
+Feature: energy
+Threshold: 0.6715
+Feature: energy
+Threshold: 0.6615
+edm
+rock
+Feature: dance
+Threshold: 0.4215
+latin
+rap
+Feature: dance
+Threshold: 0.4265
+pop
+rock
+Feature: energy
+Threshold: 0.6930000000000001
+Feature: dance
+Threshold: 0.4545
+Feature: energy
+Threshold: 0.683
+rock
+rap
+r&b
+Feature: energy
+Threshold: 0.698
+pop
+edm
+Feature: energy
+Threshold: 0.72
+Feature: dance
+Threshold: 0.3715
+rock
+Feature: dance
+Threshold: 0.4115
+latin
+rap
+Feature: dance
+Threshold: 0.41200000000000003
+Feature: dance
+Threshold: 0.34750000000000003
+rock
+Feature: dance
+Threshold: 0.388
+Feature: dance
+Threshold: 0.3855
+latin
+r&b
+latin
+Feature: dance
+Threshold: 0.4245
+edm
+Feature: dance
+Threshold: 0.433
+r&b
+rock
+Feature: dance
+Threshold: 0.4355
+Feature: dance
+Threshold: 0.3325
+Feature: dance
+Threshold: 0.2605
+rock
+Feature: dance
+Threshold: 0.2995
+Feature: energy
+Threshold: 0.7545
+pop
+rock
+r&b
+Feature: dance
+Threshold: 0.416
+Feature: energy
+Threshold: 0.7505
+Feature: dance
+Threshold: 0.39749999999999996
+Feature: dance
+Threshold: 0.378
+edm
+rap
+Feature: dance
+Threshold: 0.40349999999999997
+pop
+rock
+Feature: dance
+Threshold: 0.367
+rock
+Feature: dance
+Threshold: 0.385
+Feature: dance
+Threshold: 0.375
+rock
+edm
+Feature: energy
+Threshold: 0.7575000000000001
+rock
+pop
+Feature: energy
+Threshold: 0.7565
+Feature: energy
+Threshold: 0.749
+pop
+rock
+Feature: dance
+Threshold: 0.4255
+edm
+pop
+Feature: dance
+Threshold: 0.4545
+Feature: energy
+Threshold: 0.7535000000000001
+Feature: dance
+Threshold: 0.4435
+rock
+edm
+rock
+Feature: energy
+Threshold: 0.7375
+rock
+pop
+Feature: energy
+Threshold: 0.7224999999999999
+Feature: energy
+Threshold: 0.6719999999999999
+Feature: dance
+Threshold: 0.473
+Feature: energy
+Threshold: 0.6575
+latin
+Feature: energy
+Threshold: 0.6665000000000001
+rock
+pop
+Feature: dance
+Threshold: 0.4915
+Feature: energy
+Threshold: 0.6535
+pop
+rap
+rock
+Feature: dance
+Threshold: 0.4895
+Feature: dance
+Threshold: 0.4825
+pop
+Feature: energy
+Threshold: 0.7064999999999999
+rap
+rock
+Feature: energy
+Threshold: 0.698
+Feature: energy
+Threshold: 0.681
+pop
+Feature: dance
+Threshold: 0.5
+rock
+r&b
+Feature: dance
+Threshold: 0.499
+edm
+pop
+Feature: dance
+Threshold: 0.4995
+Feature: energy
+Threshold: 0.74
+Feature: dance
+Threshold: 0.488
+Feature: dance
+Threshold: 0.481
+rap
+edm
+Feature: dance
+Threshold: 0.493
+rap
+r&b
+Feature: energy
+Threshold: 0.7515000000000001
+Feature: energy
+Threshold: 0.7455
+pop
+rock
+Feature: dance
+Threshold: 0.486
+Feature: energy
+Threshold: 0.7605
+Feature: energy
+Threshold: 0.754
+r&b
+edm
+edm
+Feature: dance
+Threshold: 0.4925
+Feature: dance
+Threshold: 0.489
+latin
+rap
+pop
+Feature: dance
+Threshold: 0.503
+edm
+Feature: dance
+Threshold: 0.5035000000000001
+edm
+Feature: energy
+Threshold: 0.747
+Feature: energy
+Threshold: 0.742
+edm
+pop
+rock
+Feature: dance
+Threshold: 0.6579999999999999
+Feature: energy
+Threshold: 0.6415
+Feature: dance
+Threshold: 0.6185
+Feature: dance
+Threshold: 0.5774999999999999
+Feature: energy
+Threshold: 0.524
+Feature: energy
+Threshold: 0.4985
+Feature: dance
+Threshold: 0.5205
+Feature: energy
+Threshold: 0.378
+Feature: energy
+Threshold: 0.2825
+Feature: energy
+Threshold: 0.246
+rock
+r&b
+Feature: energy
+Threshold: 0.2915
+latin
+Feature: energy
+Threshold: 0.3285
+pop
+r&b
+Feature: energy
+Threshold: 0.4415
+r&b
+Feature: energy
+Threshold: 0.4675
+Feature: dance
+Threshold: 0.5095000000000001
+edm
+latin
+pop
+Feature: energy
+Threshold: 0.431
+Feature: energy
+Threshold: 0.3705
+Feature: energy
+Threshold: 0.367
+Feature: energy
+Threshold: 0.2249
+Feature: energy
+Threshold: 0.1384
+r&b
+Feature: energy
+Threshold: 0.1795
+r&b
+rap
+Feature: dance
+Threshold: 0.5485
+Feature: energy
+Threshold: 0.355
+Feature: dance
+Threshold: 0.539
+rock
+r&b
+r&b
+Feature: energy
+Threshold: 0.34199999999999997
+Feature: energy
+Threshold: 0.3065
+Feature: dance
+Threshold: 0.56
+r&b
+Feature: dance
+Threshold: 0.573
+Feature: energy
+Threshold: 0.26749999999999996
+r&b
+pop
+rock
+Feature: dance
+Threshold: 0.5615
+Feature: dance
+Threshold: 0.557
+latin
+rock
+Feature: energy
+Threshold: 0.3265
+r&b
+latin
+Feature: dance
+Threshold: 0.5645
+rock
+latin
+r&b
+Feature: energy
+Threshold: 0.398
+Feature: dance
+Threshold: 0.5495000000000001
+pop
+rap
+Feature: dance
+Threshold: 0.5605
+Feature: dance
+Threshold: 0.553
+Feature: dance
+Threshold: 0.541
+r&b
+Feature: dance
+Threshold: 0.548
+rap
+r&b
+r&b
+Feature: energy
+Threshold: 0.4125
+pop
+rock
+Feature: energy
+Threshold: 0.47650000000000003
+Feature: energy
+Threshold: 0.453
+Feature: dance
+Threshold: 0.5375000000000001
+pop
+rock
+Feature: dance
+Threshold: 0.551
+latin
+rap
+Feature: dance
+Threshold: 0.5515
+Feature: energy
+Threshold: 0.4825
+rock
+Feature: dance
+Threshold: 0.5375000000000001
+r&b
+pop
+Feature: dance
+Threshold: 0.572
+edm
+r&b
+Feature: energy
+Threshold: 0.5095000000000001
+Feature: dance
+Threshold: 0.528
+Feature: dance
+Threshold: 0.5165
+pop
+rap
+Feature: dance
+Threshold: 0.543
+pop
+r&b
+Feature: dance
+Threshold: 0.538
+Feature: dance
+Threshold: 0.5145
+r&b
+rock
+Feature: dance
+Threshold: 0.5635
+r&b
+rap
+Feature: energy
+Threshold: 0.596
+Feature: dance
+Threshold: 0.5409999999999999
+Feature: energy
+Threshold: 0.5285
+r&b
+Feature: energy
+Threshold: 0.548
+Feature: dance
+Threshold: 0.524
+Feature: dance
+Threshold: 0.519
+latin
+rock
+Feature: energy
+Threshold: 0.534
+r&b
+pop
+Feature: dance
+Threshold: 0.5235000000000001
+Feature: energy
+Threshold: 0.5794999999999999
+Feature: energy
+Threshold: 0.5589999999999999
+latin
+pop
+r&b
+Feature: energy
+Threshold: 0.58
+Feature: energy
+Threshold: 0.5674999999999999
+pop
+rap
+Feature: dance
+Threshold: 0.528
+pop
+latin
+Feature: energy
+Threshold: 0.5595
+Feature: dance
+Threshold: 0.5555
+Feature: dance
+Threshold: 0.544
+Feature: energy
+Threshold: 0.5405
+Feature: energy
+Threshold: 0.5275000000000001
+r&b
+rock
+pop
+Feature: energy
+Threshold: 0.5405
+rock
+r&b
+Feature: energy
+Threshold: 0.54
+rap
+Feature: dance
+Threshold: 0.5625
+pop
+r&b
+Feature: energy
+Threshold: 0.574
+Feature: dance
+Threshold: 0.56
+Feature: dance
+Threshold: 0.557
+r&b
+edm
+Feature: dance
+Threshold: 0.5634999999999999
+latin
+rap
+Feature: energy
+Threshold: 0.589
+Feature: dance
+Threshold: 0.5674999999999999
+Feature: dance
+Threshold: 0.5565
+rap
+edm
+Feature: dance
+Threshold: 0.5734999999999999
+pop
+edm
+Feature: dance
+Threshold: 0.555
+r&b
+rock
+Feature: energy
+Threshold: 0.6134999999999999
+Feature: dance
+Threshold: 0.558
+Feature: dance
+Threshold: 0.533
+pop
+Feature: dance
+Threshold: 0.5455000000000001
+rock
+rap
+Feature: dance
+Threshold: 0.5665
+Feature: energy
+Threshold: 0.607
+latin
+rock
+r&b
+Feature: dance
+Threshold: 0.5555
+Feature: energy
+Threshold: 0.63
+Feature: dance
+Threshold: 0.535
+Feature: dance
+Threshold: 0.5275000000000001
+rap
+Feature: dance
+Threshold: 0.5325
+latin
+Feature: energy
+Threshold: 0.6205
+rock
+latin
+Feature: dance
+Threshold: 0.547
+rock
+edm
+Feature: dance
+Threshold: 0.5445
+Feature: dance
+Threshold: 0.537
+rock
+latin
+Feature: energy
+Threshold: 0.6325000000000001
+rap
+r&b
+Feature: dance
+Threshold: 0.565
+Feature: dance
+Threshold: 0.5595000000000001
+Feature: energy
+Threshold: 0.6365000000000001
+r&b
+rock
+pop
+Feature: energy
+Threshold: 0.634
+r&b
+Feature: dance
+Threshold: 0.5685
+rap
+latin
+Feature: energy
+Threshold: 0.51
+Feature: energy
+Threshold: 0.398
+Feature: energy
+Threshold: 0.3135
+Feature: energy
+Threshold: 0.192
+Feature: dance
+Threshold: 0.6005
+r&b
+rap
+Feature: energy
+Threshold: 0.2745
+Feature: dance
+Threshold: 0.6114999999999999
+pop
+rock
+Feature: dance
+Threshold: 0.6034999999999999
+Feature: energy
+Threshold: 0.292
+rap
+r&b
+latin
+Feature: dance
+Threshold: 0.592
+rock
+Feature: energy
+Threshold: 0.352
+Feature: dance
+Threshold: 0.611
+Feature: dance
+Threshold: 0.6025
+rap
+r&b
+rock
+Feature: energy
+Threshold: 0.37
+latin
+Feature: energy
+Threshold: 0.3835
+Feature: energy
+Threshold: 0.381
+edm
+pop
+Feature: energy
+Threshold: 0.391
+latin
+r&b
+Feature: energy
+Threshold: 0.45999999999999996
+Feature: energy
+Threshold: 0.4425
+Feature: dance
+Threshold: 0.5965
+Feature: energy
+Threshold: 0.4225
+r&b
+pop
+Feature: energy
+Threshold: 0.434
+Feature: energy
+Threshold: 0.422
+Feature: energy
+Threshold: 0.4145
+pop
+r&b
+Feature: dance
+Threshold: 0.6125
+edm
+pop
+Feature: dance
+Threshold: 0.6054999999999999
+rap
+rock
+Feature: dance
+Threshold: 0.5854999999999999
+r&b
+Feature: dance
+Threshold: 0.5934999999999999
+rap
+Feature: energy
+Threshold: 0.451
+rock
+r&b
+Feature: dance
+Threshold: 0.5965
+Feature: dance
+Threshold: 0.5865
+Feature: energy
+Threshold: 0.488
+Feature: dance
+Threshold: 0.5814999999999999
+rock
+latin
+Feature: dance
+Threshold: 0.5794999999999999
+pop
+rap
+latin
+Feature: energy
+Threshold: 0.486
+Feature: energy
+Threshold: 0.4755
+Feature: energy
+Threshold: 0.4665
+rap
+edm
+rap
+Feature: dance
+Threshold: 0.6114999999999999
+latin
+rap
+Feature: energy
+Threshold: 0.6114999999999999
+Feature: dance
+Threshold: 0.5845
+Feature: energy
+Threshold: 0.595
+Feature: energy
+Threshold: 0.5565
+Feature: energy
+Threshold: 0.521
+rap
+rock
+Feature: energy
+Threshold: 0.5765
+edm
+r&b
+Feature: energy
+Threshold: 0.606
+rock
+latin
+Feature: energy
+Threshold: 0.554
+Feature: dance
+Threshold: 0.592
+rap
+Feature: energy
+Threshold: 0.5345
+Feature: dance
+Threshold: 0.598
+r&b
+edm
+Feature: energy
+Threshold: 0.54
+rock
+Feature: dance
+Threshold: 0.605
+pop
+rap
+Feature: energy
+Threshold: 0.5934999999999999
+Feature: dance
+Threshold: 0.604
+Feature: dance
+Threshold: 0.588
+rap
+Feature: dance
+Threshold: 0.594
+Feature: energy
+Threshold: 0.5734999999999999
+pop
+Feature: energy
+Threshold: 0.5845
+latin
+edm
+rock
+Feature: energy
+Threshold: 0.572
+Feature: energy
+Threshold: 0.5685
+pop
+latin
+rock
+Feature: energy
+Threshold: 0.601
+Feature: dance
+Threshold: 0.6034999999999999
+edm
+Feature: dance
+Threshold: 0.61
+r&b
+rap
+Feature: dance
+Threshold: 0.5965
+rock
+Feature: dance
+Threshold: 0.5974999999999999
+pop
+edm
+Feature: dance
+Threshold: 0.594
+Feature: energy
+Threshold: 0.631
+Feature: dance
+Threshold: 0.5834999999999999
+rap
+Feature: dance
+Threshold: 0.585
+latin
+r&b
+Feature: energy
+Threshold: 0.638
+rap
+pop
+Feature: energy
+Threshold: 0.6365000000000001
+Feature: dance
+Threshold: 0.6025
+Feature: energy
+Threshold: 0.6315
+Feature: dance
+Threshold: 0.596
+rap
+r&b
+Feature: energy
+Threshold: 0.635
+pop
+r&b
+Feature: energy
+Threshold: 0.6285000000000001
+Feature: dance
+Threshold: 0.611
+Feature: energy
+Threshold: 0.626
+Feature: dance
+Threshold: 0.6094999999999999
+rock
+r&b
+pop
+pop
+r&b
+Feature: dance
+Threshold: 0.5994999999999999
+rock
+r&b
+Feature: dance
+Threshold: 0.65
+Feature: energy
+Threshold: 0.5955
+Feature: energy
+Threshold: 0.5475000000000001
+Feature: energy
+Threshold: 0.539
+Feature: energy
+Threshold: 0.346
+Feature: energy
+Threshold: 0.23099999999999998
+Feature: energy
+Threshold: 0.1775
+rap
+pop
+Feature: energy
+Threshold: 0.3175
+rock
+r&b
+Feature: energy
+Threshold: 0.497
+Feature: energy
+Threshold: 0.47350000000000003
+Feature: energy
+Threshold: 0.43200000000000005
+Feature: energy
+Threshold: 0.41100000000000003
+Feature: energy
+Threshold: 0.3915
+Feature: dance
+Threshold: 0.6305000000000001
+rap
+Feature: dance
+Threshold: 0.6405000000000001
+latin
+rap
+rap
+r&b
+Feature: energy
+Threshold: 0.46599999999999997
+Feature: energy
+Threshold: 0.4485
+latin
+Feature: dance
+Threshold: 0.622
+pop
+Feature: dance
+Threshold: 0.6275
+rap
+Feature: energy
+Threshold: 0.4565
+rap
+pop
+latin
+Feature: energy
+Threshold: 0.481
+Feature: dance
+Threshold: 0.6214999999999999
+rock
+latin
+Feature: dance
+Threshold: 0.632
+r&b
+rap
+Feature: dance
+Threshold: 0.6335
+Feature: energy
+Threshold: 0.5285
+Feature: dance
+Threshold: 0.628
+r&b
+latin
+Feature: dance
+Threshold: 0.626
+r&b
+pop
+Feature: energy
+Threshold: 0.5165
+rap
+Feature: energy
+Threshold: 0.5345
+Feature: dance
+Threshold: 0.6435
+Feature: energy
+Threshold: 0.526
+Feature: energy
+Threshold: 0.5205
+edm
+r&b
+Feature: energy
+Threshold: 0.53
+rock
+rap
+Feature: energy
+Threshold: 0.528
+Feature: energy
+Threshold: 0.5215000000000001
+r&b
+rock
+r&b
+Feature: dance
+Threshold: 0.6435
+rock
+r&b
+pop
+Feature: energy
+Threshold: 0.577
+Feature: energy
+Threshold: 0.5675
+Feature: energy
+Threshold: 0.559
+Feature: dance
+Threshold: 0.6385000000000001
+edm
+r&b
+Feature: dance
+Threshold: 0.642
+r&b
+latin
+Feature: dance
+Threshold: 0.6375
+Feature: dance
+Threshold: 0.633
+Feature: dance
+Threshold: 0.63
+rap
+edm
+latin
+Feature: energy
+Threshold: 0.5745
+r&b
+latin
+Feature: dance
+Threshold: 0.6355
+Feature: energy
+Threshold: 0.588
+edm
+Feature: energy
+Threshold: 0.5905
+r&b
+pop
+Feature: energy
+Threshold: 0.588
+Feature: energy
+Threshold: 0.5834999999999999
+rock
+edm
+r&b
+Feature: energy
+Threshold: 0.62
+Feature: energy
+Threshold: 0.6045
+Feature: dance
+Threshold: 0.631
+rap
+latin
+Feature: dance
+Threshold: 0.633
+Feature: dance
+Threshold: 0.6255
+pop
+latin
+Feature: dance
+Threshold: 0.642
+pop
+r&b
+Feature: dance
+Threshold: 0.6445000000000001
+Feature: dance
+Threshold: 0.631
+Feature: energy
+Threshold: 0.6295
+r&b
+Feature: dance
+Threshold: 0.623
+Feature: energy
+Threshold: 0.636
+latin
+edm
+rap
+Feature: energy
+Threshold: 0.6345000000000001
+Feature: energy
+Threshold: 0.6305000000000001
+Feature: dance
+Threshold: 0.6385000000000001
+Feature: energy
+Threshold: 0.6265000000000001
+latin
+Feature: dance
+Threshold: 0.635
+rock
+rap
+rap
+Feature: dance
+Threshold: 0.64
+latin
+Feature: dance
+Threshold: 0.642
+edm
+rock
+Feature: dance
+Threshold: 0.6355
+rock
+pop
+Feature: energy
+Threshold: 0.6315
+Feature: energy
+Threshold: 0.628
+pop
+edm
+Feature: energy
+Threshold: 0.6335
+rap
+pop
+Feature: energy
+Threshold: 0.46099999999999997
+Feature: energy
+Threshold: 0.3525
+r&b
+pop
+Feature: energy
+Threshold: 0.5974999999999999
+Feature: energy
+Threshold: 0.576
+Feature: energy
+Threshold: 0.5385
+Feature: energy
+Threshold: 0.499
+Feature: energy
+Threshold: 0.4815
+r&b
+Feature: energy
+Threshold: 0.491
+pop
+Feature: energy
+Threshold: 0.4935
+rap
+r&b
+Feature: energy
+Threshold: 0.5185
+Feature: energy
+Threshold: 0.509
+rock
+r&b
+Feature: dance
+Threshold: 0.655
+rap
+r&b
+Feature: energy
+Threshold: 0.5654999999999999
+Feature: energy
+Threshold: 0.5535
+Feature: dance
+Threshold: 0.654
+Feature: energy
+Threshold: 0.542
+r&b
+pop
+rap
+edm
+rap
+Feature: energy
+Threshold: 0.591
+r&b
+rap
+Feature: energy
+Threshold: 0.625
+Feature: energy
+Threshold: 0.617
+Feature: energy
+Threshold: 0.6074999999999999
+rock
+latin
+edm
+Feature: dance
+Threshold: 0.6525000000000001
+rock
+Feature: dance
+Threshold: 0.654
+pop
+r&b
+Feature: energy
+Threshold: 0.6755
+Feature: dance
+Threshold: 0.577
+Feature: dance
+Threshold: 0.5495000000000001
+Feature: dance
+Threshold: 0.529
+Feature: energy
+Threshold: 0.668
+Feature: dance
+Threshold: 0.51
+pop
+Feature: energy
+Threshold: 0.654
+edm
+latin
+Feature: energy
+Threshold: 0.6715
+edm
+pop
+Feature: energy
+Threshold: 0.6585000000000001
+Feature: dance
+Threshold: 0.537
+pop
+Feature: dance
+Threshold: 0.5465
+edm
+pop
+Feature: dance
+Threshold: 0.5345
+latin
+r&b
+Feature: dance
+Threshold: 0.562
+Feature: dance
+Threshold: 0.5575000000000001
+Feature: energy
+Threshold: 0.6465000000000001
+r&b
+Feature: energy
+Threshold: 0.663
+rock
+latin
+Feature: energy
+Threshold: 0.6575
+rap
+Feature: energy
+Threshold: 0.67
+latin
+pop
+Feature: energy
+Threshold: 0.6645000000000001
+Feature: energy
+Threshold: 0.6595
+Feature: energy
+Threshold: 0.651
+rock
+pop
+Feature: dance
+Threshold: 0.5694999999999999
+edm
+r&b
+Feature: dance
+Threshold: 0.5745
+Feature: dance
+Threshold: 0.573
+r&b
+pop
+rock
+Feature: energy
+Threshold: 0.659
+Feature: energy
+Threshold: 0.6475
+Feature: dance
+Threshold: 0.589
+r&b
+Feature: dance
+Threshold: 0.5954999999999999
+latin
+Feature: dance
+Threshold: 0.6074999999999999
+Feature: energy
+Threshold: 0.645
+rock
+pop
+pop
+Feature: dance
+Threshold: 0.6145
+Feature: dance
+Threshold: 0.598
+Feature: energy
+Threshold: 0.653
+pop
+Feature: dance
+Threshold: 0.585
+pop
+edm
+Feature: energy
+Threshold: 0.653
+edm
+latin
+Feature: dance
+Threshold: 0.63
+pop
+Feature: dance
+Threshold: 0.646
+r&b
+edm
+Feature: dance
+Threshold: 0.6154999999999999
+Feature: energy
+Threshold: 0.67
+Feature: dance
+Threshold: 0.598
+pop
+Feature: dance
+Threshold: 0.603
+Feature: energy
+Threshold: 0.6625000000000001
+rock
+Feature: dance
+Threshold: 0.601
+r&b
+rock
+Feature: energy
+Threshold: 0.667
+latin
+rap
+Feature: dance
+Threshold: 0.5985
+Feature: dance
+Threshold: 0.583
+edm
+r&b
+Feature: dance
+Threshold: 0.609
+pop
+r&b
+Feature: dance
+Threshold: 0.6325000000000001
+Feature: dance
+Threshold: 0.6265000000000001
+Feature: energy
+Threshold: 0.6655
+pop
+Feature: dance
+Threshold: 0.619
+rap
+edm
+Feature: dance
+Threshold: 0.6305000000000001
+r&b
+latin
+Feature: dance
+Threshold: 0.6455
+Feature: dance
+Threshold: 0.6435
+rap
+pop
+Feature: energy
+Threshold: 0.664
+Feature: dance
+Threshold: 0.6495
+latin
+edm
+Feature: dance
+Threshold: 0.6505000000000001
+r&b
+edm
+Feature: energy
+Threshold: 0.723
+Feature: energy
+Threshold: 0.694
+Feature: dance
+Threshold: 0.5994999999999999
+Feature: dance
+Threshold: 0.5854999999999999
+Feature: dance
+Threshold: 0.5774999999999999
+Feature: dance
+Threshold: 0.5475
+Feature: dance
+Threshold: 0.5335000000000001
+Feature: energy
+Threshold: 0.6839999999999999
+r&b
+pop
+Feature: energy
+Threshold: 0.6815
+rock
+pop
+Feature: energy
+Threshold: 0.681
+pop
+Feature: energy
+Threshold: 0.6859999999999999
+rock
+Feature: dance
+Threshold: 0.5734999999999999
+rap
+latin
+Feature: dance
+Threshold: 0.581
+Feature: energy
+Threshold: 0.68
+edm
+rock
+Feature: energy
+Threshold: 0.683
+edm
+pop
+Feature: dance
+Threshold: 0.5925
+rock
+pop
+Feature: dance
+Threshold: 0.625
+Feature: energy
+Threshold: 0.6825
+Feature: dance
+Threshold: 0.6105
+Feature: dance
+Threshold: 0.6065
+Feature: energy
+Threshold: 0.679
+Feature: dance
+Threshold: 0.6025
+rap
+pop
+Feature: dance
+Threshold: 0.6025
+latin
+rap
+r&b
+rap
+Feature: dance
+Threshold: 0.6165
+Feature: dance
+Threshold: 0.6114999999999999
+rap
+edm
+r&b
+Feature: energy
+Threshold: 0.6875
+Feature: dance
+Threshold: 0.6395
+Feature: dance
+Threshold: 0.635
+r&b
+rock
+Feature: dance
+Threshold: 0.6475
+Feature: energy
+Threshold: 0.681
+rap
+pop
+rock
+Feature: dance
+Threshold: 0.6375
+rock
+latin
+Feature: dance
+Threshold: 0.612
+Feature: dance
+Threshold: 0.578
+Feature: dance
+Threshold: 0.5569999999999999
+Feature: energy
+Threshold: 0.7135
+Feature: dance
+Threshold: 0.5425
+Feature: energy
+Threshold: 0.7024999999999999
+Feature: dance
+Threshold: 0.5385
+rock
+pop
+Feature: dance
+Threshold: 0.5345
+Feature: dance
+Threshold: 0.531
+Feature: dance
+Threshold: 0.5265
+latin
+r&b
+edm
+latin
+Feature: energy
+Threshold: 0.7015
+rap
+rock
+Feature: dance
+Threshold: 0.525
+Feature: energy
+Threshold: 0.718
+Feature: dance
+Threshold: 0.514
+edm
+rock
+pop
+Feature: energy
+Threshold: 0.718
+Feature: dance
+Threshold: 0.548
+rock
+edm
+Feature: dance
+Threshold: 0.545
+Feature: dance
+Threshold: 0.537
+rock
+r&b
+rock
+Feature: energy
+Threshold: 0.707
+Feature: energy
+Threshold: 0.6995
+r&b
+rock
+Feature: dance
+Threshold: 0.5694999999999999
+Feature: dance
+Threshold: 0.5665
+Feature: energy
+Threshold: 0.714
+edm
+Feature: dance
+Threshold: 0.5605
+rock
+pop
+rap
+pop
+Feature: energy
+Threshold: 0.709
+Feature: dance
+Threshold: 0.5985
+Feature: dance
+Threshold: 0.588
+edm
+pop
+Feature: energy
+Threshold: 0.7015
+Feature: dance
+Threshold: 0.6014999999999999
+pop
+edm
+rock
+Feature: dance
+Threshold: 0.602
+Feature: dance
+Threshold: 0.5934999999999999
+Feature: dance
+Threshold: 0.589
+r&b
+rap
+rock
+pop
+Feature: dance
+Threshold: 0.64
+Feature: dance
+Threshold: 0.6275
+Feature: dance
+Threshold: 0.6194999999999999
+Feature: energy
+Threshold: 0.713
+Feature: energy
+Threshold: 0.703
+edm
+Feature: dance
+Threshold: 0.6165
+pop
+r&b
+edm
+Feature: energy
+Threshold: 0.715
+latin
+Feature: energy
+Threshold: 0.7204999999999999
+rock
+Feature: dance
+Threshold: 0.625
+r&b
+pop
+Feature: energy
+Threshold: 0.7104999999999999
+Feature: energy
+Threshold: 0.6984999999999999
+pop
+Feature: energy
+Threshold: 0.7015
+rap
+latin
+Feature: dance
+Threshold: 0.6355
+rock
+edm
+Feature: dance
+Threshold: 0.6455
+Feature: energy
+Threshold: 0.709
+Feature: energy
+Threshold: 0.701
+latin
+rap
+Feature: energy
+Threshold: 0.7164999999999999
+latin
+edm
+Feature: energy
+Threshold: 0.7055
+Feature: dance
+Threshold: 0.6545000000000001
+Feature: energy
+Threshold: 0.696
+pop
+latin
+r&b
+Feature: dance
+Threshold: 0.6515
+Feature: energy
+Threshold: 0.712
+edm
+Feature: energy
+Threshold: 0.7124999999999999
+latin
+rap
+pop
+Feature: dance
+Threshold: 0.582
+Feature: energy
+Threshold: 0.752
+Feature: energy
+Threshold: 0.737
+Feature: dance
+Threshold: 0.5605
+Feature: dance
+Threshold: 0.5525
+Feature: energy
+Threshold: 0.7264999999999999
+Feature: dance
+Threshold: 0.5395000000000001
+pop
+Feature: dance
+Threshold: 0.546
+rap
+pop
+Feature: dance
+Threshold: 0.528
+Feature: dance
+Threshold: 0.511
+pop
+rap
+Feature: energy
+Threshold: 0.731
+r&b
+edm
+rock
+Feature: energy
+Threshold: 0.732
+Feature: dance
+Threshold: 0.5680000000000001
+Feature: dance
+Threshold: 0.5645
+Feature: energy
+Threshold: 0.7255
+edm
+rap
+edm
+rock
+Feature: dance
+Threshold: 0.5685
+r&b
+edm
+Feature: dance
+Threshold: 0.574
+Feature: dance
+Threshold: 0.552
+Feature: dance
+Threshold: 0.537
+Feature: dance
+Threshold: 0.521
+Feature: dance
+Threshold: 0.5155000000000001
+r&b
+rap
+Feature: energy
+Threshold: 0.744
+pop
+Feature: dance
+Threshold: 0.5325
+edm
+latin
+Feature: dance
+Threshold: 0.5445
+rap
+edm
+Feature: dance
+Threshold: 0.571
+Feature: dance
+Threshold: 0.5605
+Feature: dance
+Threshold: 0.556
+r&b
+edm
+Feature: energy
+Threshold: 0.74
+pop
+rock
+edm
+rock
+Feature: dance
+Threshold: 0.5754999999999999
+Feature: dance
+Threshold: 0.556
+Feature: energy
+Threshold: 0.7625
+Feature: energy
+Threshold: 0.753
+rock
+Feature: dance
+Threshold: 0.5495000000000001
+Feature: dance
+Threshold: 0.528
+rock
+rap
+Feature: dance
+Threshold: 0.5525
+latin
+edm
+Feature: dance
+Threshold: 0.533
+Feature: energy
+Threshold: 0.769
+Feature: energy
+Threshold: 0.7665
+edm
+pop
+Feature: dance
+Threshold: 0.5165
+rock
+Feature: dance
+Threshold: 0.522
+latin
+Feature: energy
+Threshold: 0.771
+rock
+Feature: dance
+Threshold: 0.526
+pop
+r&b
+Feature: dance
+Threshold: 0.5375000000000001
+pop
+Feature: energy
+Threshold: 0.7675000000000001
+edm
+rock
+Feature: energy
+Threshold: 0.7615000000000001
+pop
+Feature: dance
+Threshold: 0.565
+Feature: energy
+Threshold: 0.766
+rap
+pop
+Feature: energy
+Threshold: 0.7675000000000001
+Feature: dance
+Threshold: 0.567
+rock
+r&b
+rock
+Feature: energy
+Threshold: 0.763
+Feature: dance
+Threshold: 0.5794999999999999
+edm
+r&b
+Feature: energy
+Threshold: 0.7705
+latin
+rap
+Feature: dance
+Threshold: 0.618
+Feature: energy
+Threshold: 0.754
+Feature: energy
+Threshold: 0.7415
+Feature: dance
+Threshold: 0.606
+Feature: energy
+Threshold: 0.732
+Feature: dance
+Threshold: 0.5934999999999999
+r&b
+Feature: dance
+Threshold: 0.602
+Feature: energy
+Threshold: 0.728
+edm
+rap
+Feature: dance
+Threshold: 0.6025
+r&b
+pop
+Feature: dance
+Threshold: 0.5934999999999999
+edm
+Feature: energy
+Threshold: 0.7355
+latin
+Feature: dance
+Threshold: 0.596
+pop
+edm
+Feature: energy
+Threshold: 0.7255
+r&b
+latin
+Feature: energy
+Threshold: 0.747
+rock
+Feature: energy
+Threshold: 0.75
+latin
+Feature: dance
+Threshold: 0.6025
+r&b
+pop
+Feature: energy
+Threshold: 0.761
+Feature: dance
+Threshold: 0.596
+edm
+Feature: dance
+Threshold: 0.602
+pop
+rap
+Feature: dance
+Threshold: 0.6025
+Feature: dance
+Threshold: 0.5874999999999999
+rock
+Feature: energy
+Threshold: 0.7695000000000001
+Feature: dance
+Threshold: 0.5954999999999999
+Feature: energy
+Threshold: 0.765
+pop
+rock
+edm
+Feature: dance
+Threshold: 0.595
+edm
+Feature: dance
+Threshold: 0.5965
+latin
+pop
+Feature: dance
+Threshold: 0.609
+edm
+Feature: dance
+Threshold: 0.6125
+r&b
+rock
+Feature: dance
+Threshold: 0.632
+Feature: energy
+Threshold: 0.749
+Feature: dance
+Threshold: 0.6214999999999999
+rock
+Feature: energy
+Threshold: 0.7295
+Feature: energy
+Threshold: 0.7255
+Feature: dance
+Threshold: 0.6255
+r&b
+latin
+Feature: energy
+Threshold: 0.7284999999999999
+pop
+edm
+edm
+Feature: dance
+Threshold: 0.625
+Feature: energy
+Threshold: 0.7635000000000001
+r&b
+pop
+edm
+Feature: dance
+Threshold: 0.649
+Feature: dance
+Threshold: 0.64
+Feature: energy
+Threshold: 0.7484999999999999
+Feature: energy
+Threshold: 0.731
+rap
+Feature: energy
+Threshold: 0.741
+Feature: dance
+Threshold: 0.6375
+edm
+pop
+Feature: dance
+Threshold: 0.6355
+r&b
+rock
+Feature: energy
+Threshold: 0.7555000000000001
+rock
+latin
+Feature: energy
+Threshold: 0.759
+Feature: energy
+Threshold: 0.741
+rock
+Feature: energy
+Threshold: 0.754
+Feature: energy
+Threshold: 0.747
+edm
+latin
+Feature: dance
+Threshold: 0.646
+pop
+rock
+Feature: dance
+Threshold: 0.6425000000000001
+rock
+Feature: energy
+Threshold: 0.7645
+Feature: dance
+Threshold: 0.6465000000000001
+edm
+pop
+latin
+Feature: energy
+Threshold: 0.758
+Feature: energy
+Threshold: 0.7424999999999999
+Feature: energy
+Threshold: 0.7304999999999999
+edm
+latin
+latin
+Feature: dance
+Threshold: 0.6535
+Feature: energy
+Threshold: 0.763
+pop
+rock
+edm
+Feature: energy
+Threshold: 0.541
+Feature: energy
+Threshold: 0.4655
+Feature: energy
+Threshold: 0.3375
+Feature: energy
+Threshold: 0.267
+Feature: dance
+Threshold: 0.6865
+Feature: dance
+Threshold: 0.663
+r&b
+Feature: energy
+Threshold: 0.252
+Feature: energy
+Threshold: 0.1905
+pop
+rap
+r&b
+Feature: energy
+Threshold: 0.245
+Feature: energy
+Threshold: 0.15535
+r&b
+Feature: energy
+Threshold: 0.2225
+Feature: dance
+Threshold: 0.704
+latin
+r&b
+rap
+r&b
+Feature: dance
+Threshold: 0.69
+Feature: dance
+Threshold: 0.671
+r&b
+Feature: energy
+Threshold: 0.3025
+pop
+Feature: energy
+Threshold: 0.323
+rap
+r&b
+Feature: energy
+Threshold: 0.30600000000000005
+Feature: energy
+Threshold: 0.2875
+Feature: dance
+Threshold: 0.717
+rock
+Feature: energy
+Threshold: 0.2765
+rap
+r&b
+Feature: energy
+Threshold: 0.2935
+pop
+r&b
+Feature: dance
+Threshold: 0.716
+Feature: energy
+Threshold: 0.327
+pop
+r&b
+Feature: energy
+Threshold: 0.325
+r&b
+rap
+Feature: energy
+Threshold: 0.4255
+Feature: energy
+Threshold: 0.382
+Feature: energy
+Threshold: 0.358
+Feature: dance
+Threshold: 0.675
+Feature: dance
+Threshold: 0.668
+r&b
+rock
+Feature: energy
+Threshold: 0.347
+Feature: dance
+Threshold: 0.7015
+Feature: energy
+Threshold: 0.3415
+pop
+rock
+Feature: dance
+Threshold: 0.723
+Feature: dance
+Threshold: 0.7184999999999999
+latin
+pop
+r&b
+Feature: dance
+Threshold: 0.709
+pop
+edm
+Feature: dance
+Threshold: 0.676
+Feature: dance
+Threshold: 0.6705000000000001
+r&b
+edm
+Feature: dance
+Threshold: 0.6805000000000001
+latin
+Feature: dance
+Threshold: 0.6985
+Feature: energy
+Threshold: 0.3625
+rap
+pop
+r&b
+Feature: energy
+Threshold: 0.4065
+Feature: dance
+Threshold: 0.6985
+Feature: dance
+Threshold: 0.6825
+Feature: energy
+Threshold: 0.401
+r&b
+rock
+Feature: energy
+Threshold: 0.3885
+rap
+r&b
+Feature: energy
+Threshold: 0.393
+rap
+r&b
+Feature: dance
+Threshold: 0.681
+Feature: dance
+Threshold: 0.6675
+rap
+Feature: energy
+Threshold: 0.415
+r&b
+Feature: energy
+Threshold: 0.416
+r&b
+latin
+Feature: dance
+Threshold: 0.6955
+latin
+Feature: dance
+Threshold: 0.704
+Feature: energy
+Threshold: 0.4195
+latin
+Feature: dance
+Threshold: 0.701
+r&b
+edm
+Feature: dance
+Threshold: 0.7175
+latin
+edm
+Feature: dance
+Threshold: 0.6895
+Feature: energy
+Threshold: 0.441
+Feature: dance
+Threshold: 0.674
+Feature: dance
+Threshold: 0.669
+Feature: dance
+Threshold: 0.6615
+rock
+r&b
+pop
+Feature: dance
+Threshold: 0.679
+r&b
+rap
+Feature: dance
+Threshold: 0.6735
+pop
+Feature: dance
+Threshold: 0.684
+rap
+Feature: energy
+Threshold: 0.4475
+rap
+r&b
+Feature: dance
+Threshold: 0.6944999999999999
+pop
+Feature: dance
+Threshold: 0.703
+Feature: dance
+Threshold: 0.698
+r&b
+latin
+Feature: dance
+Threshold: 0.717
+Feature: dance
+Threshold: 0.7055
+latin
+pop
+r&b
+Feature: dance
+Threshold: 0.692
+Feature: energy
+Threshold: 0.5105
+Feature: dance
+Threshold: 0.673
+Feature: energy
+Threshold: 0.486
+Feature: energy
+Threshold: 0.478
+Feature: dance
+Threshold: 0.663
+Feature: energy
+Threshold: 0.473
+rap
+latin
+edm
+Feature: dance
+Threshold: 0.6635
+r&b
+rap
+Feature: dance
+Threshold: 0.66
+rap
+pop
+Feature: energy
+Threshold: 0.476
+Feature: dance
+Threshold: 0.6825000000000001
+r&b
+pop
+Feature: dance
+Threshold: 0.681
+pop
+Feature: energy
+Threshold: 0.485
+Feature: dance
+Threshold: 0.6865
+rock
+Feature: energy
+Threshold: 0.4815
+edm
+rock
+Feature: energy
+Threshold: 0.497
+latin
+Feature: dance
+Threshold: 0.684
+rap
+r&b
+Feature: dance
+Threshold: 0.675
+Feature: dance
+Threshold: 0.666
+Feature: energy
+Threshold: 0.529
+Feature: energy
+Threshold: 0.5205
+Feature: dance
+Threshold: 0.663
+r&b
+latin
+pop
+rap
+Feature: energy
+Threshold: 0.5295000000000001
+r&b
+Feature: energy
+Threshold: 0.5375000000000001
+r&b
+latin
+Feature: energy
+Threshold: 0.528
+Feature: dance
+Threshold: 0.683
+Feature: energy
+Threshold: 0.5135000000000001
+r&b
+rap
+r&b
+Feature: energy
+Threshold: 0.5355000000000001
+Feature: dance
+Threshold: 0.6845
+rock
+rap
+rock
+Feature: energy
+Threshold: 0.5285
+Feature: dance
+Threshold: 0.711
+Feature: energy
+Threshold: 0.52
+Feature: dance
+Threshold: 0.696
+Feature: energy
+Threshold: 0.5055000000000001
+rap
+latin
+Feature: energy
+Threshold: 0.5095000000000001
+Feature: energy
+Threshold: 0.492
+Feature: dance
+Threshold: 0.706
+r&b
+rap
+Feature: energy
+Threshold: 0.5
+pop
+Feature: dance
+Threshold: 0.7035
+Feature: energy
+Threshold: 0.5025
+rock
+edm
+rap
+Feature: energy
+Threshold: 0.513
+r&b
+Feature: energy
+Threshold: 0.515
+r&b
+Feature: dance
+Threshold: 0.699
+pop
+rap
+Feature: dance
+Threshold: 0.7055
+rock
+Feature: dance
+Threshold: 0.706
+pop
+edm
+Feature: dance
+Threshold: 0.7195
+Feature: energy
+Threshold: 0.524
+pop
+Feature: dance
+Threshold: 0.7164999999999999
+latin
+Feature: energy
+Threshold: 0.5275000000000001
+pop
+rap
+Feature: energy
+Threshold: 0.507
+Feature: energy
+Threshold: 0.4875
+rap
+latin
+Feature: energy
+Threshold: 0.5185
+latin
+rock
+Feature: dance
+Threshold: 0.725
+Feature: dance
+Threshold: 0.7135
+Feature: dance
+Threshold: 0.7024999999999999
+Feature: dance
+Threshold: 0.699
+Feature: energy
+Threshold: 0.534
+rock
+latin
+Feature: energy
+Threshold: 0.531
+pop
+r&b
+latin
+Feature: dance
+Threshold: 0.7195
+rap
+pop
+Feature: dance
+Threshold: 0.7275
+Feature: dance
+Threshold: 0.725
+edm
+r&b
+latin
+Feature: energy
+Threshold: 0.633
+Feature: energy
+Threshold: 0.5760000000000001
+Feature: dance
+Threshold: 0.6885
+Feature: energy
+Threshold: 0.554
+Feature: dance
+Threshold: 0.671
+Feature: dance
+Threshold: 0.6595
+Feature: energy
+Threshold: 0.5455000000000001
+pop
+r&b
+pop
+Feature: energy
+Threshold: 0.5485
+Feature: dance
+Threshold: 0.6815
+latin
+rap
+latin
+Feature: dance
+Threshold: 0.6665000000000001
+Feature: energy
+Threshold: 0.5665
+Feature: energy
+Threshold: 0.559
+edm
+rap
+pop
+Feature: dance
+Threshold: 0.679
+Feature: energy
+Threshold: 0.5625
+rap
+latin
+r&b
+Feature: dance
+Threshold: 0.714
+Feature: energy
+Threshold: 0.5555
+Feature: dance
+Threshold: 0.7095
+edm
+Feature: energy
+Threshold: 0.544
+rap
+r&b
+Feature: dance
+Threshold: 0.695
+Feature: energy
+Threshold: 0.571
+Feature: energy
+Threshold: 0.5615
+edm
+r&b
+Feature: energy
+Threshold: 0.574
+r&b
+latin
+Feature: dance
+Threshold: 0.7035
+Feature: energy
+Threshold: 0.5714999999999999
+pop
+rap
+Feature: energy
+Threshold: 0.567
+Feature: dance
+Threshold: 0.7095
+r&b
+rap
+Feature: dance
+Threshold: 0.7064999999999999
+r&b
+rock
+Feature: energy
+Threshold: 0.552
+Feature: dance
+Threshold: 0.7224999999999999
+rap
+Feature: dance
+Threshold: 0.7255
+pop
+r&b
+Feature: dance
+Threshold: 0.7204999999999999
+Feature: energy
+Threshold: 0.567
+Feature: energy
+Threshold: 0.559
+latin
+r&b
+pop
+r&b
+Feature: dance
+Threshold: 0.6975
+Feature: energy
+Threshold: 0.601
+Feature: energy
+Threshold: 0.5945
+Feature: energy
+Threshold: 0.586
+Feature: dance
+Threshold: 0.6725000000000001
+rap
+Feature: dance
+Threshold: 0.676
+rock
+r&b
+Feature: energy
+Threshold: 0.5905
+latin
+pop
+Feature: dance
+Threshold: 0.685
+edm
+pop
+Feature: energy
+Threshold: 0.6194999999999999
+Feature: dance
+Threshold: 0.671
+Feature: dance
+Threshold: 0.6625000000000001
+latin
+Feature: energy
+Threshold: 0.6085
+Feature: energy
+Threshold: 0.605
+latin
+pop
+r&b
+Feature: energy
+Threshold: 0.614
+Feature: dance
+Threshold: 0.675
+rock
+Feature: energy
+Threshold: 0.605
+latin
+edm
+Feature: dance
+Threshold: 0.6905
+r&b
+edm
+Feature: energy
+Threshold: 0.6255
+Feature: dance
+Threshold: 0.6785000000000001
+latin
+Feature: dance
+Threshold: 0.6845
+Feature: dance
+Threshold: 0.68
+edm
+pop
+latin
+Feature: dance
+Threshold: 0.67
+pop
+Feature: dance
+Threshold: 0.6799999999999999
+r&b
+pop
+Feature: dance
+Threshold: 0.7115
+Feature: energy
+Threshold: 0.614
+Feature: energy
+Threshold: 0.5934999999999999
+r&b
+Feature: dance
+Threshold: 0.7064999999999999
+rap
+r&b
+Feature: energy
+Threshold: 0.622
+rap
+Feature: dance
+Threshold: 0.706
+edm
+Feature: dance
+Threshold: 0.709
+pop
+rock
+Feature: energy
+Threshold: 0.6174999999999999
+Feature: energy
+Threshold: 0.598
+Feature: dance
+Threshold: 0.722
+rap
+latin
+Feature: dance
+Threshold: 0.7184999999999999
+Feature: energy
+Threshold: 0.6094999999999999
+Feature: dance
+Threshold: 0.714
+r&b
+latin
+Feature: energy
+Threshold: 0.615
+latin
+pop
+Feature: dance
+Threshold: 0.7255
+rock
+Feature: energy
+Threshold: 0.609
+Feature: dance
+Threshold: 0.729
+Feature: energy
+Threshold: 0.6025
+rock
+rap
+pop
+Feature: dance
+Threshold: 0.7275
+Feature: energy
+Threshold: 0.615
+edm
+rap
+latin
+Feature: energy
+Threshold: 0.626
+Feature: dance
+Threshold: 0.718
+pop
+Feature: dance
+Threshold: 0.7195
+latin
+rap
+Feature: dance
+Threshold: 0.7164999999999999
+Feature: dance
+Threshold: 0.7144999999999999
+latin
+rock
+r&b
+Feature: energy
+Threshold: 0.7304999999999999
+Feature: energy
+Threshold: 0.6945
+Feature: energy
+Threshold: 0.662
+Feature: dance
+Threshold: 0.6815
+Feature: energy
+Threshold: 0.6385000000000001
+Feature: dance
+Threshold: 0.6615
+rap
+Feature: dance
+Threshold: 0.672
+edm
+pop
+Feature: dance
+Threshold: 0.672
+Feature: dance
+Threshold: 0.6655
+pop
+latin
+Feature: dance
+Threshold: 0.6775
+edm
+latin
+Feature: dance
+Threshold: 0.709
+Feature: dance
+Threshold: 0.7015
+Feature: dance
+Threshold: 0.6910000000000001
+Feature: energy
+Threshold: 0.649
+pop
+Feature: dance
+Threshold: 0.685
+pop
+rap
+Feature: energy
+Threshold: 0.643
+Feature: dance
+Threshold: 0.699
+Feature: energy
+Threshold: 0.6345000000000001
+pop
+r&b
+rap
+Feature: dance
+Threshold: 0.697
+edm
+latin
+Feature: energy
+Threshold: 0.6555
+Feature: energy
+Threshold: 0.642
+Feature: energy
+Threshold: 0.634
+latin
+Feature: energy
+Threshold: 0.6345000000000001
+rock
+r&b
+Feature: energy
+Threshold: 0.653
+Feature: energy
+Threshold: 0.6475
+r&b
+rap
+edm
+Feature: energy
+Threshold: 0.6605000000000001
+pop
+rap
+Feature: energy
+Threshold: 0.646
+Feature: energy
+Threshold: 0.6375
+pop
+latin
+Feature: dance
+Threshold: 0.7144999999999999
+Feature: dance
+Threshold: 0.7104999999999999
+latin
+Feature: energy
+Threshold: 0.6525000000000001
+rap
+pop
+Feature: dance
+Threshold: 0.7184999999999999
+pop
+Feature: energy
+Threshold: 0.6515
+rock
+Feature: energy
+Threshold: 0.6585000000000001
+rap
+r&b
+Feature: dance
+Threshold: 0.683
+Feature: dance
+Threshold: 0.6695
+Feature: energy
+Threshold: 0.68
+Feature: dance
+Threshold: 0.6645000000000001
+Feature: dance
+Threshold: 0.6605000000000001
+rock
+Feature: energy
+Threshold: 0.6715
+Feature: energy
+Threshold: 0.6655
+rap
+pop
+latin
+Feature: energy
+Threshold: 0.6695
+latin
+Feature: energy
+Threshold: 0.6735
+r&b
+rock
+Feature: dance
+Threshold: 0.66
+edm
+latin
+Feature: energy
+Threshold: 0.6825
+Feature: energy
+Threshold: 0.6755
+Feature: dance
+Threshold: 0.675
+edm
+Feature: energy
+Threshold: 0.6725000000000001
+r&b
+pop
+Feature: energy
+Threshold: 0.679
+r&b
+Feature: dance
+Threshold: 0.677
+pop
+r&b
+Feature: dance
+Threshold: 0.6795
+Feature: dance
+Threshold: 0.6745000000000001
+edm
+Feature: dance
+Threshold: 0.6775
+pop
+rock
+Feature: energy
+Threshold: 0.6904999999999999
+rap
+edm
+Feature: dance
+Threshold: 0.6984999999999999
+Feature: energy
+Threshold: 0.668
+Feature: dance
+Threshold: 0.6915
+r&b
+edm
+Feature: energy
+Threshold: 0.6775
+Feature: dance
+Threshold: 0.695
+pop
+Feature: dance
+Threshold: 0.695
+edm
+pop
+Feature: energy
+Threshold: 0.6845000000000001
+Feature: dance
+Threshold: 0.6885
+r&b
+latin
+Feature: dance
+Threshold: 0.6845000000000001
+r&b
+rap
+Feature: energy
+Threshold: 0.667
+Feature: dance
+Threshold: 0.708
+Feature: energy
+Threshold: 0.6645000000000001
+Feature: dance
+Threshold: 0.7044999999999999
+pop
+latin
+pop
+Feature: dance
+Threshold: 0.7115
+rap
+pop
+Feature: dance
+Threshold: 0.708
+Feature: energy
+Threshold: 0.679
+Feature: dance
+Threshold: 0.7015
+rap
+r&b
+Feature: energy
+Threshold: 0.683
+rap
+pop
+Feature: energy
+Threshold: 0.672
+Feature: dance
+Threshold: 0.7195
+latin
+edm
+Feature: dance
+Threshold: 0.7144999999999999
+r&b
+Feature: dance
+Threshold: 0.7235
+Feature: energy
+Threshold: 0.6785000000000001
+rap
+latin
+Feature: energy
+Threshold: 0.6775
+edm
+latin
+Feature: dance
+Threshold: 0.6990000000000001
+Feature: dance
+Threshold: 0.6695
+Feature: dance
+Threshold: 0.662
+Feature: energy
+Threshold: 0.717
+r&b
+Feature: energy
+Threshold: 0.726
+latin
+rap
+Feature: energy
+Threshold: 0.7075
+edm
+Feature: dance
+Threshold: 0.6645000000000001
+Feature: dance
+Threshold: 0.6625000000000001
+latin
+pop
+rap
+Feature: dance
+Threshold: 0.6845
+Feature: energy
+Threshold: 0.7215
+Feature: energy
+Threshold: 0.7144999999999999
+Feature: energy
+Threshold: 0.704
+Feature: energy
+Threshold: 0.6984999999999999
+Feature: dance
+Threshold: 0.68
+r&b
+Feature: dance
+Threshold: 0.683
+edm
+pop
+Feature: dance
+Threshold: 0.6815
+rap
+Feature: energy
+Threshold: 0.6995
+pop
+edm
+Feature: dance
+Threshold: 0.6815
+r&b
+latin
+pop
+Feature: energy
+Threshold: 0.726
+Feature: dance
+Threshold: 0.6765000000000001
+Feature: dance
+Threshold: 0.674
+Feature: energy
+Threshold: 0.724
+latin
+pop
+pop
+Feature: dance
+Threshold: 0.681
+edm
+r&b
+Feature: dance
+Threshold: 0.6785000000000001
+pop
+edm
+Feature: energy
+Threshold: 0.713
+Feature: energy
+Threshold: 0.709
+Feature: energy
+Threshold: 0.706
+Feature: energy
+Threshold: 0.7015
+Feature: dance
+Threshold: 0.696
+rap
+r&b
+Feature: dance
+Threshold: 0.69
+r&b
+pop
+edm
+Feature: dance
+Threshold: 0.686
+rap
+Feature: dance
+Threshold: 0.688
+pop
+latin
+Feature: energy
+Threshold: 0.721
+Feature: dance
+Threshold: 0.6924999999999999
+Feature: energy
+Threshold: 0.717
+rock
+Feature: dance
+Threshold: 0.6875
+rap
+r&b
+Feature: energy
+Threshold: 0.716
+pop
+r&b
+Feature: dance
+Threshold: 0.6944999999999999
+rap
+Feature: energy
+Threshold: 0.724
+r&b
+edm
+Feature: energy
+Threshold: 0.711
+Feature: dance
+Threshold: 0.7115
+Feature: energy
+Threshold: 0.6995
+edm
+Feature: energy
+Threshold: 0.7064999999999999
+r&b
+latin
+Feature: dance
+Threshold: 0.717
+Feature: energy
+Threshold: 0.7075
+Feature: energy
+Threshold: 0.702
+rock
+edm
+pop
+Feature: dance
+Threshold: 0.722
+Feature: dance
+Threshold: 0.7195
+pop
+r&b
+Feature: energy
+Threshold: 0.7055
+pop
+Feature: dance
+Threshold: 0.7264999999999999
+edm
+r&b
+Feature: energy
+Threshold: 0.715
+Feature: dance
+Threshold: 0.7115
+rap
+edm
+Feature: dance
+Threshold: 0.7115
+Feature: energy
+Threshold: 0.7215
+Feature: dance
+Threshold: 0.707
+pop
+latin
+pop
+Feature: dance
+Threshold: 0.719
+Feature: dance
+Threshold: 0.715
+edm
+Feature: energy
+Threshold: 0.7215
+latin
+r&b
+Feature: dance
+Threshold: 0.7244999999999999
+pop
+Feature: energy
+Threshold: 0.7264999999999999
+Feature: dance
+Threshold: 0.7264999999999999
+edm
+rap
+r&b
+Feature: dance
+Threshold: 0.7155
+Feature: dance
+Threshold: 0.6950000000000001
+Feature: dance
+Threshold: 0.679
+Feature: dance
+Threshold: 0.668
+Feature: energy
+Threshold: 0.7545
+Feature: energy
+Threshold: 0.7475
+Feature: energy
+Threshold: 0.737
+r&b
+rap
+edm
+Feature: energy
+Threshold: 0.7645
+Feature: energy
+Threshold: 0.7615000000000001
+rap
+pop
+Feature: dance
+Threshold: 0.663
+r&b
+rap
+Feature: energy
+Threshold: 0.755
+Feature: energy
+Threshold: 0.7455
+Feature: energy
+Threshold: 0.738
+rap
+pop
+latin
+Feature: dance
+Threshold: 0.6765000000000001
+Feature: energy
+Threshold: 0.7655000000000001
+Feature: energy
+Threshold: 0.7575000000000001
+r&b
+Feature: energy
+Threshold: 0.7615000000000001
+pop
+r&b
+Feature: dance
+Threshold: 0.676
+r&b
+latin
+latin
+Feature: energy
+Threshold: 0.754
+Feature: energy
+Threshold: 0.74
+Feature: dance
+Threshold: 0.688
+latin
+Feature: dance
+Threshold: 0.6895
+pop
+rap
+Feature: energy
+Threshold: 0.743
+rap
+Feature: energy
+Threshold: 0.7444999999999999
+pop
+edm
+Feature: dance
+Threshold: 0.6865
+Feature: energy
+Threshold: 0.764
+Feature: energy
+Threshold: 0.7575000000000001
+rap
+edm
+Feature: dance
+Threshold: 0.681
+edm
+pop
+Feature: dance
+Threshold: 0.691
+edm
+Feature: energy
+Threshold: 0.76
+edm
+r&b
+Feature: energy
+Threshold: 0.7444999999999999
+Feature: dance
+Threshold: 0.7095
+Feature: energy
+Threshold: 0.7335
+Feature: dance
+Threshold: 0.7015
+r&b
+rap
+Feature: energy
+Threshold: 0.738
+r&b
+Feature: dance
+Threshold: 0.699
+edm
+rap
+r&b
+Feature: dance
+Threshold: 0.706
+Feature: energy
+Threshold: 0.7505
+pop
+rap
+Feature: energy
+Threshold: 0.765
+Feature: energy
+Threshold: 0.7575000000000001
+Feature: energy
+Threshold: 0.751
+edm
+Feature: energy
+Threshold: 0.7555000000000001
+r&b
+latin
+latin
+rap
+Feature: dance
+Threshold: 0.724
+Feature: energy
+Threshold: 0.7475
+Feature: energy
+Threshold: 0.738
+edm
+Feature: energy
+Threshold: 0.7415
+Feature: dance
+Threshold: 0.718
+Feature: dance
+Threshold: 0.7164999999999999
+rap
+latin
+edm
+pop
+Feature: energy
+Threshold: 0.7575000000000001
+edm
+Feature: energy
+Threshold: 0.7645
+pop
+Feature: energy
+Threshold: 0.768
+rap
+Feature: dance
+Threshold: 0.7204999999999999
+Feature: energy
+Threshold: 0.773
+edm
+latin
+r&b
+Feature: energy
+Threshold: 0.7525
+Feature: dance
+Threshold: 0.728
+latin
+rap
+edm
+Feature: dance
+Threshold: 0.812
+Feature: energy
+Threshold: 0.617
+Feature: energy
+Threshold: 0.47250000000000003
+Feature: energy
+Threshold: 0.44799999999999995
+Feature: energy
+Threshold: 0.322
+Feature: dance
+Threshold: 0.76
+Feature: energy
+Threshold: 0.1481
+pop
+r&b
+Feature: energy
+Threshold: 0.243
+Feature: energy
+Threshold: 0.187
+r&b
+rap
+Feature: energy
+Threshold: 0.3035
+pop
+Feature: dance
+Threshold: 0.7875000000000001
+Feature: dance
+Threshold: 0.7725
+Feature: dance
+Threshold: 0.764
+latin
+pop
+r&b
+rap
+Feature: dance
+Threshold: 0.76
+Feature: dance
+Threshold: 0.7435
+Feature: energy
+Threshold: 0.429
+Feature: energy
+Threshold: 0.391
+Feature: energy
+Threshold: 0.3405
+r&b
+Feature: energy
+Threshold: 0.3685
+rap
+r&b
+Feature: energy
+Threshold: 0.4115
+edm
+r&b
+latin
+Feature: energy
+Threshold: 0.38549999999999995
+Feature: energy
+Threshold: 0.362
+r&b
+rock
+rap
+Feature: energy
+Threshold: 0.4065
+Feature: energy
+Threshold: 0.39
+Feature: dance
+Threshold: 0.79
+Feature: dance
+Threshold: 0.783
+Feature: energy
+Threshold: 0.3755
+pop
+r&b
+Feature: energy
+Threshold: 0.34450000000000003
+rock
+r&b
+Feature: energy
+Threshold: 0.3735
+latin
+rap
+Feature: dance
+Threshold: 0.782
+rap
+r&b
+Feature: dance
+Threshold: 0.789
+Feature: energy
+Threshold: 0.433
+Feature: dance
+Threshold: 0.777
+pop
+r&b
+latin
+Feature: dance
+Threshold: 0.799
+Feature: energy
+Threshold: 0.425
+r&b
+Feature: dance
+Threshold: 0.7935000000000001
+latin
+pop
+Feature: energy
+Threshold: 0.435
+Feature: energy
+Threshold: 0.423
+r&b
+Feature: dance
+Threshold: 0.8045
+pop
+rap
+Feature: energy
+Threshold: 0.441
+pop
+r&b
+Feature: dance
+Threshold: 0.79
+Feature: dance
+Threshold: 0.76
+Feature: energy
+Threshold: 0.45999999999999996
+Feature: dance
+Threshold: 0.7395
+pop
+rap
+Feature: dance
+Threshold: 0.7424999999999999
+Feature: dance
+Threshold: 0.739
+edm
+rock
+pop
+Feature: dance
+Threshold: 0.772
+pop
+Feature: dance
+Threshold: 0.7805
+Feature: energy
+Threshold: 0.4615
+Feature: energy
+Threshold: 0.453
+rap
+r&b
+rap
+rap
+Feature: energy
+Threshold: 0.4635
+Feature: energy
+Threshold: 0.454
+r&b
+Feature: energy
+Threshold: 0.455
+r&b
+rap
+Feature: dance
+Threshold: 0.7955000000000001
+Feature: energy
+Threshold: 0.469
+r&b
+rap
+r&b
+Feature: energy
+Threshold: 0.5569999999999999
+Feature: dance
+Threshold: 0.755
+Feature: dance
+Threshold: 0.7444999999999999
+Feature: energy
+Threshold: 0.5355000000000001
+Feature: dance
+Threshold: 0.7375
+Feature: energy
+Threshold: 0.5045
+Feature: energy
+Threshold: 0.4945
+r&b
+latin
+latin
+Feature: energy
+Threshold: 0.509
+pop
+Feature: energy
+Threshold: 0.5215000000000001
+r&b
+rap
+edm
+Feature: dance
+Threshold: 0.748
+Feature: energy
+Threshold: 0.5135000000000001
+rap
+Feature: energy
+Threshold: 0.5355000000000001
+latin
+rap
+Feature: dance
+Threshold: 0.748
+pop
+Feature: energy
+Threshold: 0.5155000000000001
+pop
+Feature: energy
+Threshold: 0.529
+r&b
+latin
+Feature: energy
+Threshold: 0.516
+Feature: energy
+Threshold: 0.494
+Feature: energy
+Threshold: 0.4855
+Feature: dance
+Threshold: 0.775
+rock
+r&b
+Feature: dance
+Threshold: 0.7765
+r&b
+Feature: dance
+Threshold: 0.8015000000000001
+rap
+Feature: dance
+Threshold: 0.8055000000000001
+rap
+latin
+Feature: dance
+Threshold: 0.7715000000000001
+Feature: dance
+Threshold: 0.7605
+Feature: energy
+Threshold: 0.503
+pop
+rap
+r&b
+Feature: dance
+Threshold: 0.796
+Feature: dance
+Threshold: 0.781
+edm
+Feature: energy
+Threshold: 0.5025
+latin
+r&b
+Feature: dance
+Threshold: 0.802
+rap
+edm
+Feature: energy
+Threshold: 0.538
+Feature: dance
+Threshold: 0.775
+Feature: dance
+Threshold: 0.7715000000000001
+Feature: energy
+Threshold: 0.5195000000000001
+pop
+Feature: dance
+Threshold: 0.767
+pop
+Feature: energy
+Threshold: 0.528
+latin
+r&b
+edm
+Feature: dance
+Threshold: 0.796
+Feature: dance
+Threshold: 0.788
+Feature: energy
+Threshold: 0.523
+rap
+Feature: dance
+Threshold: 0.7805
+rap
+Feature: energy
+Threshold: 0.531
+pop
+edm
+Feature: energy
+Threshold: 0.525
+Feature: dance
+Threshold: 0.7915000000000001
+latin
+r&b
+latin
+Feature: dance
+Threshold: 0.8085
+latin
+r&b
+Feature: dance
+Threshold: 0.796
+Feature: energy
+Threshold: 0.546
+Feature: dance
+Threshold: 0.7915000000000001
+Feature: dance
+Threshold: 0.7875000000000001
+Feature: dance
+Threshold: 0.7715000000000001
+Feature: dance
+Threshold: 0.761
+Feature: dance
+Threshold: 0.759
+latin
+Feature: dance
+Threshold: 0.759
+pop
+latin
+rap
+rap
+Feature: energy
+Threshold: 0.54
+r&b
+pop
+rap
+Feature: dance
+Threshold: 0.7795000000000001
+Feature: dance
+Threshold: 0.7625
+r&b
+rap
+Feature: energy
+Threshold: 0.55
+latin
+Feature: dance
+Threshold: 0.793
+Feature: dance
+Threshold: 0.7875000000000001
+Feature: energy
+Threshold: 0.553
+r&b
+rap
+pop
+r&b
+Feature: dance
+Threshold: 0.799
+r&b
+Feature: dance
+Threshold: 0.8055000000000001
+edm
+r&b
+Feature: dance
+Threshold: 0.7484999999999999
+Feature: energy
+Threshold: 0.5760000000000001
+Feature: energy
+Threshold: 0.5665
+Feature: energy
+Threshold: 0.5609999999999999
+Feature: energy
+Threshold: 0.559
+r&b
+pop
+Feature: dance
+Threshold: 0.737
+Feature: dance
+Threshold: 0.731
+pop
+rap
+latin
+Feature: energy
+Threshold: 0.571
+Feature: dance
+Threshold: 0.734
+rap
+pop
+Feature: dance
+Threshold: 0.7384999999999999
+latin
+r&b
+Feature: energy
+Threshold: 0.603
+Feature: energy
+Threshold: 0.5874999999999999
+Feature: energy
+Threshold: 0.5834999999999999
+Feature: dance
+Threshold: 0.7364999999999999
+r&b
+Feature: dance
+Threshold: 0.74
+rap
+rock
+edm
+Feature: dance
+Threshold: 0.742
+rap
+latin
+Feature: dance
+Threshold: 0.744
+pop
+latin
+Feature: dance
+Threshold: 0.77
+Feature: energy
+Threshold: 0.593
+Feature: dance
+Threshold: 0.7585
+Feature: energy
+Threshold: 0.5714999999999999
+pop
+Feature: energy
+Threshold: 0.582
+Feature: dance
+Threshold: 0.7545
+Feature: dance
+Threshold: 0.7525
+Feature: dance
+Threshold: 0.75
+r&b
+edm
+rap
+Feature: dance
+Threshold: 0.757
+edm
+latin
+Feature: energy
+Threshold: 0.588
+pop
+Feature: energy
+Threshold: 0.59
+r&b
+latin
+Feature: energy
+Threshold: 0.578
+Feature: dance
+Threshold: 0.764
+Feature: energy
+Threshold: 0.5615000000000001
+rap
+latin
+pop
+Feature: energy
+Threshold: 0.5854999999999999
+pop
+edm
+Feature: energy
+Threshold: 0.6114999999999999
+Feature: energy
+Threshold: 0.6065
+Feature: energy
+Threshold: 0.6
+Feature: dance
+Threshold: 0.755
+r&b
+rock
+rap
+Feature: dance
+Threshold: 0.756
+r&b
+rock
+Feature: dance
+Threshold: 0.76
+pop
+latin
+Feature: energy
+Threshold: 0.5845
+Feature: dance
+Threshold: 0.7755000000000001
+Feature: energy
+Threshold: 0.577
+r&b
+rap
+Feature: energy
+Threshold: 0.5665
+Feature: dance
+Threshold: 0.793
+Feature: dance
+Threshold: 0.784
+latin
+Feature: energy
+Threshold: 0.5625
+edm
+r&b
+r&b
+Feature: dance
+Threshold: 0.787
+Feature: energy
+Threshold: 0.5754999999999999
+Feature: dance
+Threshold: 0.7805
+pop
+latin
+Feature: dance
+Threshold: 0.779
+edm
+pop
+Feature: dance
+Threshold: 0.795
+Feature: dance
+Threshold: 0.7905
+latin
+pop
+rap
+Feature: dance
+Threshold: 0.791
+Feature: energy
+Threshold: 0.603
+Feature: dance
+Threshold: 0.7795000000000001
+latin
+Feature: dance
+Threshold: 0.783
+rap
+edm
+rap
+Feature: energy
+Threshold: 0.6034999999999999
+Feature: energy
+Threshold: 0.5885
+pop
+Feature: energy
+Threshold: 0.593
+Feature: dance
+Threshold: 0.8005
+rap
+latin
+pop
+Feature: dance
+Threshold: 0.799
+edm
+Feature: dance
+Threshold: 0.8015000000000001
+r&b
+Feature: energy
+Threshold: 0.6114999999999999
+Feature: energy
+Threshold: 0.609
+r&b
+latin
+Feature: dance
+Threshold: 0.8045
+latin
+rap
+Feature: energy
+Threshold: 0.6805
+Feature: energy
+Threshold: 0.64
+Feature: dance
+Threshold: 0.7745
+Feature: dance
+Threshold: 0.756
+Feature: energy
+Threshold: 0.622
+Feature: dance
+Threshold: 0.741
+r&b
+edm
+Feature: dance
+Threshold: 0.74
+Feature: energy
+Threshold: 0.6305000000000001
+rap
+r&b
+Feature: energy
+Threshold: 0.6275
+rap
+latin
+Feature: energy
+Threshold: 0.631
+Feature: dance
+Threshold: 0.7625
+Feature: energy
+Threshold: 0.6214999999999999
+edm
+Feature: energy
+Threshold: 0.627
+pop
+latin
+latin
+Feature: dance
+Threshold: 0.766
+rap
+Feature: energy
+Threshold: 0.633
+rap
+pop
+Feature: energy
+Threshold: 0.63
+Feature: dance
+Threshold: 0.7915000000000001
+Feature: dance
+Threshold: 0.783
+Feature: dance
+Threshold: 0.777
+latin
+Feature: dance
+Threshold: 0.779
+pop
+r&b
+Feature: energy
+Threshold: 0.6245
+Feature: energy
+Threshold: 0.6214999999999999
+latin
+pop
+Feature: dance
+Threshold: 0.787
+latin
+r&b
+Feature: dance
+Threshold: 0.803
+Feature: dance
+Threshold: 0.798
+rap
+pop
+Feature: energy
+Threshold: 0.6205
+r&b
+rap
+Feature: energy
+Threshold: 0.6315
+Feature: dance
+Threshold: 0.778
+latin
+Feature: dance
+Threshold: 0.7835000000000001
+pop
+r&b
+Feature: dance
+Threshold: 0.788
+r&b
+rap
+Feature: dance
+Threshold: 0.7545
+Feature: energy
+Threshold: 0.6595
+Feature: dance
+Threshold: 0.7424999999999999
+Feature: dance
+Threshold: 0.7355
+Feature: dance
+Threshold: 0.732
+pop
+Feature: energy
+Threshold: 0.6485000000000001
+Feature: energy
+Threshold: 0.6455
+pop
+edm
+r&b
+r&b
+Feature: dance
+Threshold: 0.754
+Feature: dance
+Threshold: 0.7495
+rap
+Feature: energy
+Threshold: 0.6515
+latin
+Feature: energy
+Threshold: 0.656
+latin
+Feature: dance
+Threshold: 0.753
+pop
+r&b
+pop
+Feature: dance
+Threshold: 0.737
+Feature: energy
+Threshold: 0.6695
+r&b
+Feature: dance
+Threshold: 0.7324999999999999
+rap
+edm
+Feature: dance
+Threshold: 0.747
+Feature: energy
+Threshold: 0.671
+latin
+Feature: dance
+Threshold: 0.7444999999999999
+Feature: dance
+Threshold: 0.7424999999999999
+Feature: dance
+Threshold: 0.74
+rap
+rock
+r&b
+pop
+Feature: dance
+Threshold: 0.751
+Feature: energy
+Threshold: 0.678
+edm
+Feature: dance
+Threshold: 0.7484999999999999
+rap
+r&b
+Feature: energy
+Threshold: 0.672
+latin
+Feature: energy
+Threshold: 0.6765000000000001
+latin
+rap
+Feature: dance
+Threshold: 0.7675000000000001
+Feature: energy
+Threshold: 0.655
+Feature: energy
+Threshold: 0.649
+r&b
+latin
+Feature: energy
+Threshold: 0.6645000000000001
+Feature: dance
+Threshold: 0.761
+Feature: dance
+Threshold: 0.759
+pop
+rap
+rap
+Feature: dance
+Threshold: 0.761
+Feature: energy
+Threshold: 0.674
+rap
+pop
+Feature: dance
+Threshold: 0.765
+r&b
+Feature: energy
+Threshold: 0.677
+pop
+latin
+Feature: energy
+Threshold: 0.654
+Feature: dance
+Threshold: 0.7915000000000001
+Feature: dance
+Threshold: 0.7795000000000001
+Feature: dance
+Threshold: 0.774
+latin
+rap
+Feature: energy
+Threshold: 0.6455
+Feature: dance
+Threshold: 0.784
+rap
+latin
+r&b
+Feature: energy
+Threshold: 0.644
+Feature: dance
+Threshold: 0.799
+rap
+Feature: dance
+Threshold: 0.805
+r&b
+latin
+Feature: dance
+Threshold: 0.8045
+Feature: dance
+Threshold: 0.7995000000000001
+Feature: dance
+Threshold: 0.7955000000000001
+rap
+r&b
+pop
+Feature: energy
+Threshold: 0.6505000000000001
+latin
+r&b
+Feature: dance
+Threshold: 0.79
+Feature: energy
+Threshold: 0.6655
+Feature: dance
+Threshold: 0.7735000000000001
+rap
+r&b
+Feature: dance
+Threshold: 0.785
+Feature: dance
+Threshold: 0.779
+Feature: energy
+Threshold: 0.6745000000000001
+edm
+Feature: dance
+Threshold: 0.772
+r&b
+latin
+rap
+Feature: energy
+Threshold: 0.67
+edm
+latin
+Feature: energy
+Threshold: 0.6615
+Feature: dance
+Threshold: 0.802
+rap
+r&b
+Feature: dance
+Threshold: 0.798
+Feature: energy
+Threshold: 0.67
+rap
+pop
+Feature: energy
+Threshold: 0.67
+edm
+latin
+Feature: energy
+Threshold: 0.704
+Feature: dance
+Threshold: 0.749
+Feature: dance
+Threshold: 0.739
+Feature: dance
+Threshold: 0.735
+Feature: dance
+Threshold: 0.7324999999999999
+latin
+rap
+latin
+Feature: energy
+Threshold: 0.6924999999999999
+rap
+Feature: dance
+Threshold: 0.742
+rock
+Feature: energy
+Threshold: 0.696
+rap
+Feature: energy
+Threshold: 0.6964999999999999
+rap
+r&b
+Feature: energy
+Threshold: 0.691
+Feature: dance
+Threshold: 0.759
+Feature: energy
+Threshold: 0.6845
+rap
+Feature: dance
+Threshold: 0.752
+pop
+latin
+Feature: dance
+Threshold: 0.768
+Feature: energy
+Threshold: 0.6859999999999999
+r&b
+edm
+Feature: dance
+Threshold: 0.7795000000000001
+latin
+Feature: dance
+Threshold: 0.7945
+Feature: energy
+Threshold: 0.6859999999999999
+Feature: dance
+Threshold: 0.787
+edm
+rap
+pop
+Feature: dance
+Threshold: 0.8015000000000001
+latin
+Feature: energy
+Threshold: 0.6845000000000001
+rock
+edm
+Feature: dance
+Threshold: 0.7545
+Feature: energy
+Threshold: 0.6995
+r&b
+rap
+Feature: dance
+Threshold: 0.7795000000000001
+Feature: dance
+Threshold: 0.758
+edm
+Feature: dance
+Threshold: 0.7645
+Feature: dance
+Threshold: 0.761
+rap
+Feature: energy
+Threshold: 0.696
+r&b
+Feature: energy
+Threshold: 0.7004999999999999
+pop
+rap
+Feature: energy
+Threshold: 0.698
+Feature: energy
+Threshold: 0.693
+rap
+pop
+r&b
+Feature: dance
+Threshold: 0.8065
+Feature: dance
+Threshold: 0.795
+Feature: energy
+Threshold: 0.6964999999999999
+pop
+Feature: dance
+Threshold: 0.7905
+latin
+rap
+Feature: dance
+Threshold: 0.799
+latin
+rap
+Feature: energy
+Threshold: 0.697
+rap
+rock
+Feature: energy
+Threshold: 0.7295
+Feature: dance
+Threshold: 0.781
+Feature: dance
+Threshold: 0.747
+Feature: dance
+Threshold: 0.742
+Feature: energy
+Threshold: 0.7144999999999999
+latin
+Feature: energy
+Threshold: 0.72
+r&b
+rap
+Feature: energy
+Threshold: 0.7255
+Feature: energy
+Threshold: 0.719
+Feature: dance
+Threshold: 0.743
+Feature: dance
+Threshold: 0.742
+latin
+pop
+r&b
+Feature: energy
+Threshold: 0.7224999999999999
+pop
+edm
+pop
+Feature: dance
+Threshold: 0.7585
+Feature: energy
+Threshold: 0.7215
+Feature: energy
+Threshold: 0.7095
+rap
+latin
+Feature: energy
+Threshold: 0.7255
+latin
+rock
+Feature: dance
+Threshold: 0.77
+Feature: dance
+Threshold: 0.762
+Feature: dance
+Threshold: 0.7605
+pop
+rap
+Feature: dance
+Threshold: 0.766
+pop
+Feature: dance
+Threshold: 0.768
+rap
+edm
+Feature: energy
+Threshold: 0.718
+Feature: dance
+Threshold: 0.7745
+edm
+Feature: energy
+Threshold: 0.71
+edm
+latin
+Feature: dance
+Threshold: 0.773
+pop
+rap
+Feature: dance
+Threshold: 0.804
+Feature: energy
+Threshold: 0.7164999999999999
+Feature: energy
+Threshold: 0.7115
+rap
+Feature: dance
+Threshold: 0.8015000000000001
+Feature: dance
+Threshold: 0.7915000000000001
+rap
+latin
+pop
+Feature: energy
+Threshold: 0.724
+Feature: dance
+Threshold: 0.799
+Feature: dance
+Threshold: 0.795
+pop
+rap
+latin
+Feature: dance
+Threshold: 0.7955000000000001
+pop
+Feature: dance
+Threshold: 0.798
+edm
+r&b
+Feature: energy
+Threshold: 0.7135
+r&b
+rap
+Feature: energy
+Threshold: 0.7605
+Feature: dance
+Threshold: 0.761
+Feature: dance
+Threshold: 0.7364999999999999
+Feature: energy
+Threshold: 0.7515000000000001
+Feature: dance
+Threshold: 0.7335
+Feature: energy
+Threshold: 0.747
+pop
+Feature: dance
+Threshold: 0.7324999999999999
+pop
+edm
+Feature: energy
+Threshold: 0.742
+rap
+pop
+Feature: dance
+Threshold: 0.734
+Feature: energy
+Threshold: 0.757
+edm
+latin
+pop
+Feature: dance
+Threshold: 0.75
+Feature: energy
+Threshold: 0.743
+Feature: dance
+Threshold: 0.7464999999999999
+Feature: energy
+Threshold: 0.734
+pop
+Feature: dance
+Threshold: 0.7404999999999999
+rap
+r&b
+Feature: energy
+Threshold: 0.7364999999999999
+Feature: energy
+Threshold: 0.734
+rap
+rock
+latin
+Feature: dance
+Threshold: 0.7404999999999999
+edm
+Feature: energy
+Threshold: 0.748
+Feature: energy
+Threshold: 0.744
+rock
+rap
+Feature: energy
+Threshold: 0.7545
+Feature: dance
+Threshold: 0.743
+latin
+r&b
+rock
+Feature: energy
+Threshold: 0.754
+Feature: energy
+Threshold: 0.7435
+Feature: energy
+Threshold: 0.7344999999999999
+r&b
+Feature: dance
+Threshold: 0.753
+Feature: energy
+Threshold: 0.739
+pop
+rock
+Feature: energy
+Threshold: 0.7395
+rap
+r&b
+Feature: dance
+Threshold: 0.7575000000000001
+latin
+pop
+r&b
+Feature: energy
+Threshold: 0.752
+Feature: dance
+Threshold: 0.7835000000000001
+Feature: dance
+Threshold: 0.779
+Feature: dance
+Threshold: 0.771
+Feature: dance
+Threshold: 0.766
+Feature: dance
+Threshold: 0.7655000000000001
+Feature: energy
+Threshold: 0.7355
+edm
+r&b
+rock
+latin
+Feature: energy
+Threshold: 0.7424999999999999
+rap
+Feature: energy
+Threshold: 0.748
+edm
+latin
+Feature: energy
+Threshold: 0.736
+r&b
+pop
+Feature: dance
+Threshold: 0.798
+Feature: dance
+Threshold: 0.7895000000000001
+Feature: energy
+Threshold: 0.74
+latin
+r&b
+latin
+Feature: energy
+Threshold: 0.74
+rap
+Feature: dance
+Threshold: 0.8005
+Feature: energy
+Threshold: 0.7435
+latin
+r&b
+Feature: dance
+Threshold: 0.803
+pop
+Feature: dance
+Threshold: 0.8045
+latin
+edm
+Feature: dance
+Threshold: 0.7715000000000001
+Feature: dance
+Threshold: 0.763
+r&b
+Feature: dance
+Threshold: 0.767
+latin
+pop
+Feature: dance
+Threshold: 0.795
+pop
+Feature: dance
+Threshold: 0.808
+rap
+r&b
+Feature: dance
+Threshold: 0.778
+Feature: dance
+Threshold: 0.7475
+Feature: energy
+Threshold: 0.768
+Feature: dance
+Threshold: 0.742
+edm
+rap
+Feature: dance
+Threshold: 0.737
+rap
+Feature: dance
+Threshold: 0.74
+pop
+edm
+Feature: dance
+Threshold: 0.7535000000000001
+Feature: energy
+Threshold: 0.768
+latin
+rap
+Feature: energy
+Threshold: 0.771
+Feature: dance
+Threshold: 0.761
+edm
+Feature: energy
+Threshold: 0.7675000000000001
+Feature: dance
+Threshold: 0.771
+rap
+Feature: dance
+Threshold: 0.773
+r&b
+pop
+Feature: dance
+Threshold: 0.772
+edm
+rap
+latin
+Feature: dance
+Threshold: 0.789
+Feature: energy
+Threshold: 0.7695000000000001
+pop
+Feature: dance
+Threshold: 0.783
+latin
+Feature: dance
+Threshold: 0.7855000000000001
+edm
+Feature: energy
+Threshold: 0.773
+latin
+edm
+Feature: dance
+Threshold: 0.795
+Feature: dance
+Threshold: 0.791
+Feature: energy
+Threshold: 0.763
+latin
+rap
+r&b
+Feature: dance
+Threshold: 0.8025
+edm
+latin
+Feature: energy
+Threshold: 0.6855
+Feature: energy
+Threshold: 0.6225
+Feature: energy
+Threshold: 0.5365
+Feature: dance
+Threshold: 0.8755
+Feature: energy
+Threshold: 0.49650000000000005
+Feature: energy
+Threshold: 0.41800000000000004
+Feature: dance
+Threshold: 0.833
+Feature: energy
+Threshold: 0.281
+pop
+Feature: dance
+Threshold: 0.8225
+Feature: energy
+Threshold: 0.36
+Feature: energy
+Threshold: 0.3535
+Feature: energy
+Threshold: 0.3235
+r&b
+Feature: energy
+Threshold: 0.344
+rock
+latin
+rock
+Feature: energy
+Threshold: 0.37
+rap
+rock
+Feature: dance
+Threshold: 0.827
+rap
+Feature: energy
+Threshold: 0.393
+r&b
+rap
+Feature: energy
+Threshold: 0.364
+Feature: energy
+Threshold: 0.32299999999999995
+Feature: energy
+Threshold: 0.27149999999999996
+r&b
+Feature: dance
+Threshold: 0.86
+Feature: dance
+Threshold: 0.8525
+latin
+r&b
+rap
+r&b
+Feature: dance
+Threshold: 0.8514999999999999
+Feature: energy
+Threshold: 0.3715
+r&b
+Feature: energy
+Threshold: 0.3865
+rap
+r&b
+Feature: dance
+Threshold: 0.866
+Feature: energy
+Threshold: 0.4065
+rap
+pop
+Feature: energy
+Threshold: 0.396
+rap
+edm
+Feature: dance
+Threshold: 0.839
+Feature: dance
+Threshold: 0.8195
+Feature: energy
+Threshold: 0.45499999999999996
+Feature: energy
+Threshold: 0.4415
+rock
+pop
+Feature: energy
+Threshold: 0.46399999999999997
+r&b
+Feature: energy
+Threshold: 0.4775
+pop
+edm
+Feature: dance
+Threshold: 0.824
+Feature: energy
+Threshold: 0.4615
+r&b
+rock
+Feature: energy
+Threshold: 0.472
+Feature: energy
+Threshold: 0.4505
+r&b
+Feature: energy
+Threshold: 0.463
+edm
+rock
+r&b
+Feature: energy
+Threshold: 0.445
+Feature: dance
+Threshold: 0.856
+Feature: energy
+Threshold: 0.4395
+r&b
+rap
+Feature: energy
+Threshold: 0.43
+rap
+Feature: energy
+Threshold: 0.4365
+r&b
+latin
+Feature: energy
+Threshold: 0.477
+Feature: dance
+Threshold: 0.8454999999999999
+Feature: energy
+Threshold: 0.46599999999999997
+pop
+r&b
+edm
+rap
+Feature: energy
+Threshold: 0.5225
+Feature: dance
+Threshold: 0.8405
+Feature: dance
+Threshold: 0.825
+Feature: energy
+Threshold: 0.5115000000000001
+r&b
+Feature: dance
+Threshold: 0.8174999999999999
+r&b
+Feature: energy
+Threshold: 0.517
+rock
+pop
+Feature: energy
+Threshold: 0.512
+Feature: energy
+Threshold: 0.5055000000000001
+pop
+latin
+Feature: energy
+Threshold: 0.5185
+Feature: dance
+Threshold: 0.832
+rap
+r&b
+rap
+Feature: energy
+Threshold: 0.505
+Feature: energy
+Threshold: 0.5015000000000001
+latin
+pop
+Feature: dance
+Threshold: 0.8514999999999999
+Feature: energy
+Threshold: 0.516
+Feature: dance
+Threshold: 0.8465
+pop
+r&b
+rap
+Feature: energy
+Threshold: 0.506
+latin
+rap
+Feature: dance
+Threshold: 0.8165
+rap
+Feature: dance
+Threshold: 0.843
+Feature: dance
+Threshold: 0.8305
+rock
+latin
+rap
+Feature: dance
+Threshold: 0.9085000000000001
+Feature: energy
+Threshold: 0.5025
+Feature: energy
+Threshold: 0.4535
+Feature: energy
+Threshold: 0.24365
+Feature: energy
+Threshold: 0.15665
+rap
+r&b
+Feature: energy
+Threshold: 0.381
+Feature: energy
+Threshold: 0.347
+Feature: energy
+Threshold: 0.3395
+rock
+rap
+latin
+Feature: energy
+Threshold: 0.4115
+latin
+Feature: dance
+Threshold: 0.883
+rap
+Feature: energy
+Threshold: 0.4265
+r&b
+rap
+Feature: dance
+Threshold: 0.8895
+Feature: dance
+Threshold: 0.8785000000000001
+rap
+Feature: dance
+Threshold: 0.883
+Feature: dance
+Threshold: 0.88
+latin
+r&b
+pop
+Feature: energy
+Threshold: 0.478
+latin
+rap
+Feature: dance
+Threshold: 0.8965000000000001
+Feature: energy
+Threshold: 0.5155000000000001
+Feature: dance
+Threshold: 0.8795
+edm
+rap
+Feature: dance
+Threshold: 0.887
+latin
+r&b
+Feature: energy
+Threshold: 0.516
+pop
+Feature: energy
+Threshold: 0.527
+r&b
+rap
+Feature: energy
+Threshold: 0.39749999999999996
+Feature: energy
+Threshold: 0.27
+rap
+Feature: energy
+Threshold: 0.3155
+rock
+rap
+Feature: energy
+Threshold: 0.46099999999999997
+Feature: dance
+Threshold: 0.9315
+Feature: energy
+Threshold: 0.4175
+r&b
+rap
+Feature: energy
+Threshold: 0.41800000000000004
+Feature: dance
+Threshold: 0.9495
+rap
+edm
+Feature: energy
+Threshold: 0.4265
+pop
+edm
+Feature: dance
+Threshold: 0.915
+Feature: energy
+Threshold: 0.494
+r&b
+rap
+Feature: energy
+Threshold: 0.5015000000000001
+Feature: energy
+Threshold: 0.47750000000000004
+Feature: dance
+Threshold: 0.9410000000000001
+rap
+r&b
+Feature: dance
+Threshold: 0.9195
+edm
+latin
+Feature: dance
+Threshold: 0.9355
+rap
+r&b
+Feature: dance
+Threshold: 0.8445
+Feature: energy
+Threshold: 0.5934999999999999
+Feature: energy
+Threshold: 0.5605
+Feature: dance
+Threshold: 0.827
+Feature: energy
+Threshold: 0.5485
+Feature: dance
+Threshold: 0.8205
+latin
+r&b
+Feature: energy
+Threshold: 0.5525
+Feature: dance
+Threshold: 0.8165
+r&b
+rap
+pop
+Feature: energy
+Threshold: 0.5495000000000001
+Feature: dance
+Threshold: 0.8405
+Feature: dance
+Threshold: 0.838
+r&b
+pop
+rap
+Feature: dance
+Threshold: 0.8354999999999999
+edm
+Feature: energy
+Threshold: 0.556
+latin
+rap
+Feature: dance
+Threshold: 0.831
+Feature: energy
+Threshold: 0.5845
+Feature: energy
+Threshold: 0.573
+rap
+Feature: dance
+Threshold: 0.8194999999999999
+Feature: dance
+Threshold: 0.8145
+edm
+Feature: energy
+Threshold: 0.578
+pop
+rap
+Feature: energy
+Threshold: 0.579
+latin
+rap
+Feature: dance
+Threshold: 0.8234999999999999
+Feature: energy
+Threshold: 0.589
+rap
+Feature: dance
+Threshold: 0.818
+rap
+pop
+Feature: dance
+Threshold: 0.8245
+Feature: dance
+Threshold: 0.824
+latin
+pop
+r&b
+Feature: energy
+Threshold: 0.5785
+Feature: energy
+Threshold: 0.5725
+Feature: energy
+Threshold: 0.5665
+Feature: dance
+Threshold: 0.8385
+latin
+rap
+rap
+Feature: energy
+Threshold: 0.5754999999999999
+edm
+r&b
+rap
+Feature: dance
+Threshold: 0.8194999999999999
+rap
+Feature: dance
+Threshold: 0.8314999999999999
+Feature: energy
+Threshold: 0.6165
+r&b
+latin
+Feature: energy
+Threshold: 0.6134999999999999
+Feature: dance
+Threshold: 0.839
+rap
+latin
+Feature: dance
+Threshold: 0.841
+Feature: dance
+Threshold: 0.839
+edm
+latin
+rap
+Feature: dance
+Threshold: 0.8935
+Feature: energy
+Threshold: 0.575
+Feature: energy
+Threshold: 0.547
+Feature: dance
+Threshold: 0.8554999999999999
+r&b
+rap
+Feature: dance
+Threshold: 0.8625
+Feature: dance
+Threshold: 0.856
+Feature: dance
+Threshold: 0.8494999999999999
+r&b
+latin
+rap
+Feature: energy
+Threshold: 0.5589999999999999
+Feature: dance
+Threshold: 0.871
+rap
+latin
+Feature: dance
+Threshold: 0.877
+r&b
+rap
+Feature: energy
+Threshold: 0.5954999999999999
+Feature: energy
+Threshold: 0.586
+rap
+Feature: dance
+Threshold: 0.855
+latin
+Feature: dance
+Threshold: 0.8634999999999999
+r&b
+rap
+Feature: energy
+Threshold: 0.605
+Feature: dance
+Threshold: 0.8585
+Feature: energy
+Threshold: 0.6005
+r&b
+Feature: dance
+Threshold: 0.8505
+pop
+latin
+rap
+Feature: dance
+Threshold: 0.869
+edm
+Feature: energy
+Threshold: 0.611
+rap
+Feature: energy
+Threshold: 0.6174999999999999
+latin
+r&b
+Feature: dance
+Threshold: 0.907
+Feature: energy
+Threshold: 0.586
+rap
+Feature: energy
+Threshold: 0.6094999999999999
+edm
+Feature: dance
+Threshold: 0.9
+r&b
+rock
+Feature: energy
+Threshold: 0.567
+Feature: dance
+Threshold: 0.92
+Feature: energy
+Threshold: 0.5595
+rap
+Feature: dance
+Threshold: 0.909
+latin
+rap
+Feature: dance
+Threshold: 0.928
+Feature: energy
+Threshold: 0.548
+latin
+rap
+Feature: dance
+Threshold: 0.9305000000000001
+r&b
+pop
+Feature: dance
+Threshold: 0.9410000000000001
+Feature: dance
+Threshold: 0.9205000000000001
+Feature: energy
+Threshold: 0.5954999999999999
+latin
+rap
+rap
+Feature: energy
+Threshold: 0.5934999999999999
+edm
+Feature: dance
+Threshold: 0.954
+r&b
+pop
+Feature: dance
+Threshold: 0.873
+Feature: energy
+Threshold: 0.654
+Feature: dance
+Threshold: 0.8325
+Feature: energy
+Threshold: 0.632
+Feature: dance
+Threshold: 0.8205
+Feature: energy
+Threshold: 0.6285000000000001
+latin
+Feature: dance
+Threshold: 0.816
+r&b
+pop
+rap
+Feature: dance
+Threshold: 0.817
+Feature: energy
+Threshold: 0.6345000000000001
+rap
+Feature: energy
+Threshold: 0.637
+latin
+rap
+Feature: energy
+Threshold: 0.6435
+Feature: dance
+Threshold: 0.82
+rap
+r&b
+Feature: dance
+Threshold: 0.825
+latin
+pop
+Feature: dance
+Threshold: 0.8514999999999999
+Feature: energy
+Threshold: 0.631
+latin
+rap
+Feature: energy
+Threshold: 0.641
+latin
+Feature: dance
+Threshold: 0.854
+edm
+rap
+Feature: energy
+Threshold: 0.6795
+Feature: dance
+Threshold: 0.826
+Feature: energy
+Threshold: 0.664
+rap
+Feature: dance
+Threshold: 0.8174999999999999
+Feature: energy
+Threshold: 0.672
+pop
+latin
+edm
+Feature: energy
+Threshold: 0.671
+Feature: dance
+Threshold: 0.8514999999999999
+Feature: energy
+Threshold: 0.665
+Feature: dance
+Threshold: 0.842
+rap
+latin
+r&b
+Feature: energy
+Threshold: 0.6605000000000001
+latin
+Feature: dance
+Threshold: 0.86
+latin
+rap
+Feature: dance
+Threshold: 0.8414999999999999
+Feature: dance
+Threshold: 0.8354999999999999
+Feature: energy
+Threshold: 0.6765000000000001
+r&b
+rock
+rap
+Feature: dance
+Threshold: 0.849
+pop
+rap
+Feature: dance
+Threshold: 0.822
+r&b
+Feature: dance
+Threshold: 0.8345
+rap
+rock
+Feature: dance
+Threshold: 0.9185000000000001
+Feature: energy
+Threshold: 0.665
+Feature: energy
+Threshold: 0.653
+Feature: energy
+Threshold: 0.649
+Feature: energy
+Threshold: 0.6355
+Feature: dance
+Threshold: 0.893
+Feature: energy
+Threshold: 0.6295
+rap
+latin
+Feature: dance
+Threshold: 0.9015
+rap
+latin
+Feature: dance
+Threshold: 0.9095
+Feature: energy
+Threshold: 0.6415
+rap
+r&b
+rap
+latin
+rap
+Feature: dance
+Threshold: 0.899
+Feature: dance
+Threshold: 0.8845000000000001
+Feature: dance
+Threshold: 0.8785000000000001
+edm
+latin
+rap
+latin
+Feature: dance
+Threshold: 0.9305000000000001
+Feature: dance
+Threshold: 0.923
+rap
+Feature: energy
+Threshold: 0.6465000000000001
+rap
+r&b
+Feature: energy
+Threshold: 0.6565000000000001
+latin
+rap
+Feature: energy
+Threshold: 0.749
+Feature: dance
+Threshold: 0.8654999999999999
+Feature: energy
+Threshold: 0.7384999999999999
+Feature: dance
+Threshold: 0.85
+Feature: energy
+Threshold: 0.7075
+Feature: energy
+Threshold: 0.7015
+Feature: dance
+Threshold: 0.8414999999999999
+Feature: energy
+Threshold: 0.6964999999999999
+Feature: dance
+Threshold: 0.8405
+Feature: dance
+Threshold: 0.8265
+r&b
+Feature: dance
+Threshold: 0.8374999999999999
+Feature: energy
+Threshold: 0.6895
+pop
+rap
+edm
+latin
+Feature: dance
+Threshold: 0.837
+latin
+rap
+Feature: energy
+Threshold: 0.692
+r&b
+rap
+Feature: dance
+Threshold: 0.8334999999999999
+Feature: dance
+Threshold: 0.824
+Feature: dance
+Threshold: 0.815
+latin
+rock
+Feature: dance
+Threshold: 0.8314999999999999
+edm
+rock
+Feature: dance
+Threshold: 0.844
+pop
+edm
+Feature: dance
+Threshold: 0.8285
+Feature: energy
+Threshold: 0.7235
+edm
+latin
+Feature: energy
+Threshold: 0.7235
+Feature: dance
+Threshold: 0.838
+rap
+latin
+Feature: energy
+Threshold: 0.7315
+Feature: dance
+Threshold: 0.8385
+rap
+Feature: dance
+Threshold: 0.842
+rap
+latin
+Feature: dance
+Threshold: 0.8314999999999999
+rap
+latin
+Feature: energy
+Threshold: 0.717
+Feature: dance
+Threshold: 0.859
+Feature: dance
+Threshold: 0.854
+pop
+r&b
+Feature: energy
+Threshold: 0.701
+latin
+r&b
+Feature: dance
+Threshold: 0.8605
+Feature: dance
+Threshold: 0.858
+rap
+edm
+pop
+Feature: dance
+Threshold: 0.835
+Feature: energy
+Threshold: 0.7444999999999999
+rap
+Feature: dance
+Threshold: 0.826
+latin
+edm
+Feature: energy
+Threshold: 0.746
+rap
+Feature: dance
+Threshold: 0.849
+r&b
+latin
+Feature: energy
+Threshold: 0.716
+Feature: dance
+Threshold: 0.913
+Feature: dance
+Threshold: 0.8885000000000001
+Feature: dance
+Threshold: 0.882
+Feature: energy
+Threshold: 0.6975
+Feature: dance
+Threshold: 0.8755
+rap
+Feature: dance
+Threshold: 0.8795
+rap
+latin
+Feature: dance
+Threshold: 0.8734999999999999
+Feature: energy
+Threshold: 0.703
+rap
+pop
+latin
+Feature: energy
+Threshold: 0.695
+edm
+latin
+Feature: dance
+Threshold: 0.901
+rap
+r&b
+Feature: energy
+Threshold: 0.6995
+rap
+edm
+Feature: dance
+Threshold: 0.8915
+Feature: energy
+Threshold: 0.727
+Feature: dance
+Threshold: 0.8785000000000001
+Feature: dance
+Threshold: 0.87
+edm
+r&b
+rap
+Feature: dance
+Threshold: 0.8815
+Feature: energy
+Threshold: 0.735
+rap
+latin
+Feature: energy
+Threshold: 0.7335
+latin
+rap
+Feature: energy
+Threshold: 0.7304999999999999
+Feature: dance
+Threshold: 0.9095
+rap
+Feature: dance
+Threshold: 0.9225000000000001
+Feature: energy
+Threshold: 0.7195
+rock
+rap
+edm
+Feature: dance
+Threshold: 0.898
+Feature: energy
+Threshold: 0.7375
+rap
+Feature: dance
+Threshold: 0.895
+edm
+r&b
+rap
+Feature: energy
+Threshold: 0.7655000000000001
+Feature: dance
+Threshold: 0.848
+Feature: dance
+Threshold: 0.8305
+Feature: dance
+Threshold: 0.821
+Feature: energy
+Threshold: 0.763
+Feature: energy
+Threshold: 0.759
+latin
+pop
+r&b
+latin
+Feature: dance
+Threshold: 0.8385
+Feature: energy
+Threshold: 0.7605
+pop
+edm
+Feature: energy
+Threshold: 0.7585
+r&b
+latin
+Feature: dance
+Threshold: 0.8745
+Feature: dance
+Threshold: 0.8605
+Feature: energy
+Threshold: 0.754
+r&b
+rap
+Feature: energy
+Threshold: 0.758
+edm
+rap
+Feature: dance
+Threshold: 0.8835
+Feature: energy
+Threshold: 0.7555000000000001
+Feature: dance
+Threshold: 0.88
+pop
+r&b
+latin
+Feature: dance
+Threshold: 0.887
+latin
+Feature: dance
+Threshold: 0.899
+edm
+Feature: energy
+Threshold: 0.7575000000000001
+latin
+rap
+Feature: dance
+Threshold: 0.8905000000000001
+Feature: dance
+Threshold: 0.845
+Feature: dance
+Threshold: 0.8205
+latin
+Feature: dance
+Threshold: 0.826
+edm
+latin
+Feature: dance
+Threshold: 0.864
+Feature: energy
+Threshold: 0.7695000000000001
+Feature: dance
+Threshold: 0.8505
+rap
+latin
+Feature: dance
+Threshold: 0.858
+latin
+Feature: dance
+Threshold: 0.8585
+latin
+rap
+Feature: dance
+Threshold: 0.873
+latin
+Feature: dance
+Threshold: 0.881
+r&b
+latin
+Feature: dance
+Threshold: 0.925
+Feature: energy
+Threshold: 0.7715000000000001
+edm
+rap
+latin
+Feature: dance
+Threshold: 0.5835
+Feature: energy
+Threshold: 0.954
+Feature: dance
+Threshold: 0.4385
+Feature: energy
+Threshold: 0.9055
+Feature: energy
+Threshold: 0.8554999999999999
+Feature: energy
+Threshold: 0.8145
+Feature: dance
+Threshold: 0.379
+Feature: dance
+Threshold: 0.32899999999999996
+Feature: dance
+Threshold: 0.31
+rock
+r&b
+Feature: dance
+Threshold: 0.34750000000000003
+rock
+latin
+Feature: dance
+Threshold: 0.4085
+Feature: dance
+Threshold: 0.399
+pop
+Feature: energy
+Threshold: 0.7925
+Feature: dance
+Threshold: 0.399
+latin
+edm
+Feature: energy
+Threshold: 0.806
+edm
+rap
+Feature: dance
+Threshold: 0.4265
+Feature: energy
+Threshold: 0.795
+pop
+rock
+Feature: dance
+Threshold: 0.436
+edm
+rock
+Feature: dance
+Threshold: 0.406
+Feature: dance
+Threshold: 0.366
+Feature: dance
+Threshold: 0.34550000000000003
+rock
+Feature: dance
+Threshold: 0.3545
+edm
+r&b
+Feature: dance
+Threshold: 0.39
+Feature: energy
+Threshold: 0.829
+r&b
+rock
+Feature: energy
+Threshold: 0.833
+pop
+rap
+Feature: energy
+Threshold: 0.831
+Feature: dance
+Threshold: 0.4175
+edm
+rock
+Feature: dance
+Threshold: 0.4255
+Feature: energy
+Threshold: 0.847
+r&b
+pop
+rap
+Feature: energy
+Threshold: 0.868
+Feature: dance
+Threshold: 0.344
+rap
+rock
+Feature: energy
+Threshold: 0.879
+Feature: dance
+Threshold: 0.40349999999999997
+Feature: dance
+Threshold: 0.3395
+rock
+Feature: dance
+Threshold: 0.3635
+rock
+Feature: dance
+Threshold: 0.3715
+rap
+pop
+Feature: dance
+Threshold: 0.4275
+pop
+rock
+Feature: dance
+Threshold: 0.3775
+Feature: dance
+Threshold: 0.3305
+Feature: dance
+Threshold: 0.2375
+rock
+Feature: energy
+Threshold: 0.8965000000000001
+edm
+rock
+Feature: dance
+Threshold: 0.348
+edm
+rock
+Feature: energy
+Threshold: 0.891
+Feature: dance
+Threshold: 0.41400000000000003
+pop
+rock
+Feature: dance
+Threshold: 0.4085
+Feature: dance
+Threshold: 0.384
+rock
+rap
+rock
+Feature: dance
+Threshold: 0.376
+Feature: dance
+Threshold: 0.2915
+Feature: dance
+Threshold: 0.1975
+rock
+Feature: energy
+Threshold: 0.9215
+pop
+Feature: energy
+Threshold: 0.935
+rock
+rap
+Feature: dance
+Threshold: 0.33299999999999996
+Feature: energy
+Threshold: 0.929
+rock
+Feature: dance
+Threshold: 0.32
+edm
+rock
+rock
+Feature: energy
+Threshold: 0.9305
+Feature: energy
+Threshold: 0.916
+Feature: dance
+Threshold: 0.4145
+Feature: dance
+Threshold: 0.397
+rock
+pop
+edm
+Feature: dance
+Threshold: 0.3875
+edm
+Feature: dance
+Threshold: 0.41300000000000003
+Feature: energy
+Threshold: 0.918
+edm
+pop
+Feature: dance
+Threshold: 0.4215
+rock
+edm
+Feature: dance
+Threshold: 0.399
+edm
+Feature: energy
+Threshold: 0.946
+Feature: dance
+Threshold: 0.401
+rock
+Feature: dance
+Threshold: 0.406
+r&b
+Feature: energy
+Threshold: 0.9390000000000001
+edm
+pop
+Feature: dance
+Threshold: 0.4035
+edm
+Feature: dance
+Threshold: 0.4085
+Feature: energy
+Threshold: 0.9504999999999999
+pop
+rock
+edm
+Feature: energy
+Threshold: 0.906
+Feature: energy
+Threshold: 0.8380000000000001
+Feature: dance
+Threshold: 0.554
+Feature: dance
+Threshold: 0.533
+Feature: energy
+Threshold: 0.8035000000000001
+Feature: dance
+Threshold: 0.4955
+Feature: dance
+Threshold: 0.4795
+Feature: energy
+Threshold: 0.7925
+Feature: dance
+Threshold: 0.4605
+Feature: dance
+Threshold: 0.4525
+r&b
+Feature: dance
+Threshold: 0.4565
+rock
+latin
+Feature: energy
+Threshold: 0.7845
+rap
+rock
+Feature: dance
+Threshold: 0.4675
+Feature: dance
+Threshold: 0.4515
+pop
+rock
+Feature: dance
+Threshold: 0.477
+rock
+pop
+Feature: energy
+Threshold: 0.7865
+Feature: energy
+Threshold: 0.782
+pop
+rock
+Feature: energy
+Threshold: 0.7945
+Feature: dance
+Threshold: 0.483
+pop
+latin
+rock
+Feature: dance
+Threshold: 0.5225
+Feature: dance
+Threshold: 0.5115000000000001
+Feature: energy
+Threshold: 0.786
+Feature: energy
+Threshold: 0.7795000000000001
+Feature: dance
+Threshold: 0.504
+edm
+r&b
+Feature: energy
+Threshold: 0.783
+pop
+edm
+rock
+Feature: energy
+Threshold: 0.789
+Feature: dance
+Threshold: 0.5155000000000001
+edm
+pop
+Feature: energy
+Threshold: 0.798
+Feature: energy
+Threshold: 0.792
+Feature: dance
+Threshold: 0.519
+rock
+edm
+Feature: dance
+Threshold: 0.514
+pop
+r&b
+edm
+Feature: dance
+Threshold: 0.5265
+edm
+rock
+Feature: dance
+Threshold: 0.5085
+Feature: energy
+Threshold: 0.821
+Feature: dance
+Threshold: 0.47
+Feature: dance
+Threshold: 0.448
+pop
+Feature: energy
+Threshold: 0.8135
+rock
+Feature: dance
+Threshold: 0.46299999999999997
+rap
+r&b
+Feature: dance
+Threshold: 0.5035000000000001
+Feature: dance
+Threshold: 0.4865
+r&b
+rock
+pop
+Feature: dance
+Threshold: 0.47250000000000003
+Feature: dance
+Threshold: 0.4435
+edm
+Feature: dance
+Threshold: 0.45999999999999996
+rock
+pop
+Feature: dance
+Threshold: 0.501
+Feature: dance
+Threshold: 0.492
+rock
+edm
+Feature: dance
+Threshold: 0.506
+rock
+Feature: energy
+Threshold: 0.8314999999999999
+rock
+edm
+Feature: energy
+Threshold: 0.8095000000000001
+Feature: dance
+Threshold: 0.5165
+rock
+r&b
+Feature: dance
+Threshold: 0.515
+Feature: energy
+Threshold: 0.827
+Feature: energy
+Threshold: 0.8225
+edm
+r&b
+pop
+Feature: energy
+Threshold: 0.8140000000000001
+pop
+Feature: energy
+Threshold: 0.8205
+edm
+r&b
+Feature: energy
+Threshold: 0.8055
+Feature: energy
+Threshold: 0.788
+Feature: energy
+Threshold: 0.781
+Feature: dance
+Threshold: 0.54
+latin
+pop
+Feature: dance
+Threshold: 0.5405
+edm
+pop
+Feature: energy
+Threshold: 0.8005
+Feature: energy
+Threshold: 0.7925
+pop
+Feature: dance
+Threshold: 0.5395000000000001
+r&b
+rap
+Feature: dance
+Threshold: 0.5435000000000001
+edm
+rap
+Feature: dance
+Threshold: 0.5465
+Feature: energy
+Threshold: 0.8175
+Feature: dance
+Threshold: 0.539
+edm
+Feature: dance
+Threshold: 0.543
+rock
+edm
+Feature: dance
+Threshold: 0.5375000000000001
+pop
+Feature: energy
+Threshold: 0.8294999999999999
+edm
+rock
+Feature: energy
+Threshold: 0.8185
+Feature: energy
+Threshold: 0.8125
+rap
+edm
+Feature: energy
+Threshold: 0.821
+rock
+pop
+Feature: energy
+Threshold: 0.7905
+Feature: dance
+Threshold: 0.5565
+pop
+Feature: energy
+Threshold: 0.781
+Feature: dance
+Threshold: 0.5605
+Feature: energy
+Threshold: 0.7775000000000001
+pop
+rap
+rock
+pop
+Feature: dance
+Threshold: 0.571
+Feature: dance
+Threshold: 0.5585
+Feature: dance
+Threshold: 0.5545
+rock
+Feature: energy
+Threshold: 0.8069999999999999
+Feature: dance
+Threshold: 0.556
+rap
+pop
+edm
+Feature: energy
+Threshold: 0.812
+edm
+Feature: dance
+Threshold: 0.5640000000000001
+Feature: dance
+Threshold: 0.5595000000000001
+Feature: energy
+Threshold: 0.82
+edm
+rock
+Feature: energy
+Threshold: 0.827
+pop
+rock
+Feature: dance
+Threshold: 0.5685
+Feature: energy
+Threshold: 0.8245
+latin
+rock
+rap
+Feature: energy
+Threshold: 0.8105
+Feature: dance
+Threshold: 0.5754999999999999
+Feature: energy
+Threshold: 0.805
+rock
+edm
+pop
+Feature: energy
+Threshold: 0.8274999999999999
+Feature: energy
+Threshold: 0.817
+r&b
+Feature: dance
+Threshold: 0.5774999999999999
+Feature: energy
+Threshold: 0.8245
+rap
+edm
+Feature: energy
+Threshold: 0.82
+rap
+latin
+edm
+Feature: dance
+Threshold: 0.5045000000000001
+Feature: energy
+Threshold: 0.872
+Feature: dance
+Threshold: 0.477
+Feature: dance
+Threshold: 0.457
+Feature: dance
+Threshold: 0.445
+Feature: energy
+Threshold: 0.859
+rock
+edm
+Feature: energy
+Threshold: 0.852
+pop
+edm
+Feature: energy
+Threshold: 0.8505
+r&b
+Feature: energy
+Threshold: 0.8654999999999999
+rock
+edm
+Feature: dance
+Threshold: 0.496
+Feature: energy
+Threshold: 0.844
+Feature: dance
+Threshold: 0.4905
+pop
+rock
+Feature: energy
+Threshold: 0.8534999999999999
+rock
+edm
+Feature: energy
+Threshold: 0.8574999999999999
+rock
+edm
+Feature: energy
+Threshold: 0.898
+Feature: dance
+Threshold: 0.461
+Feature: dance
+Threshold: 0.449
+pop
+Feature: energy
+Threshold: 0.894
+Feature: energy
+Threshold: 0.8855
+pop
+Feature: dance
+Threshold: 0.4535
+edm
+rock
+rap
+Feature: dance
+Threshold: 0.47050000000000003
+pop
+Feature: energy
+Threshold: 0.886
+Feature: dance
+Threshold: 0.4895
+rock
+Feature: energy
+Threshold: 0.878
+edm
+rap
+Feature: energy
+Threshold: 0.891
+rock
+Feature: energy
+Threshold: 0.8935
+rock
+edm
+Feature: dance
+Threshold: 0.45
+latin
+Feature: dance
+Threshold: 0.47550000000000003
+edm
+Feature: dance
+Threshold: 0.4905
+pop
+rock
+Feature: dance
+Threshold: 0.5605
+Feature: energy
+Threshold: 0.889
+Feature: dance
+Threshold: 0.5355000000000001
+Feature: energy
+Threshold: 0.8594999999999999
+Feature: dance
+Threshold: 0.5165
+Feature: energy
+Threshold: 0.8494999999999999
+Feature: dance
+Threshold: 0.51
+edm
+latin
+Feature: dance
+Threshold: 0.5125
+edm
+rock
+Feature: energy
+Threshold: 0.8434999999999999
+Feature: dance
+Threshold: 0.5195000000000001
+Feature: energy
+Threshold: 0.8405
+rock
+edm
+Feature: dance
+Threshold: 0.523
+rap
+rock
+Feature: dance
+Threshold: 0.525
+pop
+Feature: energy
+Threshold: 0.853
+rock
+edm
+Feature: energy
+Threshold: 0.8705
+Feature: dance
+Threshold: 0.5255000000000001
+Feature: dance
+Threshold: 0.521
+Feature: dance
+Threshold: 0.516
+rock
+edm
+pop
+Feature: energy
+Threshold: 0.8654999999999999
+Feature: energy
+Threshold: 0.8614999999999999
+rap
+rock
+pop
+Feature: dance
+Threshold: 0.518
+Feature: energy
+Threshold: 0.8795
+rock
+edm
+Feature: energy
+Threshold: 0.8785000000000001
+rock
+Feature: dance
+Threshold: 0.5295000000000001
+edm
+rock
+Feature: energy
+Threshold: 0.8795
+Feature: energy
+Threshold: 0.859
+Feature: energy
+Threshold: 0.8454999999999999
+Feature: dance
+Threshold: 0.5415000000000001
+rock
+edm
+Feature: dance
+Threshold: 0.5485
+Feature: dance
+Threshold: 0.5425
+latin
+rock
+rap
+Feature: energy
+Threshold: 0.873
+Feature: dance
+Threshold: 0.549
+rock
+Feature: energy
+Threshold: 0.8645
+Feature: dance
+Threshold: 0.5595000000000001
+rock
+r&b
+Feature: dance
+Threshold: 0.556
+rap
+edm
+Feature: dance
+Threshold: 0.5445
+Feature: dance
+Threshold: 0.536
+r&b
+latin
+Feature: dance
+Threshold: 0.549
+edm
+rap
+Feature: dance
+Threshold: 0.5525
+Feature: dance
+Threshold: 0.547
+Feature: energy
+Threshold: 0.8825000000000001
+rock
+edm
+Feature: energy
+Threshold: 0.884
+pop
+edm
+edm
+Feature: dance
+Threshold: 0.542
+Feature: dance
+Threshold: 0.53
+Feature: dance
+Threshold: 0.5165
+Feature: energy
+Threshold: 0.8935
+rock
+Feature: dance
+Threshold: 0.5095000000000001
+rap
+latin
+Feature: dance
+Threshold: 0.5265
+edm
+pop
+r&b
+Feature: dance
+Threshold: 0.5465
+Feature: energy
+Threshold: 0.897
+edm
+rock
+Feature: energy
+Threshold: 0.897
+rock
+pop
+Feature: dance
+Threshold: 0.5665
+Feature: energy
+Threshold: 0.8674999999999999
+edm
+Feature: energy
+Threshold: 0.892
+pop
+r&b
+Feature: dance
+Threshold: 0.5745
+Feature: energy
+Threshold: 0.8674999999999999
+Feature: energy
+Threshold: 0.861
+rock
+pop
+Feature: energy
+Threshold: 0.885
+Feature: dance
+Threshold: 0.5674999999999999
+pop
+edm
+Feature: energy
+Threshold: 0.8975
+rock
+edm
+Feature: energy
+Threshold: 0.8905000000000001
+Feature: energy
+Threshold: 0.8685
+Feature: dance
+Threshold: 0.5774999999999999
+edm
+Feature: energy
+Threshold: 0.8454999999999999
+rap
+r&b
+Feature: dance
+Threshold: 0.578
+pop
+Feature: energy
+Threshold: 0.8885000000000001
+rock
+pop
+rap
+Feature: dance
+Threshold: 0.5375
+Feature: dance
+Threshold: 0.494
+Feature: energy
+Threshold: 0.933
+Feature: dance
+Threshold: 0.47450000000000003
+Feature: dance
+Threshold: 0.4535
+Feature: dance
+Threshold: 0.4435
+pop
+edm
+Feature: energy
+Threshold: 0.914
+Feature: dance
+Threshold: 0.459
+rock
+edm
+rock
+Feature: dance
+Threshold: 0.489
+Feature: energy
+Threshold: 0.9205000000000001
+pop
+Feature: dance
+Threshold: 0.483
+rock
+pop
+Feature: energy
+Threshold: 0.9165000000000001
+edm
+rock
+Feature: dance
+Threshold: 0.4675
+Feature: energy
+Threshold: 0.9435
+edm
+Feature: dance
+Threshold: 0.453
+rock
+edm
+Feature: energy
+Threshold: 0.944
+rock
+rap
+Feature: dance
+Threshold: 0.52
+Feature: energy
+Threshold: 0.9430000000000001
+Feature: energy
+Threshold: 0.9295
+Feature: energy
+Threshold: 0.9195
+rock
+Feature: dance
+Threshold: 0.5095000000000001
+edm
+pop
+Feature: energy
+Threshold: 0.9385
+rock
+edm
+Feature: dance
+Threshold: 0.5075000000000001
+r&b
+rap
+Feature: energy
+Threshold: 0.9235
+Feature: dance
+Threshold: 0.5275000000000001
+rock
+edm
+Feature: energy
+Threshold: 0.946
+Feature: dance
+Threshold: 0.5305
+rap
+pop
+rock
+Feature: dance
+Threshold: 0.556
+Feature: energy
+Threshold: 0.9275
+Feature: energy
+Threshold: 0.92
+Feature: energy
+Threshold: 0.9115
+rock
+r&b
+Feature: dance
+Threshold: 0.539
+pop
+Feature: dance
+Threshold: 0.542
+edm
+rap
+rock
+Feature: dance
+Threshold: 0.565
+Feature: energy
+Threshold: 0.922
+rap
+edm
+Feature: dance
+Threshold: 0.577
+Feature: energy
+Threshold: 0.917
+Feature: energy
+Threshold: 0.9105000000000001
+rock
+Feature: energy
+Threshold: 0.9135
+rock
+pop
+Feature: dance
+Threshold: 0.572
+edm
+Feature: dance
+Threshold: 0.5745
+pop
+rock
+Feature: dance
+Threshold: 0.582
+pop
+Feature: energy
+Threshold: 0.922
+rock
+edm
+Feature: dance
+Threshold: 0.4645
+Feature: dance
+Threshold: 0.4255
+Feature: dance
+Threshold: 0.3765
+Feature: energy
+Threshold: 0.9864999999999999
+Feature: energy
+Threshold: 0.969
+Feature: dance
+Threshold: 0.288
+rock
+Feature: dance
+Threshold: 0.362
+latin
+rock
+Feature: dance
+Threshold: 0.3225
+edm
+Feature: dance
+Threshold: 0.3415
+edm
+rock
+Feature: dance
+Threshold: 0.364
+edm
+rock
+Feature: dance
+Threshold: 0.406
+Feature: dance
+Threshold: 0.39
+edm
+rock
+Feature: energy
+Threshold: 0.968
+Feature: energy
+Threshold: 0.96
+Feature: dance
+Threshold: 0.411
+rock
+pop
+Feature: energy
+Threshold: 0.9644999999999999
+rock
+r&b
+Feature: energy
+Threshold: 0.981
+edm
+pop
+Feature: energy
+Threshold: 0.978
+Feature: dance
+Threshold: 0.447
+rock
+rap
+pop
+Feature: dance
+Threshold: 0.509
+Feature: energy
+Threshold: 0.9795
+Feature: dance
+Threshold: 0.481
+Feature: dance
+Threshold: 0.472
+edm
+Feature: dance
+Threshold: 0.4765
+r&b
+rock
+rock
+Feature: energy
+Threshold: 0.9924999999999999
+Feature: energy
+Threshold: 0.988
+edm
+Feature: dance
+Threshold: 0.4835
+latin
+pop
+pop
+Feature: dance
+Threshold: 0.5215000000000001
+Feature: energy
+Threshold: 0.9735
+pop
+Feature: energy
+Threshold: 0.9804999999999999
+edm
+rock
+Feature: energy
+Threshold: 0.968
+Feature: dance
+Threshold: 0.5505
+Feature: energy
+Threshold: 0.961
+Feature: energy
+Threshold: 0.9584999999999999
+rock
+Feature: dance
+Threshold: 0.524
+edm
+rap
+rock
+Feature: dance
+Threshold: 0.579
+Feature: dance
+Threshold: 0.5694999999999999
+edm
+Feature: energy
+Threshold: 0.957
+edm
+r&b
+Feature: energy
+Threshold: 0.9544999999999999
+edm
+pop
+Feature: dance
+Threshold: 0.5515
+Feature: energy
+Threshold: 0.9744999999999999
+Feature: dance
+Threshold: 0.5275000000000001
+rock
+edm
+Feature: dance
+Threshold: 0.539
+Feature: energy
+Threshold: 0.98
+rock
+edm
+Feature: energy
+Threshold: 0.9784999999999999
+rap
+Feature: energy
+Threshold: 0.99
+rock
+edm
+Feature: dance
+Threshold: 0.5685
+Feature: dance
+Threshold: 0.5585
+rock
+edm
+Feature: energy
+Threshold: 0.98
+edm
+Feature: energy
+Threshold: 0.9875
+rock
+edm
+Feature: energy
+Threshold: 0.8925
+Feature: dance
+Threshold: 0.7444999999999999
+Feature: dance
+Threshold: 0.6875
+Feature: energy
+Threshold: 0.841
+Feature: dance
+Threshold: 0.663
+Feature: dance
+Threshold: 0.63
+Feature: energy
+Threshold: 0.829
+Feature: energy
+Threshold: 0.8125
+Feature: dance
+Threshold: 0.5994999999999999
+Feature: dance
+Threshold: 0.592
+Feature: energy
+Threshold: 0.797
+pop
+edm
+Feature: energy
+Threshold: 0.804
+Feature: dance
+Threshold: 0.5965
+edm
+rock
+rock
+Feature: dance
+Threshold: 0.6154999999999999
+Feature: dance
+Threshold: 0.607
+Feature: energy
+Threshold: 0.7995000000000001
+Feature: energy
+Threshold: 0.7975000000000001
+rock
+pop
+Feature: energy
+Threshold: 0.806
+latin
+Feature: dance
+Threshold: 0.602
+pop
+rap
+Feature: energy
+Threshold: 0.8005
+Feature: energy
+Threshold: 0.797
+Feature: energy
+Threshold: 0.7915000000000001
+rock
+Feature: dance
+Threshold: 0.608
+pop
+Feature: dance
+Threshold: 0.61
+latin
+r&b
+pop
+Feature: energy
+Threshold: 0.805
+Feature: dance
+Threshold: 0.6114999999999999
+rap
+r&b
+rock
+Feature: dance
+Threshold: 0.625
+Feature: dance
+Threshold: 0.6205
+Feature: energy
+Threshold: 0.7945
+Feature: energy
+Threshold: 0.7855000000000001
+rap
+Feature: dance
+Threshold: 0.618
+pop
+edm
+Feature: energy
+Threshold: 0.797
+latin
+rock
+Feature: energy
+Threshold: 0.8015000000000001
+edm
+latin
+Feature: energy
+Threshold: 0.7985
+Feature: energy
+Threshold: 0.792
+edm
+Feature: dance
+Threshold: 0.628
+rock
+pop
+Feature: dance
+Threshold: 0.6265000000000001
+latin
+Feature: dance
+Threshold: 0.6275
+pop
+rock
+Feature: dance
+Threshold: 0.6
+Feature: dance
+Threshold: 0.59
+Feature: energy
+Threshold: 0.8154999999999999
+edm
+Feature: energy
+Threshold: 0.819
+rap
+rock
+Feature: dance
+Threshold: 0.5925
+rock
+Feature: energy
+Threshold: 0.8194999999999999
+edm
+latin
+Feature: energy
+Threshold: 0.818
+Feature: energy
+Threshold: 0.8154999999999999
+r&b
+rock
+Feature: dance
+Threshold: 0.607
+pop
+Feature: energy
+Threshold: 0.822
+Feature: dance
+Threshold: 0.614
+pop
+edm
+Feature: dance
+Threshold: 0.6094999999999999
+edm
+rock
+Feature: energy
+Threshold: 0.8345
+Feature: dance
+Threshold: 0.6045
+Feature: dance
+Threshold: 0.5905
+Feature: dance
+Threshold: 0.589
+r&b
+pop
+rock
+Feature: dance
+Threshold: 0.6134999999999999
+rap
+Feature: dance
+Threshold: 0.616
+rock
+pop
+Feature: dance
+Threshold: 0.615
+Feature: dance
+Threshold: 0.611
+Feature: dance
+Threshold: 0.604
+rap
+rock
+Feature: dance
+Threshold: 0.612
+edm
+pop
+Feature: dance
+Threshold: 0.62
+rap
+latin
+Feature: dance
+Threshold: 0.6465000000000001
+Feature: energy
+Threshold: 0.8015000000000001
+Feature: dance
+Threshold: 0.642
+Feature: energy
+Threshold: 0.7875000000000001
+Feature: energy
+Threshold: 0.7805
+rock
+edm
+Feature: dance
+Threshold: 0.6345000000000001
+rock
+rap
+Feature: energy
+Threshold: 0.7885
+edm
+rock
+Feature: energy
+Threshold: 0.8185
+Feature: dance
+Threshold: 0.6395
+Feature: energy
+Threshold: 0.8105
+Feature: energy
+Threshold: 0.8065
+edm
+pop
+Feature: energy
+Threshold: 0.8145
+edm
+pop
+Feature: dance
+Threshold: 0.6435
+Feature: energy
+Threshold: 0.8075000000000001
+latin
+rock
+pop
+Feature: dance
+Threshold: 0.637
+Feature: energy
+Threshold: 0.83
+edm
+Feature: energy
+Threshold: 0.8345
+pop
+Feature: dance
+Threshold: 0.634
+latin
+pop
+Feature: dance
+Threshold: 0.6405000000000001
+pop
+Feature: energy
+Threshold: 0.8254999999999999
+edm
+latin
+Feature: energy
+Threshold: 0.8205
+Feature: energy
+Threshold: 0.8
+Feature: energy
+Threshold: 0.791
+Feature: dance
+Threshold: 0.654
+Feature: energy
+Threshold: 0.781
+r&b
+Feature: dance
+Threshold: 0.6505000000000001
+pop
+rap
+Feature: energy
+Threshold: 0.7815000000000001
+r&b
+edm
+Feature: dance
+Threshold: 0.654
+Feature: dance
+Threshold: 0.65
+Feature: energy
+Threshold: 0.7935000000000001
+pop
+edm
+latin
+Feature: dance
+Threshold: 0.6575
+edm
+pop
+Feature: energy
+Threshold: 0.808
+Feature: energy
+Threshold: 0.804
+edm
+pop
+Feature: dance
+Threshold: 0.652
+edm
+Feature: dance
+Threshold: 0.654
+r&b
+Feature: dance
+Threshold: 0.6575
+latin
+Feature: energy
+Threshold: 0.813
+edm
+rock
+Feature: dance
+Threshold: 0.6555
+pop
+Feature: energy
+Threshold: 0.832
+Feature: energy
+Threshold: 0.825
+pop
+rap
+pop
+Feature: energy
+Threshold: 0.8140000000000001
+Feature: energy
+Threshold: 0.8055000000000001
+Feature: dance
+Threshold: 0.674
+Feature: dance
+Threshold: 0.6685000000000001
+Feature: energy
+Threshold: 0.7955000000000001
+edm
+pop
+Feature: energy
+Threshold: 0.801
+Feature: dance
+Threshold: 0.67
+Feature: energy
+Threshold: 0.7925
+edm
+rap
+Feature: energy
+Threshold: 0.794
+rock
+edm
+rap
+Feature: dance
+Threshold: 0.682
+Feature: dance
+Threshold: 0.6785000000000001
+latin
+edm
+r&b
+Feature: energy
+Threshold: 0.8115000000000001
+edm
+Feature: dance
+Threshold: 0.671
+latin
+Feature: dance
+Threshold: 0.678
+r&b
+Feature: dance
+Threshold: 0.6825000000000001
+rap
+pop
+Feature: dance
+Threshold: 0.675
+Feature: dance
+Threshold: 0.6675
+Feature: dance
+Threshold: 0.663
+pop
+latin
+latin
+Feature: dance
+Threshold: 0.681
+edm
+Feature: energy
+Threshold: 0.8254999999999999
+latin
+Feature: energy
+Threshold: 0.8325
+rap
+latin
+Feature: dance
+Threshold: 0.6715
+Feature: energy
+Threshold: 0.857
+Feature: dance
+Threshold: 0.6625000000000001
+Feature: dance
+Threshold: 0.6445000000000001
+Feature: dance
+Threshold: 0.613
+Feature: dance
+Threshold: 0.602
+Feature: energy
+Threshold: 0.8454999999999999
+edm
+Feature: dance
+Threshold: 0.5894999999999999
+edm
+Feature: energy
+Threshold: 0.8525
+rap
+pop
+Feature: dance
+Threshold: 0.6094999999999999
+Feature: energy
+Threshold: 0.847
+edm
+Feature: dance
+Threshold: 0.606
+edm
+latin
+pop
+Feature: energy
+Threshold: 0.846
+Feature: energy
+Threshold: 0.842
+edm
+Feature: dance
+Threshold: 0.634
+edm
+Feature: dance
+Threshold: 0.638
+rap
+pop
+Feature: dance
+Threshold: 0.6325000000000001
+Feature: energy
+Threshold: 0.8505
+Feature: dance
+Threshold: 0.6234999999999999
+edm
+pop
+rock
+Feature: energy
+Threshold: 0.85
+Feature: dance
+Threshold: 0.636
+edm
+pop
+latin
+Feature: energy
+Threshold: 0.8445
+Feature: dance
+Threshold: 0.657
+r&b
+latin
+Feature: dance
+Threshold: 0.6485000000000001
+rock
+Feature: dance
+Threshold: 0.6555
+latin
+edm
+Feature: dance
+Threshold: 0.667
+Feature: energy
+Threshold: 0.8474999999999999
+Feature: energy
+Threshold: 0.8434999999999999
+latin
+edm
+latin
+edm
+Feature: dance
+Threshold: 0.6455
+Feature: energy
+Threshold: 0.8665
+Feature: dance
+Threshold: 0.609
+Feature: dance
+Threshold: 0.597
+rock
+Feature: dance
+Threshold: 0.6074999999999999
+edm
+pop
+Feature: dance
+Threshold: 0.6355
+Feature: dance
+Threshold: 0.633
+edm
+pop
+Feature: energy
+Threshold: 0.862
+rock
+rap
+Feature: dance
+Threshold: 0.6345000000000001
+Feature: dance
+Threshold: 0.621
+Feature: dance
+Threshold: 0.6
+Feature: energy
+Threshold: 0.879
+rap
+Feature: energy
+Threshold: 0.886
+r&b
+Feature: dance
+Threshold: 0.593
+Feature: dance
+Threshold: 0.589
+rock
+pop
+latin
+Feature: dance
+Threshold: 0.6154999999999999
+Feature: energy
+Threshold: 0.8765000000000001
+Feature: energy
+Threshold: 0.8694999999999999
+Feature: dance
+Threshold: 0.61
+rap
+pop
+latin
+Feature: energy
+Threshold: 0.8875
+Feature: dance
+Threshold: 0.609
+Feature: energy
+Threshold: 0.8825000000000001
+r&b
+Feature: energy
+Threshold: 0.885
+rock
+edm
+Feature: dance
+Threshold: 0.613
+pop
+rock
+rock
+Feature: energy
+Threshold: 0.8865000000000001
+Feature: energy
+Threshold: 0.88
+latin
+edm
+pop
+Feature: energy
+Threshold: 0.879
+Feature: dance
+Threshold: 0.6285000000000001
+rap
+latin
+Feature: energy
+Threshold: 0.883
+Feature: dance
+Threshold: 0.629
+r&b
+rap
+Feature: dance
+Threshold: 0.6315
+edm
+rock
+Feature: energy
+Threshold: 0.8725
+Feature: dance
+Threshold: 0.6365000000000001
+edm
+rock
+Feature: energy
+Threshold: 0.8795
+pop
+edm
+Feature: energy
+Threshold: 0.8654999999999999
+Feature: dance
+Threshold: 0.6615
+edm
+latin
+Feature: dance
+Threshold: 0.661
+Feature: dance
+Threshold: 0.6555
+Feature: dance
+Threshold: 0.6525000000000001
+Feature: energy
+Threshold: 0.88
+Feature: dance
+Threshold: 0.6485000000000001
+latin
+Feature: energy
+Threshold: 0.8705
+pop
+rock
+Feature: energy
+Threshold: 0.887
+Feature: dance
+Threshold: 0.648
+rock
+latin
+Feature: dance
+Threshold: 0.6505000000000001
+pop
+edm
+pop
+Feature: energy
+Threshold: 0.8685
+latin
+Feature: energy
+Threshold: 0.876
+rap
+edm
+Feature: energy
+Threshold: 0.8734999999999999
+Feature: energy
+Threshold: 0.87
+Feature: energy
+Threshold: 0.867
+edm
+Feature: dance
+Threshold: 0.6645000000000001
+rock
+latin
+rap
+Feature: dance
+Threshold: 0.666
+edm
+Feature: energy
+Threshold: 0.886
+Feature: energy
+Threshold: 0.879
+edm
+latin
+pop
+Feature: energy
+Threshold: 0.8614999999999999
+Feature: energy
+Threshold: 0.85
+r&b
+Feature: energy
+Threshold: 0.8554999999999999
+pop
+Feature: dance
+Threshold: 0.6745000000000001
+latin
+Feature: dance
+Threshold: 0.681
+rap
+rock
+Feature: energy
+Threshold: 0.8765000000000001
+Feature: dance
+Threshold: 0.678
+Feature: energy
+Threshold: 0.866
+Feature: dance
+Threshold: 0.674
+edm
+rock
+edm
+Feature: energy
+Threshold: 0.8685
+latin
+r&b
+Feature: dance
+Threshold: 0.68
+Feature: energy
+Threshold: 0.879
+latin
+r&b
+edm
+Feature: energy
+Threshold: 0.8215
+Feature: energy
+Threshold: 0.7975000000000001
+Feature: dance
+Threshold: 0.7315
+Feature: dance
+Threshold: 0.7175
+Feature: dance
+Threshold: 0.701
+Feature: energy
+Threshold: 0.789
+Feature: dance
+Threshold: 0.692
+pop
+Feature: energy
+Threshold: 0.783
+Feature: dance
+Threshold: 0.6995
+latin
+r&b
+edm
+Feature: energy
+Threshold: 0.7925
+latin
+pop
+Feature: energy
+Threshold: 0.789
+Feature: energy
+Threshold: 0.779
+latin
+Feature: dance
+Threshold: 0.7064999999999999
+pop
+Feature: dance
+Threshold: 0.7124999999999999
+rap
+edm
+Feature: dance
+Threshold: 0.7084999999999999
+latin
+edm
+Feature: dance
+Threshold: 0.7235
+Feature: energy
+Threshold: 0.787
+Feature: dance
+Threshold: 0.72
+rock
+latin
+Feature: dance
+Threshold: 0.719
+latin
+Feature: energy
+Threshold: 0.794
+Feature: energy
+Threshold: 0.7895000000000001
+r&b
+edm
+Feature: dance
+Threshold: 0.721
+pop
+r&b
+Feature: energy
+Threshold: 0.786
+Feature: energy
+Threshold: 0.7805
+latin
+pop
+Feature: dance
+Threshold: 0.726
+r&b
+rap
+Feature: dance
+Threshold: 0.735
+latin
+Feature: dance
+Threshold: 0.7384999999999999
+Feature: energy
+Threshold: 0.789
+latin
+Feature: energy
+Threshold: 0.793
+r&b
+pop
+Feature: energy
+Threshold: 0.7875000000000001
+edm
+rap
+Feature: energy
+Threshold: 0.8095
+Feature: energy
+Threshold: 0.8035000000000001
+Feature: dance
+Threshold: 0.7155
+Feature: dance
+Threshold: 0.71
+Feature: dance
+Threshold: 0.7024999999999999
+Feature: dance
+Threshold: 0.6975
+rap
+latin
+r&b
+edm
+Feature: energy
+Threshold: 0.8005
+edm
+Feature: dance
+Threshold: 0.732
+pop
+rock
+Feature: dance
+Threshold: 0.713
+Feature: dance
+Threshold: 0.7015
+edm
+latin
+Feature: dance
+Threshold: 0.7195
+pop
+Feature: dance
+Threshold: 0.721
+r&b
+edm
+Feature: dance
+Threshold: 0.7164999999999999
+Feature: energy
+Threshold: 0.816
+pop
+latin
+Feature: dance
+Threshold: 0.73
+Feature: dance
+Threshold: 0.722
+Feature: dance
+Threshold: 0.7175
+edm
+rap
+Feature: energy
+Threshold: 0.816
+Feature: dance
+Threshold: 0.724
+edm
+pop
+edm
+Feature: energy
+Threshold: 0.8165
+pop
+Feature: dance
+Threshold: 0.7375
+edm
+latin
+Feature: energy
+Threshold: 0.851
+Feature: dance
+Threshold: 0.717
+Feature: energy
+Threshold: 0.8345
+Feature: energy
+Threshold: 0.83
+Feature: dance
+Threshold: 0.709
+Feature: dance
+Threshold: 0.7004999999999999
+Feature: dance
+Threshold: 0.693
+edm
+Feature: dance
+Threshold: 0.693
+pop
+Feature: dance
+Threshold: 0.6935
+rock
+edm
+Feature: dance
+Threshold: 0.706
+edm
+Feature: energy
+Threshold: 0.8265
+pop
+rock
+edm
+Feature: dance
+Threshold: 0.704
+pop
+latin
+Feature: dance
+Threshold: 0.7004999999999999
+Feature: dance
+Threshold: 0.6924999999999999
+Feature: energy
+Threshold: 0.843
+edm
+pop
+Feature: energy
+Threshold: 0.844
+latin
+Feature: dance
+Threshold: 0.6964999999999999
+r&b
+rap
+Feature: dance
+Threshold: 0.7084999999999999
+Feature: dance
+Threshold: 0.7035
+Feature: energy
+Threshold: 0.839
+Feature: dance
+Threshold: 0.701
+edm
+pop
+Feature: energy
+Threshold: 0.8425
+rock
+rap
+pop
+latin
+Feature: energy
+Threshold: 0.8454999999999999
+Feature: dance
+Threshold: 0.73
+Feature: energy
+Threshold: 0.8325
+Feature: dance
+Threshold: 0.726
+Feature: energy
+Threshold: 0.823
+r&b
+edm
+rap
+Feature: dance
+Threshold: 0.726
+Feature: dance
+Threshold: 0.723
+r&b
+edm
+Feature: energy
+Threshold: 0.8365
+pop
+rap
+Feature: energy
+Threshold: 0.826
+Feature: dance
+Threshold: 0.733
+pop
+rap
+Feature: energy
+Threshold: 0.833
+Feature: dance
+Threshold: 0.7335
+rap
+Feature: dance
+Threshold: 0.7384999999999999
+latin
+pop
+Feature: energy
+Threshold: 0.8354999999999999
+rock
+pop
+pop
+Feature: dance
+Threshold: 0.715
+Feature: energy
+Threshold: 0.8734999999999999
+Feature: dance
+Threshold: 0.6975
+Feature: energy
+Threshold: 0.866
+Feature: energy
+Threshold: 0.855
+r&b
+latin
+pop
+Feature: energy
+Threshold: 0.8654999999999999
+Feature: dance
+Threshold: 0.7104999999999999
+Feature: dance
+Threshold: 0.7055
+Feature: dance
+Threshold: 0.7044999999999999
+r&b
+pop
+Feature: energy
+Threshold: 0.856
+edm
+pop
+latin
+Feature: dance
+Threshold: 0.705
+Feature: dance
+Threshold: 0.701
+latin
+Feature: energy
+Threshold: 0.8705
+pop
+rock
+rap
+Feature: dance
+Threshold: 0.6975
+Feature: energy
+Threshold: 0.8815
+Feature: energy
+Threshold: 0.877
+rock
+Feature: dance
+Threshold: 0.6944999999999999
+rap
+edm
+latin
+Feature: dance
+Threshold: 0.706
+Feature: dance
+Threshold: 0.703
+latin
+edm
+rap
+Feature: dance
+Threshold: 0.736
+Feature: dance
+Threshold: 0.7244999999999999
+Feature: energy
+Threshold: 0.8665
+Feature: energy
+Threshold: 0.859
+rap
+Feature: dance
+Threshold: 0.719
+rap
+pop
+Feature: energy
+Threshold: 0.881
+Feature: dance
+Threshold: 0.715
+latin
+pop
+Feature: dance
+Threshold: 0.7195
+latin
+edm
+Feature: energy
+Threshold: 0.8645
+Feature: energy
+Threshold: 0.8585
+Feature: dance
+Threshold: 0.733
+pop
+latin
+Feature: dance
+Threshold: 0.729
+rap
+latin
+Feature: energy
+Threshold: 0.8694999999999999
+rock
+Feature: dance
+Threshold: 0.7324999999999999
+Feature: energy
+Threshold: 0.8765000000000001
+latin
+Feature: dance
+Threshold: 0.7284999999999999
+edm
+pop
+Feature: energy
+Threshold: 0.873
+edm
+pop
+Feature: dance
+Threshold: 0.7424999999999999
+Feature: dance
+Threshold: 0.739
+edm
+Feature: energy
+Threshold: 0.866
+edm
+Feature: energy
+Threshold: 0.876
+rap
+pop
+Feature: energy
+Threshold: 0.8694999999999999
+Feature: energy
+Threshold: 0.8614999999999999
+latin
+pop
+latin
+Feature: dance
+Threshold: 0.8049999999999999
+Feature: energy
+Threshold: 0.833
+Feature: energy
+Threshold: 0.785
+Feature: dance
+Threshold: 0.774
+Feature: dance
+Threshold: 0.76
+pop
+edm
+Feature: dance
+Threshold: 0.7865
+latin
+Feature: dance
+Threshold: 0.799
+rap
+edm
+Feature: dance
+Threshold: 0.7745
+Feature: dance
+Threshold: 0.7675000000000001
+Feature: energy
+Threshold: 0.8095
+Feature: dance
+Threshold: 0.7565
+Feature: energy
+Threshold: 0.787
+rock
+Feature: dance
+Threshold: 0.7505
+Feature: energy
+Threshold: 0.7985
+latin
+pop
+Feature: energy
+Threshold: 0.798
+Feature: dance
+Threshold: 0.754
+edm
+latin
+latin
+Feature: energy
+Threshold: 0.794
+r&b
+latin
+Feature: dance
+Threshold: 0.7565
+Feature: dance
+Threshold: 0.7505
+Feature: dance
+Threshold: 0.7464999999999999
+Feature: energy
+Threshold: 0.828
+edm
+rap
+Feature: energy
+Threshold: 0.8205
+Feature: energy
+Threshold: 0.8125
+pop
+latin
+latin
+Feature: dance
+Threshold: 0.755
+Feature: energy
+Threshold: 0.824
+latin
+pop
+r&b
+Feature: energy
+Threshold: 0.821
+Feature: energy
+Threshold: 0.8125
+edm
+r&b
+Feature: dance
+Threshold: 0.761
+latin
+r&b
+Feature: energy
+Threshold: 0.8045
+Feature: energy
+Threshold: 0.7895000000000001
+Feature: energy
+Threshold: 0.788
+rap
+r&b
+Feature: dance
+Threshold: 0.77
+latin
+edm
+Feature: energy
+Threshold: 0.816
+Feature: dance
+Threshold: 0.7705
+pop
+latin
+Feature: dance
+Threshold: 0.773
+r&b
+pop
+Feature: energy
+Threshold: 0.7965
+Feature: energy
+Threshold: 0.789
+rap
+Feature: dance
+Threshold: 0.7865
+Feature: dance
+Threshold: 0.7765
+r&b
+Feature: energy
+Threshold: 0.791
+edm
+latin
+Feature: dance
+Threshold: 0.799
+Feature: energy
+Threshold: 0.791
+pop
+Feature: dance
+Threshold: 0.794
+latin
+r&b
+rap
+Feature: energy
+Threshold: 0.8195
+Feature: energy
+Threshold: 0.8055000000000001
+latin
+Feature: energy
+Threshold: 0.8105
+Feature: dance
+Threshold: 0.785
+Feature: dance
+Threshold: 0.784
+rap
+latin
+Feature: dance
+Threshold: 0.786
+pop
+Feature: dance
+Threshold: 0.786
+edm
+r&b
+Feature: dance
+Threshold: 0.7795000000000001
+Feature: dance
+Threshold: 0.777
+rap
+edm
+Feature: dance
+Threshold: 0.79
+latin
+Feature: energy
+Threshold: 0.8145
+latin
+Feature: dance
+Threshold: 0.796
+latin
+rap
+Feature: dance
+Threshold: 0.779
+Feature: energy
+Threshold: 0.8254999999999999
+latin
+rap
+Feature: dance
+Threshold: 0.7925
+latin
+Feature: energy
+Threshold: 0.8234999999999999
+r&b
+Feature: dance
+Threshold: 0.7985
+latin
+rap
+Feature: energy
+Threshold: 0.864
+Feature: dance
+Threshold: 0.7825
+Feature: dance
+Threshold: 0.772
+Feature: dance
+Threshold: 0.757
+Feature: energy
+Threshold: 0.837
+pop
+Feature: energy
+Threshold: 0.847
+Feature: dance
+Threshold: 0.7515000000000001
+edm
+pop
+Feature: energy
+Threshold: 0.857
+Feature: dance
+Threshold: 0.753
+latin
+pop
+Feature: energy
+Threshold: 0.8585
+r&b
+edm
+Feature: dance
+Threshold: 0.764
+rap
+r&b
+Feature: dance
+Threshold: 0.7785
+Feature: energy
+Threshold: 0.8445
+Feature: dance
+Threshold: 0.7755000000000001
+r&b
+edm
+pop
+Feature: energy
+Threshold: 0.8434999999999999
+Feature: energy
+Threshold: 0.836
+r&b
+latin
+Feature: energy
+Threshold: 0.854
+Feature: dance
+Threshold: 0.7805
+Feature: energy
+Threshold: 0.85
+latin
+edm
+latin
+Feature: dance
+Threshold: 0.78
+rap
+pop
+Feature: energy
+Threshold: 0.8465
+Feature: dance
+Threshold: 0.797
+Feature: energy
+Threshold: 0.8414999999999999
+latin
+pop
+Feature: energy
+Threshold: 0.8365
+r&b
+latin
+Feature: dance
+Threshold: 0.7925
+Feature: energy
+Threshold: 0.856
+Feature: energy
+Threshold: 0.85
+rap
+pop
+Feature: dance
+Threshold: 0.7895000000000001
+rap
+pop
+Feature: energy
+Threshold: 0.8594999999999999
+latin
+edm
+Feature: dance
+Threshold: 0.761
+Feature: dance
+Threshold: 0.749
+Feature: energy
+Threshold: 0.8755
+rap
+Feature: dance
+Threshold: 0.7464999999999999
+rap
+Feature: energy
+Threshold: 0.8775
+pop
+edm
+Feature: energy
+Threshold: 0.8805000000000001
+Feature: energy
+Threshold: 0.873
+rock
+Feature: energy
+Threshold: 0.879
+edm
+rap
+Feature: dance
+Threshold: 0.7545
+pop
+r&b
+Feature: dance
+Threshold: 0.778
+Feature: energy
+Threshold: 0.8734999999999999
+Feature: dance
+Threshold: 0.769
+Feature: dance
+Threshold: 0.7655000000000001
+Feature: dance
+Threshold: 0.764
+edm
+latin
+rap
+Feature: energy
+Threshold: 0.8694999999999999
+Feature: dance
+Threshold: 0.7725
+r&b
+latin
+pop
+Feature: dance
+Threshold: 0.7705
+Feature: dance
+Threshold: 0.7635000000000001
+edm
+Feature: energy
+Threshold: 0.886
+Feature: energy
+Threshold: 0.8805000000000001
+rap
+edm
+latin
+latin
+Feature: dance
+Threshold: 0.7915000000000001
+Feature: energy
+Threshold: 0.8685
+Feature: dance
+Threshold: 0.7865
+Feature: dance
+Threshold: 0.7825
+r&b
+edm
+rap
+Feature: energy
+Threshold: 0.8825000000000001
+Feature: dance
+Threshold: 0.7845
+edm
+Feature: energy
+Threshold: 0.8765000000000001
+edm
+rap
+rap
+Feature: dance
+Threshold: 0.7995000000000001
+Feature: energy
+Threshold: 0.8785000000000001
+rock
+Feature: dance
+Threshold: 0.795
+latin
+edm
+rap
+Feature: energy
+Threshold: 0.8395
+Feature: dance
+Threshold: 0.861
+Feature: dance
+Threshold: 0.831
+Feature: dance
+Threshold: 0.8245
+Feature: energy
+Threshold: 0.8140000000000001
+Feature: dance
+Threshold: 0.819
+Feature: energy
+Threshold: 0.801
+Feature: dance
+Threshold: 0.8115
+edm
+latin
+Feature: energy
+Threshold: 0.805
+edm
+Feature: energy
+Threshold: 0.8065
+edm
+Feature: dance
+Threshold: 0.812
+edm
+rap
+Feature: energy
+Threshold: 0.7955000000000001
+r&b
+Feature: energy
+Threshold: 0.805
+edm
+r&b
+Feature: energy
+Threshold: 0.831
+Feature: energy
+Threshold: 0.823
+edm
+r&b
+Feature: dance
+Threshold: 0.818
+pop
+rap
+Feature: energy
+Threshold: 0.7935000000000001
+pop
+rap
+Feature: energy
+Threshold: 0.7925
+Feature: dance
+Threshold: 0.834
+Feature: energy
+Threshold: 0.786
+r&b
+Feature: dance
+Threshold: 0.832
+latin
+edm
+Feature: dance
+Threshold: 0.841
+Feature: dance
+Threshold: 0.836
+Feature: energy
+Threshold: 0.7845
+rap
+edm
+latin
+Feature: dance
+Threshold: 0.85
+rap
+edm
+Feature: dance
+Threshold: 0.84
+Feature: energy
+Threshold: 0.808
+Feature: energy
+Threshold: 0.802
+rap
+rock
+latin
+Feature: dance
+Threshold: 0.85
+Feature: energy
+Threshold: 0.819
+Feature: dance
+Threshold: 0.842
+pop
+r&b
+edm
+Feature: energy
+Threshold: 0.8140000000000001
+Feature: energy
+Threshold: 0.804
+rap
+Feature: dance
+Threshold: 0.8545
+pop
+r&b
+latin
+Feature: dance
+Threshold: 0.8905000000000001
+Feature: energy
+Threshold: 0.8095
+Feature: energy
+Threshold: 0.79
+r&b
+edm
+Feature: energy
+Threshold: 0.828
+rap
+latin
+Feature: dance
+Threshold: 0.9255
+Feature: energy
+Threshold: 0.8089999999999999
+Feature: dance
+Threshold: 0.914
+latin
+rap
+latin
+Feature: energy
+Threshold: 0.8155
+edm
+Feature: energy
+Threshold: 0.8325
+Feature: dance
+Threshold: 0.937
+latin
+rap
+edm
+Feature: dance
+Threshold: 0.826
+Feature: dance
+Threshold: 0.8125
+Feature: energy
+Threshold: 0.88
+Feature: energy
+Threshold: 0.857
+r&b
+Feature: dance
+Threshold: 0.8085
+latin
+edm
+Feature: dance
+Threshold: 0.807
+pop
+edm
+Feature: energy
+Threshold: 0.8725
+Feature: dance
+Threshold: 0.8145
+r&b
+Feature: energy
+Threshold: 0.8554999999999999
+Feature: dance
+Threshold: 0.8214999999999999
+rap
+latin
+Feature: energy
+Threshold: 0.8625
+latin
+Feature: dance
+Threshold: 0.8205
+rap
+edm
+Feature: dance
+Threshold: 0.816
+latin
+Feature: energy
+Threshold: 0.876
+rap
+edm
+Feature: energy
+Threshold: 0.864
+Feature: dance
+Threshold: 0.8414999999999999
+Feature: energy
+Threshold: 0.8534999999999999
+pop
+r&b
+Feature: dance
+Threshold: 0.866
+Feature: dance
+Threshold: 0.8554999999999999
+Feature: energy
+Threshold: 0.847
+rap
+latin
+Feature: energy
+Threshold: 0.848
+rap
+pop
+Feature: dance
+Threshold: 0.9095
+pop
+latin
+Feature: energy
+Threshold: 0.884
+Feature: dance
+Threshold: 0.8574999999999999
+Feature: dance
+Threshold: 0.838
+rap
+latin
+Feature: dance
+Threshold: 0.873
+edm
+Feature: dance
+Threshold: 0.884
+r&b
+latin
+Feature: dance
+Threshold: 0.8425
+r&b
+Feature: dance
+Threshold: 0.865
+edm
+r&b
+Feature: energy
+Threshold: 0.9465
+Feature: dance
+Threshold: 0.7444999999999999
+Feature: dance
+Threshold: 0.629
+Feature: energy
+Threshold: 0.925
+Feature: energy
+Threshold: 0.9075
+Feature: dance
+Threshold: 0.6154999999999999
+Feature: dance
+Threshold: 0.5974999999999999
+Feature: energy
+Threshold: 0.8985000000000001
+Feature: energy
+Threshold: 0.8965000000000001
+Feature: dance
+Threshold: 0.5885
+pop
+latin
+edm
+edm
+Feature: dance
+Threshold: 0.6065
+Feature: energy
+Threshold: 0.904
+Feature: energy
+Threshold: 0.8975
+Feature: dance
+Threshold: 0.6045
+rock
+pop
+latin
+edm
+Feature: energy
+Threshold: 0.899
+rap
+edm
+Feature: dance
+Threshold: 0.624
+pop
+edm
+Feature: dance
+Threshold: 0.6125
+Feature: dance
+Threshold: 0.6045
+Feature: dance
+Threshold: 0.591
+Feature: energy
+Threshold: 0.9135
+pop
+rock
+edm
+pop
+Feature: dance
+Threshold: 0.6214999999999999
+Feature: dance
+Threshold: 0.6154999999999999
+Feature: dance
+Threshold: 0.614
+edm
+r&b
+Feature: energy
+Threshold: 0.916
+pop
+edm
+Feature: energy
+Threshold: 0.916
+Feature: energy
+Threshold: 0.9115
+rock
+edm
+Feature: energy
+Threshold: 0.9205000000000001
+pop
+latin
+Feature: dance
+Threshold: 0.6054999999999999
+Feature: dance
+Threshold: 0.5965
+Feature: dance
+Threshold: 0.5885
+Feature: dance
+Threshold: 0.585
+edm
+Feature: dance
+Threshold: 0.587
+rap
+edm
+Feature: energy
+Threshold: 0.9355
+Feature: energy
+Threshold: 0.933
+Feature: energy
+Threshold: 0.929
+pop
+latin
+rock
+edm
+Feature: energy
+Threshold: 0.9315
+Feature: dance
+Threshold: 0.599
+edm
+rock
+edm
+Feature: energy
+Threshold: 0.9339999999999999
+Feature: dance
+Threshold: 0.623
+rock
+Feature: energy
+Threshold: 0.927
+latin
+edm
+Feature: energy
+Threshold: 0.9404999999999999
+Feature: dance
+Threshold: 0.617
+rock
+pop
+Feature: dance
+Threshold: 0.619
+pop
+edm
+Feature: energy
+Threshold: 0.9335
+Feature: dance
+Threshold: 0.692
+Feature: energy
+Threshold: 0.9095
+Feature: dance
+Threshold: 0.662
+Feature: energy
+Threshold: 0.9025000000000001
+Feature: dance
+Threshold: 0.642
+pop
+Feature: energy
+Threshold: 0.8945000000000001
+r&b
+Feature: dance
+Threshold: 0.65
+rock
+pop
+Feature: dance
+Threshold: 0.6585000000000001
+edm
+rock
+Feature: energy
+Threshold: 0.9
+Feature: dance
+Threshold: 0.67
+Feature: energy
+Threshold: 0.8965000000000001
+edm
+r&b
+rap
+Feature: energy
+Threshold: 0.906
+edm
+Feature: dance
+Threshold: 0.6735
+rock
+pop
+Feature: energy
+Threshold: 0.927
+Feature: dance
+Threshold: 0.672
+Feature: dance
+Threshold: 0.6635
+Feature: dance
+Threshold: 0.6495
+Feature: energy
+Threshold: 0.917
+edm
+Feature: dance
+Threshold: 0.643
+Feature: dance
+Threshold: 0.6375
+rap
+Feature: dance
+Threshold: 0.6405000000000001
+rock
+edm
+rock
+Feature: dance
+Threshold: 0.656
+Feature: energy
+Threshold: 0.9205000000000001
+pop
+edm
+Feature: energy
+Threshold: 0.922
+latin
+rock
+Feature: dance
+Threshold: 0.6655
+edm
+Feature: dance
+Threshold: 0.669
+pop
+Feature: energy
+Threshold: 0.917
+edm
+latin
+Feature: energy
+Threshold: 0.9185000000000001
+edm
+rap
+Feature: dance
+Threshold: 0.6735
+Feature: dance
+Threshold: 0.6625000000000001
+Feature: dance
+Threshold: 0.6515
+edm
+rock
+edm
+Feature: dance
+Threshold: 0.6775
+edm
+pop
+Feature: dance
+Threshold: 0.71
+Feature: energy
+Threshold: 0.9175
+Feature: dance
+Threshold: 0.6955
+Feature: energy
+Threshold: 0.906
+pop
+rap
+Feature: dance
+Threshold: 0.702
+Feature: energy
+Threshold: 0.9105000000000001
+Feature: energy
+Threshold: 0.9065000000000001
+latin
+pop
+edm
+Feature: energy
+Threshold: 0.908
+latin
+Feature: dance
+Threshold: 0.707
+r&b
+pop
+edm
+Feature: energy
+Threshold: 0.9145000000000001
+Feature: dance
+Threshold: 0.7264999999999999
+Feature: energy
+Threshold: 0.9055
+Feature: dance
+Threshold: 0.723
+Feature: dance
+Threshold: 0.719
+edm
+rap
+Feature: dance
+Threshold: 0.7244999999999999
+Feature: energy
+Threshold: 0.8985000000000001
+r&b
+edm
+latin
+Feature: energy
+Threshold: 0.9125000000000001
+rock
+pop
+Feature: energy
+Threshold: 0.9055
+Feature: dance
+Threshold: 0.732
+Feature: dance
+Threshold: 0.729
+latin
+edm
+pop
+edm
+Feature: energy
+Threshold: 0.922
+Feature: dance
+Threshold: 0.727
+latin
+Feature: energy
+Threshold: 0.918
+edm
+pop
+Feature: dance
+Threshold: 0.715
+rock
+Feature: dance
+Threshold: 0.718
+latin
+edm
+Feature: dance
+Threshold: 0.6555
+Feature: dance
+Threshold: 0.642
+edm
+Feature: dance
+Threshold: 0.6515
+edm
+rock
+Feature: dance
+Threshold: 0.7065
+Feature: dance
+Threshold: 0.671
+Feature: energy
+Threshold: 0.9395
+Feature: dance
+Threshold: 0.664
+edm
+rock
+edm
+Feature: dance
+Threshold: 0.685
+rock
+edm
+Feature: dance
+Threshold: 0.721
+Feature: dance
+Threshold: 0.709
+rap
+edm
+Feature: energy
+Threshold: 0.9390000000000001
+pop
+Feature: dance
+Threshold: 0.7355
+Feature: dance
+Threshold: 0.7264999999999999
+r&b
+pop
+edm
+Feature: dance
+Threshold: 0.8049999999999999
+Feature: dance
+Threshold: 0.774
+Feature: dance
+Threshold: 0.757
+Feature: energy
+Threshold: 0.9055
+edm
+Feature: energy
+Threshold: 0.923
+Feature: energy
+Threshold: 0.9165000000000001
+r&b
+edm
+latin
+Feature: energy
+Threshold: 0.9179999999999999
+Feature: energy
+Threshold: 0.8965000000000001
+Feature: dance
+Threshold: 0.765
+latin
+edm
+Feature: energy
+Threshold: 0.9065000000000001
+Feature: dance
+Threshold: 0.768
+rap
+edm
+Feature: energy
+Threshold: 0.9135
+edm
+latin
+Feature: dance
+Threshold: 0.767
+edm
+Feature: energy
+Threshold: 0.937
+latin
+rap
+Feature: dance
+Threshold: 0.7955000000000001
+Feature: energy
+Threshold: 0.9319999999999999
+Feature: dance
+Threshold: 0.7825
+latin
+edm
+Feature: dance
+Threshold: 0.7825
+rock
+r&b
+Feature: dance
+Threshold: 0.7995000000000001
+Feature: energy
+Threshold: 0.9339999999999999
+Feature: energy
+Threshold: 0.915
+pop
+edm
+r&b
+Feature: energy
+Threshold: 0.9255
+Feature: energy
+Threshold: 0.913
+Feature: energy
+Threshold: 0.9095
+rap
+Feature: dance
+Threshold: 0.8015000000000001
+r&b
+edm
+edm
+Feature: dance
+Threshold: 0.803
+latin
+edm
+Feature: dance
+Threshold: 0.855
+Feature: energy
+Threshold: 0.9005000000000001
+Feature: dance
+Threshold: 0.839
+edm
+Feature: dance
+Threshold: 0.8445
+latin
+rap
+Feature: energy
+Threshold: 0.9235
+Feature: dance
+Threshold: 0.8135
+edm
+Feature: energy
+Threshold: 0.9085000000000001
+latin
+rap
+Feature: dance
+Threshold: 0.812
+edm
+latin
+Feature: dance
+Threshold: 0.8875
+Feature: dance
+Threshold: 0.8775
+latin
+r&b
+Feature: dance
+Threshold: 0.9155
+Feature: dance
+Threshold: 0.8975
+edm
+Feature: energy
+Threshold: 0.927
+rap
+pop
+Feature: energy
+Threshold: 0.924
+Feature: dance
+Threshold: 0.937
+edm
+latin
+rap
+Feature: dance
+Threshold: 0.636
+Feature: energy
+Threshold: 0.9775
+Feature: dance
+Threshold: 0.6074999999999999
+Feature: energy
+Threshold: 0.972
+Feature: energy
+Threshold: 0.9595
+Feature: energy
+Threshold: 0.9495
+edm
+Feature: dance
+Threshold: 0.605
+pop
+edm
+Feature: dance
+Threshold: 0.5894999999999999
+rap
+edm
+Feature: dance
+Threshold: 0.5885
+latin
+pop
+Feature: dance
+Threshold: 0.6185
+Feature: dance
+Threshold: 0.612
+Feature: energy
+Threshold: 0.9644999999999999
+edm
+rap
+edm
+Feature: energy
+Threshold: 0.969
+Feature: dance
+Threshold: 0.6265000000000001
+Feature: energy
+Threshold: 0.963
+edm
+rap
+edm
+edm
+Feature: energy
+Threshold: 0.9835
+edm
+Feature: energy
+Threshold: 0.9884999999999999
+Feature: dance
+Threshold: 0.6105
+pop
+rap
+Feature: dance
+Threshold: 0.598
+rock
+Feature: dance
+Threshold: 0.6125
+edm
+latin
+Feature: dance
+Threshold: 0.683
+Feature: dance
+Threshold: 0.6675
+Feature: energy
+Threshold: 0.96
+Feature: dance
+Threshold: 0.6535
+rock
+edm
+Feature: dance
+Threshold: 0.658
+Feature: dance
+Threshold: 0.646
+edm
+Feature: energy
+Threshold: 0.9695
+rock
+Feature: energy
+Threshold: 0.975
+rap
+edm
+Feature: dance
+Threshold: 0.663
+Feature: energy
+Threshold: 0.9655
+pop
+Feature: dance
+Threshold: 0.6605000000000001
+edm
+r&b
+edm
+edm
+Feature: energy
+Threshold: 0.96
+Feature: energy
+Threshold: 0.95
+Feature: dance
+Threshold: 0.704
+edm
+Feature: dance
+Threshold: 0.7124999999999999
+latin
+edm
+Feature: dance
+Threshold: 0.719
+Feature: dance
+Threshold: 0.712
+edm
+rock
+Feature: dance
+Threshold: 0.735
+Feature: energy
+Threshold: 0.954
+latin
+edm
+Feature: dance
+Threshold: 0.75
+Feature: dance
+Threshold: 0.7415
+edm
+pop
+Feature: dance
+Threshold: 0.7665
+Feature: energy
+Threshold: 0.955
+edm
+latin
+Feature: dance
+Threshold: 0.802
+Feature: energy
+Threshold: 0.955
+pop
+rap
+Feature: dance
+Threshold: 0.8514999999999999
+pop
+rap
+Feature: dance
+Threshold: 0.7095
+edm
+Feature: dance
+Threshold: 0.7675
+Feature: dance
+Threshold: 0.7335
+Feature: energy
+Threshold: 0.975
+Feature: energy
+Threshold: 0.9644999999999999
+pop
+r&b
+Feature: dance
+Threshold: 0.7224999999999999
+pop
+edm
+Feature: dance
+Threshold: 0.7565
+Feature: dance
+Threshold: 0.7435
+latin
+edm
+Feature: energy
+Threshold: 0.985
+rap
+edm
+Feature: dance
+Threshold: 0.8135
+Feature: dance
+Threshold: 0.8105
+r&b
+pop
+Feature: dance
+Threshold: 0.8545
+edm
+latin

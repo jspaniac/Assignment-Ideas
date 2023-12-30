@@ -1,0 +1,205 @@
+Feature: temp
+Threshold: 0.1440789473947368
+Feature: temp
+Threshold: 0.013742690052631581
+Feature: temp
+Threshold: -0.010745614038157894
+snow
+Feature: temp
+Threshold: 0.005409356725
+Feature: humidity
+Threshold: 0.89
+Feature: humidity
+Threshold: 0.84
+Feature: temp
+Threshold: 2.923976607894737E-4
+snow
+rain
+Feature: humidity
+Threshold: 0.855
+snow
+Feature: humidity
+Threshold: 0.865
+rain
+snow
+Feature: humidity
+Threshold: 0.915
+Feature: humidity
+Threshold: 0.905
+snow
+rain
+Feature: temp
+Threshold: 2.923976607894737E-4
+snow
+rain
+rain
+Feature: humidity
+Threshold: 0.855
+rain
+Feature: humidity
+Threshold: 0.88
+rain
+Feature: humidity
+Threshold: 0.91
+Feature: humidity
+Threshold: 0.895
+rain
+Feature: temp
+Threshold: 0.06783625731578947
+rain
+Feature: temp
+Threshold: 0.08596491228947369
+rain
+Feature: temp
+Threshold: 0.10321637427631579
+rain
+null
+rain
+Feature: humidity
+Threshold: 0.81
+Feature: temp
+Threshold: 0.40745614039473677
+Feature: humidity
+Threshold: 0.655
+Feature: temp
+Threshold: 0.3319444444736842
+Feature: temp
+Threshold: 0.22390350880263157
+rain
+Feature: humidity
+Threshold: 0.62
+rain
+Feature: humidity
+Threshold: 0.635
+rain
+Feature: temp
+Threshold: 0.2682017544736842
+rain
+null
+Feature: humidity
+Threshold: 0.5800000000000001
+rain
+null
+Feature: humidity
+Threshold: 0.765
+Feature: temp
+Threshold: 0.22602339181578945
+rain
+Feature: temp
+Threshold: 0.3282894736842105
+Feature: humidity
+Threshold: 0.73
+Feature: temp
+Threshold: 0.27616959060526314
+rain
+Feature: humidity
+Threshold: 0.6950000000000001
+Feature: temp
+Threshold: 0.3152777777631579
+Feature: temp
+Threshold: 0.29795321631578947
+rain
+null
+rain
+rain
+Feature: temp
+Threshold: 0.27872807013157896
+Feature: temp
+Threshold: 0.24473684210526314
+rain
+Feature: humidity
+Threshold: 0.75
+rain
+null
+Feature: humidity
+Threshold: 0.745
+rain
+null
+rain
+Feature: temp
+Threshold: 0.21995614030263158
+Feature: humidity
+Threshold: 0.785
+Feature: temp
+Threshold: 0.16717836256578947
+rain
+Feature: temp
+Threshold: 0.18421052631578946
+null
+rain
+rain
+rain
+Feature: humidity
+Threshold: 0.5549999999999999
+Feature: humidity
+Threshold: 0.43
+Feature: temp
+Threshold: 0.5695906432894737
+Feature: temp
+Threshold: 0.5347953217105264
+rain
+Feature: temp
+Threshold: 0.5455409356578947
+rain
+Feature: humidity
+Threshold: 0.33499999999999996
+rain
+Feature: humidity
+Threshold: 0.365
+rain
+Feature: humidity
+Threshold: 0.4
+null
+rain
+rain
+rain
+rain
+Feature: humidity
+Threshold: 0.865
+Feature: temp
+Threshold: 0.2592836257631579
+Feature: humidity
+Threshold: 0.835
+rain
+Feature: humidity
+Threshold: 0.85
+Feature: temp
+Threshold: 0.20168128655263157
+null
+rain
+rain
+rain
+Feature: temp
+Threshold: 0.24502923978947372
+Feature: humidity
+Threshold: 0.9099999999999999
+Feature: temp
+Threshold: 0.20292397660526315
+Feature: temp
+Threshold: 0.19444444444736841
+rain
+null
+rain
+rain
+Feature: temp
+Threshold: 0.36644736842105263
+Feature: temp
+Threshold: 0.3096491228947369
+rain
+Feature: temp
+Threshold: 0.3399122807894737
+Feature: humidity
+Threshold: 0.9
+Feature: temp
+Threshold: 0.32485380118421053
+Feature: temp
+Threshold: 0.31834795328947374
+Feature: temp
+Threshold: 0.31608187131578946
+null
+rain
+rain
+rain
+rain
+rain
+rain
