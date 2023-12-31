@@ -17,7 +17,8 @@ public class CipherTest {
         new Tuple<>("0123456789", "Numbers incrementing"),
         new Tuple<>("9876543210", "Numbers decrementing"),
         new Tuple<>(" !\"#$", "Characters near Cipher.MIN_CHAR"),
-        new Tuple<>("yz{|}", "Characters near Cipher.MAX_CHAR")
+        new Tuple<>("yz{|}", "Characters near Cipher.MAX_CHAR"),
+        new Tuple<>(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`bacdefghijklmnopqrstuvwxyz{|}", "All chars")
     );
 
     // Base test streams:
