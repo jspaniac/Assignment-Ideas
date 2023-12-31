@@ -11,54 +11,54 @@ ___
 ## Code
 Below is a description of the encryption schemes you're required to implement in this assignment:
 ___
-### Ceaser.java
-The Ceaser Cipher is likely the most commonly known encryption algorithm. It consists of assigning each input character a unique output character, and replacing all characters appropriately when encoding / decoding. This mapping is provided via a shifter string. Vertically aligning this shifter string with the alphabet and looking at the corresponding columns allows us to see the appropriate character mappings. Consider the following example:
+### Caesar.java
+The Caesar Cipher is likely the most commonly known encryption algorithm. It consists of assigning each input character a unique output character, and replacing all characters appropriately when encoding / decoding. This mapping is provided via a shifter string. Vertically aligning this shifter string with the alphabet and looking at the corresponding columns allows us to see the appropriate character mappings. Consider the following example:
 
-![Diagram that outlines the process for input string "ABCDEFG" and shifter "GCBEAFD", these strings are stacked one on top of the other and the mapping can be seen from the top and bottom values in each column.](./CeaserCipher.png)
+![Diagram that outlines the process for input string "ABCDEFG" and shifter "GCBEAFD", these strings are stacked one on top of the other and the mapping can be seen from the top and bottom values in each column.](./CaesarCipher.png)
 
 Given the shifter string above, the plaintext "FAD" would be encoded into "FGE" and decoding the ciphertext "CGE" gives the plaintext "BAD". Your solution must implement the following methods:
 
 ```java
-public Ceaser()
+public Caesar()
 ```
-Constructs a new Ceaser Cipher with an empty shifter
+Constructs a new Caesar Cipher with an empty shifter
 
 ```java
-public Ceaser(String shifter)
+public Caesar(String shifter)
 ```
-Constructs a new Ceaser Cipher with the provided shifter. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match number of characters handled by our Ciphers or any individual character falls outside our range of valid characters.
+Constructs a new Caesar Cipher with the provided shifter. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match number of characters handled by our Ciphers or any individual character falls outside our range of valid characters.
 
 ```java
 public setShifter(String shifter)
 ```
-Updates the shifter for this Ceaser Cipher. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match the number of valid characters handled by our Ciphers or any individual character falls outside our range of valid characters.
+Updates the shifter for this Caesar Cipher. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match the number of valid characters handled by our Ciphers or any individual character falls outside our range of valid characters.
 
 Since we're allowing clients to set a shifter after construction, your `handleInput` method should throw an `IllegalStateException` if a shifter was never set (and thus no encryption/decryption can occur).
 ___
-### CeaserShift.java
+### CaesarShift.java
 
 This encryption scheme is extremely similar to the one described above, except it involves shifting the entire alphabet forwards (or backwards) by the provided shift amount. Consider the following example:
 
-![Diagram that outlines how to generate a shifter string with every character shifted forward 3 places, looping back to the start if needed](./CeaserShift.png)
+![Diagram that outlines how to generate a shifter string with every character shifted forward 3 places, looping back to the start if needed](./CaesarShift.png)
 
 Note that the shifter string consists of the alphabet with each character shifted forwards 3 places (looping back to the beginning if required). Below is the method signature for the classes' constructor:
 
 ```java
-public CeaserShift(int shift)
+public CaesarShift(int shift)
 ```
 An `IllegalArgumentException` should be thrown in the case that shift is 0 (as no encryption would be occuring).
 
 **HINT**: One way of viewing the modulo operator (%) is that it shrinks our integer numberline to one having a certain length (i.e. %10 only allows numbers +/- 0-9 to exist). This is useful in situations where we want to loop back to the beginning after passing a specific value and will likely be useful in your solution to the above.
 ___
-### CeaserKey.java
+### CaesarKey.java
 
-Much like the CeaserShift, the CeaserKey scheme also builds off of the base Ceaser Cipher. Namely, this one involves a key that is placed at the front of the shifter string, with the rest of the alphabet following normally (minus the characters included in the key). Consider the following example:
+Much like the CaesarShift, the CaesarKey scheme also builds off of the base Caesar Cipher. Namely, this one involves a key that is placed at the front of the shifter string, with the rest of the alphabet following normally (minus the characters included in the key). Consider the following example:
 
-![Diagram that outlines created a shifter from a key. The key is first, and the rest of the alphabet (minus the keyed characters) follow in order](./CeaserKey.png)
+![Diagram that outlines created a shifter from a key. The key is first, and the rest of the alphabet (minus the keyed characters) follow in order](./CaesarKey.png)
 
 Note that the shifter string starts with "BAG" (the key) and then is followed by the alphabet in its original order (minus the characters B, A, and G as they're already in the shifter). Below is the method signature for the classes' constructor:
 ```java
-public CeaserKey(String key)
+public CaesarKey(String key)
 ```
 This constructor should throw an `IllegalArgumentException` in the case that the key is empty, it contains a character outside our range of valid characters, or it contains any duplicate characters.
 ___
@@ -69,7 +69,7 @@ public MultiCipher(List<Cipher> ciphers)
 ```
 An `IllegalArgumentException` should be thrown in the case that the list is empty (as no encryption would be occuring).
 ___
-Now that you're done, create a MultiCipher consisting of the following: a CeaserShift(4), a CeaserKey("123"), a CeaserShift(12), and a CeaserKey("lemon"). Decrypt the following!
+Now that you're done, create a MultiCipher consisting of the following: a CaesarShift(4), a CaesarKey("123"), a CaesarShift(12), and a CaesarKey("lemon"). Decrypt the following!
 
 `Nelwnq! (el(vyly xylw(!xy (q  ywl}ul!)(Ne"|t(&e"(!u||($xq!(!xy (}u  qwu($q (ruvenu(tusetylwJ(E1`
 ___
@@ -79,7 +79,7 @@ For the creative portion of this assignment, you'll be implementing another ciph
 1) Concealment
 2) Vigenere
 3) Transposition
-4) CeaserRandom
+4) CaesarRandom
 5) Your choice!
 
 ___
@@ -97,11 +97,11 @@ An `IllegalArgumentException` should be thrown in the case that filler is not po
 ___
 ### 2. Vigenere
 
-The Vigenère cipher is a hybrid between the CeaserKey and CeaserShift. It is created with a key that is repeated such that its length matches that of the input text:
+The Vigenère cipher is a hybrid between the CaesarKey and CaesarShift. It is created with a key that is repeated such that its length matches that of the input text:
 
 ![A diagram showing how a key is repeated to match length input "HELLO", key "CSE" becomes "CSECS"](./Vigenere1.png)
 
-This value at each position of this key then determines the CeaserShift to use for a specific character. If you imagine that the example above is only using uppercase alphabetic characters, that would mean index 0 would shift by 2 (c - a), index 1 would shift by 18 (s - a), index 2 would shift by 4 (e - a), and so on.
+This value at each position of this key then determines the CaesarShift to use for a specific character. If you imagine that the example above is only using uppercase alphabetic characters, that would mean index 0 would shift by 2 (c - a), index 1 would shift by 18 (s - a), index 2 would shift by 4 (e - a), and so on.
 
 ![A diagram showing how each of the shifts affect an character of the input string (H + 2 => J, E + 18 => W, L + 4 => P, L + 2 => N, O + 18 => G)](./Vigenere2.png)
 
@@ -136,8 +136,8 @@ public Transposition(int width)
 ```
 An `IllegalArgumentException` should be thrown if the width is <= 0 (not possible) or == 1 (as no encryption will occur).
 ___
-### 4. CeaserRandom
-Here, you'll implement another variation of a Ceaser Cipher that uses a randomly shuffled shifter string. This initially sounds impossible as if we randomly create the shifter string, how do we possibly decrypt? The answer lies in being able to control a Random object in java via a seed value. Any two Random objects constructd with the same seed will produce random values in the same order as one another. Below is an example:
+### 4. CaesarRandom
+Here, you'll implement another variation of a Caesar Cipher that uses a randomly shuffled shifter string. This initially sounds impossible as if we randomly create the shifter string, how do we possibly decrypt? The answer lies in being able to control a Random object in java via a seed value. Any two Random objects constructd with the same seed will produce random values in the same order as one another. Below is an example:
 ```java
 int seed = 123;
 Random rand = new Random(seed);
@@ -153,7 +153,7 @@ You should randomly generate a new seed every time you encrypt a message. The le
 Below is the appropriate constructor signature for your solution:
 
 ```java
-public CeaserRandom(int digits)
+public CaesarRandom(int digits)
 ```
 An `IllegalArgumentException` should be thrown if digits isn't positive or if it is greater than the max number of digits for an integer, which is 9. (Note that the max integer value is 2,147,483,647 which is 10 digits, but larger 10-digit numbers can't be represented).
 ___
