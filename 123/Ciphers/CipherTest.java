@@ -230,7 +230,7 @@ public class CipherTest {
 
         @Override
         public String toString() {
-            return String.format("(%s, %s)", one.toString(), two.toString());
+            return String.format("(%s, %s)", two.toString(), one.toString());
         }
     }
 }
