@@ -187,7 +187,7 @@ public class CipherTest {
             assertThrows(IllegalArgumentException.class, () -> {
                 Caeser c = new Caeser();
                 c.setShifter(tuple.one);
-            }, String.format("Appropriate exception not thrown for shifter type [%s] in Caeser.java setShifter constructor", tuple.two));
+            }, String.format("Appropriate exception not thrown for shifter type [%s] in Caeser.java setShifter", tuple.two));
         });
 
         assertThrows(IllegalStateException.class, () -> {
