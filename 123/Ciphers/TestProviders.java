@@ -48,7 +48,7 @@ public class TestProviders {
         return Stream.of("BAG", "bag", "cse123", "" + (char)(Cipher.MAX_CHAR));
     }
 
-    // MultiCipher.java - Strings that are converted into ciphers. c=Caeser, k=CaeserKey, s=CaeserShift
+    // MultiCipher.java - String lists that are converted into multiciphers. c=Caeser, k=CaeserKey, s=CaeserShift
     public static Stream<List<String>> cipherListProvider() {
         return Stream.of(
             List.of("c !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`bacdefghijklmnopqrstuvwxyz{|}"),
@@ -58,19 +58,23 @@ public class TestProviders {
         );
     }
 
+    // Concealment.java - Up to what filler value is tested
     public static final int MAX_CONCEALMENT = 100;
     public static Stream<Integer> concealmentProvider() {
         return IntStream.range(1, MAX_CONCEALMENT + 1).boxed();
     }
 
+    // Vigenere.java - Key values provided to constructor
     public static Stream<String> vigenereProvider() {
-        return Stream.concat(keyProvider(), List.of("vigenere", "VIGENERE").stream());
+        return Stream.concat(keyProvider(), List.of("vigenere", "VIGENERE", Cipher.MIN_CHAR + "" + Cipher.MAX_CHAR).stream());
     }
 
+    // Transposition.java - Uses same values as concealment skipping the 1
     public static Stream<Integer> transpositionProvider() {
         return concealmentProvider().skip(1);
     }
 
+    // CaesarRandom.java - Tests all possible number of digits
     public static final int MAX_DIGITS = (int)(Math.floor(Math.log10(Integer.MAX_VALUE)));
     public static Stream<Integer> randomProvider() {
         return IntStream.range(1, MAX_DIGITS + 1).boxed();
