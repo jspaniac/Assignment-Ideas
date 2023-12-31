@@ -18,6 +18,6 @@ public class CaeserShift extends Caeser {
 
     @Override
     public String toString() {
-        return String.format("CaeserShift with shift %d", this.shift);
+        return String.format("CaeserShift with shift: %d", this.shift);
     }
 }

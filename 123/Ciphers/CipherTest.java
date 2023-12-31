@@ -91,7 +91,7 @@ public class CipherTest {
         );
     }
 
-    // MultiCipher.java -
+    // MultiCipher.java - Just an empty list lol
 
     @BeforeEach
     public void setUp() {
@@ -114,7 +114,7 @@ public class CipherTest {
     @Tag("Score:0")
     @MethodSource("shiftProvider")
     public void testCaeserShift(int shift) {
-        testCiphers(new solution.CaeserShift(shift), new CaeserShift(shift), String.valueOf(shift));
+        testCiphers(new solution.CaeserShift(shift), new CaeserShift(shift), "");
     }
 
     @DisplayName("CaeserKey Test Encode/Decode")
@@ -122,7 +122,7 @@ public class CipherTest {
     @Tag("Score:0")
     @MethodSource("keyProvider")
     public void testCaeserKey(String key) {
-        testCiphers(new solution.CaeserKey(key), new CaeserKey(key), key);
+        testCiphers(new solution.CaeserKey(key), new CaeserKey(key), "");
     }
 
     @DisplayName("MultiCipher Test Encode/Decode")
@@ -131,7 +131,7 @@ public class CipherTest {
     @MethodSource("cipherListProvider")
     public void testMultiCipher(List<String> ciphers) {
         Tuple<List<Cipher>, List<solution.Cipher>> converted = cipherListConverter(ciphers);
-        testCiphers(new solution.MultiCipher(converted.two), new MultiCipher(converted.one), converted.two.toString());
+        testCiphers(new solution.MultiCipher(converted.two), new MultiCipher(converted.one), "");
     }
 
     public Tuple<List<Cipher>, List<solution.Cipher>> cipherListConverter(List<String> input) {
@@ -152,15 +152,17 @@ public class CipherTest {
         return new Tuple<>(studentCiphers, solutionCiphers);
     }
 
-    public void testCiphers(solution.Cipher solution, Cipher student, String constructorDescription) {
+    public void testCiphers(solution.Cipher solution, Cipher student, String additionalDescription) {
         for (int i = 0; i <= 1; i++) {
             boolean encode = i == 0;
             for (Tuple<String, String> input : inputs) {
                 String expected = solution.handleInput(input.one, encode);
                 String actual = student.handleInput(input.one, encode);
                 assertEquals(expected, actual,
-                            String.format("%s failed with constuctor value [%s] and input %s", 
-                                          (encode ? "Encode" : "Decode"), constructorDescription, input)
+                            String.format("%s failed with [%s] and input %s", 
+                                          (encode ? "Encode" : "Decode"),
+                                          (additionalDescription.isEmpty() ? solution.toString() : additionalDescription),
+                                          input.toString())
                 );
             }
         }

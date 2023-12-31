@@ -19,4 +19,9 @@ public class MultiCipher extends Cipher {
         }
         return input;
     }
+
+    @Override
+    public String toString() {
+        return ciphers.toString().substring(1, ciphers.toString().length() - 1);
+    }
 }
