@@ -1,5 +1,3 @@
-package solution;
-
 public class Caeser extends Cipher {
     private String shifter;
     

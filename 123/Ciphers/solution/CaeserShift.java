@@ -1,3 +1,5 @@
+package solution;
+
 public class CaeserShift extends Caeser {
     public CaeserShift(int shift) {
         if (shift == 0) {

@@ -1,7 +1,9 @@
+package starting;
+
 import java.util.*;
 
-public class CeaserKey extends Cipher {
-    public CeaserKey(String key) {
+public class MultiCipher extends Cipher {
+    public MultiCipher(List<Cipher> ciphers) {
         throw new UnsupportedOperationException("Not implemented yet!");
     }
 

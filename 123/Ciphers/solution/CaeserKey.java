@@ -1,3 +1,5 @@
+package solution;
+
 public class CaeserKey extends Caeser {
     public CaeserKey(String key) {
         if (key.equals("")) {

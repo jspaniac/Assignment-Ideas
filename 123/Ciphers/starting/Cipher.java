@@ -1,11 +1,11 @@
-package solution;
+package starting;
 
 import java.util.*;
 import java.io.*;
 
 public abstract class Cipher {
-    public static final int MIN_CHAR = ' ';
-    public static final int MAX_CHAR = '}';
+    public static final int MIN_CHAR = (int)(' ');
+    public static final int MAX_CHAR = (int)('}');
     public static final int TOTAL_CHARS = MAX_CHAR - MIN_CHAR + 1;
 
     public void handleFile(String fileName, boolean encode) throws FileNotFoundException {
