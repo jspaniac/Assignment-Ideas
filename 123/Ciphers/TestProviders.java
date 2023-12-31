@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class TestProviders {
@@ -55,5 +56,23 @@ public class TestProviders {
             List.of("s10"),
             List.of("c !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`bacdefghijklmnopqrstuvwxyz{|}", "kcse123", "s10")
         );
+    }
+
+    public static final int MAX_CONCEALMENT = 100;
+    public static Stream<Integer> concealmentProvider() {
+        return IntStream.range(1, MAX_CONCEALMENT + 1).boxed();
+    }
+
+    public static Stream<String> vigenereProvider() {
+        return Stream.concat(keyProvider(), List.of("vigenere", "VIGENERE").stream());
+    }
+
+    public static Stream<Integer> transpositionProvider() {
+        return concealmentProvider().skip(1);
+    }
+
+    public static final int MAX_DIGITS = (int)(Math.floor(Math.log10(Integer.MAX_VALUE)));
+    public static Stream<Integer> randomProvider() {
+        return IntStream.range(1, MAX_DIGITS + 1).boxed();
     }
 }

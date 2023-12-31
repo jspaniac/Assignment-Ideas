@@ -1,5 +1,3 @@
-package solution;
-
 public class Vigenere extends Cipher {
     private String key;
     public Vigenere(String key) {
@@ -33,6 +31,6 @@ public class Vigenere extends Cipher {
 
     @Override
     public String toString() {
-        return String.format("Vigenere with key: %s", this.key);
+        return String.format("Vigenere with key: %d", this.key);
     }
 }

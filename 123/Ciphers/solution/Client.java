@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Client {
     public static final Cipher CHOSEN_CIPHER = new MultiCipher(List.of(
-        new CaeserShift(1), new Transposition(2)
+        new CaesarShift(1), new Transposition(2)
     ));
 
     public static void main(String[] args) throws FileNotFoundException {

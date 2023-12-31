@@ -1,5 +1,3 @@
-package solution;
-
 public class Transposition extends Cipher {
     private int width;
     public Transposition(int width) {

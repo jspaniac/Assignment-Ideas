@@ -10,11 +10,16 @@ public class MultiCipher extends Cipher {
     }
 
     public String handleInput(String input, boolean encode) {
-        int start = encode ? 0 : -(ciphers.size() - 2);
+        int start = encode ? 0 : -(ciphers.size() - 1);
         int end = encode ? ciphers.size() - 1 : 0;
         for (int i = start; i <= end; i++) {
             input = ciphers.get(Math.abs(i)).handleInput(input, encode);
         }
         return input;
+    }
+
+    @Override
+    public String toString() {
+        return ciphers.toString().substring(1, ciphers.toString().length() - 1);
     }
 }
