@@ -1,8 +1,8 @@
 package solution;
 
-public class CaeserShift extends Caeser {
+public class CaesarShift extends Caesar {
     private int shift;
-    public CaeserShift(int shift) {
+    public CaesarShift(int shift) {
         this.shift = shift;
         String shifter = "";
         for (int i = 0; i < Cipher.TOTAL_CHARS; i++) {
@@ -18,6 +18,6 @@ public class CaeserShift extends Caeser {
 
     @Override
     public String toString() {
-        return String.format("CaeserShift with shift: %d", this.shift);
+        return String.format("CaesarShift with shift: %d", this.shift);
     }
 }

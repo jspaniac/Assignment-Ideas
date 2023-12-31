@@ -1,13 +1,13 @@
 package solution;
 
-public class Caeser extends Cipher {
+public class Caesar extends Cipher {
     private String shifter;
     
-    public Caeser() {
+    public Caesar() {
         this.shifter = null;
     }
 
-    public Caeser(String shifter) {
+    public Caesar(String shifter) {
         setShifter(shifter);
     }
 
@@ -52,6 +52,6 @@ public class Caeser extends Cipher {
 
     @Override
     public String toString() {
-        return String.format("Caeser with shifter: %s", this.shifter);
+        return String.format("Caesar with shifter: %s", this.shifter);
     }
 }

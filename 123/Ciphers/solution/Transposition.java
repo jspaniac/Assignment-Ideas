@@ -1,7 +1,5 @@
 package solution;
 
-import java.util.*;
-
 public class Transposition extends Cipher {
     private int width;
     public Transposition(int width) {

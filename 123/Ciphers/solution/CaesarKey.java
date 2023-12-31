@@ -1,9 +1,9 @@
 package solution;
 
-public class CaeserKey extends Caeser {
+public class CaesarKey extends Caesar {
     private String key;
 
-    public CaeserKey(String key) {
+    public CaesarKey(String key) {
         //super.checkValid(key);
         this.key = key;
         String shifter = key;
@@ -22,6 +22,6 @@ public class CaeserKey extends Caeser {
 
     @Override
     public String toString() {
-        return String.format("CaeserKey with key: %s", this.key);
+        return String.format("CaesarKey with key: %s", this.key);
     }
 }

@@ -2,13 +2,13 @@ package solution;
 
 import java.util.*;
 
-public class CaeserRandom extends Caeser {
+public class CaesarRandom extends Caesar {
     public static final Random RAND = new Random();
     public static final int MAX_DIGITS = (int)(Math.floor(Math.log10(Integer.MAX_VALUE)));
     
     private int digits;
 
-    public CaeserRandom(int digits) {
+    public CaesarRandom(int digits) {
         if (digits <= 0 || digits > MAX_DIGITS) {
             throw new IllegalArgumentException("Digits value < 0 or > " + MAX_DIGITS);
         }
