@@ -26,11 +26,19 @@ Constructs a new Caesar Cipher with an empty shifter
 ```java
 public Caesar(String shifter)
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> b0993ff247a87c281c2f3676e813dea87f0ad755
 Constructs a new Ceaser Cipher with the provided shifter. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match number of characters handled by our Ciphers, any individual character falls outside our range of valid characters, or no encryption occurs with the given shifter.
 
 ```java
 public setShifter(String shifter)
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> b0993ff247a87c281c2f3676e813dea87f0ad755
 Updates the shifter for this Ceaser Cipher. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match the number of valid characters handled by our Ciphers, any individual character falls outside our range of valid characters, or no encryption occurs with the given shifter.
 
 Since we're allowing clients to set a shifter after construction, your `handleInput` method should throw an `IllegalStateException` if a shifter was never set (and thus no encryption/decryption can occur).
