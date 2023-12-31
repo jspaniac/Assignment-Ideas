@@ -26,12 +26,12 @@ Constructs a new Ceaser Cipher with an empty shifter
 ```java
 public Ceaser(String shifter)
 ```
-Constructs a new Ceaser Cipher with the provided shifter. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match number of characters handled by our Ciphers or any individual character falls outside our range of valid characters.
+Constructs a new Ceaser Cipher with the provided shifter. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match number of characters handled by our Ciphers, any individual character falls outside our range of valid characters, or no encryption occurs with the given shifter.
 
 ```java
 public setShifter(String shifter)
 ```
-Updates the shifter for this Ceaser Cipher. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match the number of valid characters handled by our Ciphers or any individual character falls outside our range of valid characters.
+Updates the shifter for this Ceaser Cipher. Should throw an `IllegalArgumentException` if the length of the shifter doesn't match the number of valid characters handled by our Ciphers, any individual character falls outside our range of valid characters, or no encryption occurs with the given shifter.
 
 Since we're allowing clients to set a shifter after construction, your `handleInput` method should throw an `IllegalStateException` if a shifter was never set (and thus no encryption/decryption can occur).
 ___
@@ -46,7 +46,7 @@ Note that the shifter string consists of the alphabet with each character shifte
 ```java
 public CeaserShift(int shift)
 ```
-An `IllegalArgumentException` should be thrown in the case that shift is 0 (as no encryption would be occuring).
+An `IllegalArgumentException` should be thrown in the case that shift is a multiple of the number of valid encryptable characters (as no encryption would be occuring).
 
 **HINT**: One way of viewing the modulo operator (%) is that it shrinks our integer numberline to one having a certain length (i.e. %10 only allows numbers +/- 0-9 to exist). This is useful in situations where we want to loop back to the beginning after passing a specific value and will likely be useful in your solution to the above.
 ___
@@ -60,7 +60,7 @@ Note that the shifter string starts with "BAG" (the key) and then is followed by
 ```java
 public CeaserKey(String key)
 ```
-This constructor should throw an `IllegalArgumentException` in the case that the key is empty, it contains a character outside our range of valid characters, or it contains any duplicate characters.
+This constructor should throw an `IllegalArgumentException` in the case that the key is empty, it contains a character outside our range of valid characters, it contains any duplicate characters, or no encryption occurs with the given key.
 ___
 ### MultiCipher.java
 The above ciphers are interesting, but on their own they're pretty solvable. A more complicated approach would be to chain these ciphers together to really confuse any possible adversaries! This is what you'll be implementing in this class: given a list of ciphers, use all of them them in order to encrypt / decrypt a message. Below is the appropriate method signature for the constructor:

@@ -19,12 +19,12 @@ public class Caeser extends Cipher {
             if (shifter.indexOf(c) != i) {
                 throw new IllegalArgumentException(shifter + " contains duplicate character " + c);
             }
-            if (i != 0 && shifter.charAt(i - 1) > c) {
+            if (shifter.charAt(i) != Cipher.MIN_CHAR + i) {
                 found = true;
             }
         }
         if (!found) {
-            throw new IllegalArgumentException("No encryption occurs with this shifter");
+            throw new IllegalArgumentException("No encryption occurs with this shifter " + shifter);
         }
     }
 
