@@ -40,7 +40,7 @@ public class TestProviders {
 
     // CaeserShift.java - Shift values provided to constructor
     public static Stream<Integer> shiftProvider() {
-        return Stream.of(1, 5, 10, -1, -5, -10);
+        return Stream.of(1, 5, 10, -1, -5, -10, Cipher.MAX_CHAR + 1, -Cipher.MAX_CHAR - 1);
     }
 
     // CaeserKey.java - Key values provided to constructor

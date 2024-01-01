@@ -222,7 +222,7 @@ public class CipherTest {
     public void testMultiExceptions() {
         assertThrows(IllegalArgumentException.class, () -> {
             new MultiCipher(new ArrayList<>());
-        });
+        }, "Appropriate exception not thrown for empty encryption list");
     }
 
     public static class Tuple<A, B> {

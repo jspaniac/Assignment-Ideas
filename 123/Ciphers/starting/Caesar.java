@@ -1,12 +1,12 @@
 package starting;
 
-public class Caeser extends Cipher {
+public class Caesar extends Cipher {
 
-    public Caeser() {
+    public Caesar() {
         throw new UnsupportedOperationException("Not implemented yet!");
     }
 
-    public Caeser(String shifter) {
+    public Caesar(String shifter) {
         throw new UnsupportedOperationException("Not implemented yet!");
     }
 

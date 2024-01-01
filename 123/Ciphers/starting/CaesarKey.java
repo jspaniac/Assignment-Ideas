@@ -2,8 +2,8 @@ package starting;
 
 import java.util.*;
 
-public class CaeserKey extends Cipher {
-    public CaeserKey(String key) {
+public class CaesarKey extends Cipher {
+    public CaesarKey(String key) {
         throw new UnsupportedOperationException("Not implemented yet!");
     }
 

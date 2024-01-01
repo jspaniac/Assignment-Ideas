@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Client {
     // TODO: Change this line once you've implemented a cipher!
-    public static final Cipher CHOSEN_CIPHER = new CaeserShift(1);
+    public static final Cipher CHOSEN_CIPHER = new CaesarShift(1);
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner console = new Scanner(System.in);
