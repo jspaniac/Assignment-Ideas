@@ -18,7 +18,7 @@ public class CipherTest {
     
     @DisplayName("Caesar Test Encode/Decode")
     @ParameterizedTest
-    @Tag("Score:0")
+    @Tag("score:0")
     @MethodSource("TestProviders#shifterProvider")
     public void testCaesarBase(TestProviders.Tuple<String, String> shifter) {
         testCiphers(new solution.Caesar(shifter.one), new Caesar(shifter.one), shifter.toString());
@@ -26,7 +26,7 @@ public class CipherTest {
 
     @DisplayName("CaesarShift Test Encode/Decode")
     @ParameterizedTest
-    @Tag("Score:0")
+    @Tag("score:0")
     @MethodSource("TestProviders#shiftProvider")
     public void testCaesarShift(int shift) {
         testCiphers(new solution.CaesarShift(shift), new CaesarShift(shift), "");
@@ -34,7 +34,7 @@ public class CipherTest {
 
     @DisplayName("CaesarKey Test Encode/Decode")
     @ParameterizedTest
-    @Tag("Score:0")
+    @Tag("score:0")
     @MethodSource("TestProviders#keyProvider")
     public void testCaesarKey(String key) {
         testCiphers(new solution.CaesarKey(key), new CaesarKey(key), "");
@@ -42,7 +42,7 @@ public class CipherTest {
 
     @DisplayName("MultiCipher Test Encode/Decode")
     @ParameterizedTest
-    @Tag("Score:0")
+    @Tag("score:0")
     @MethodSource("TestProviders#cipherListProvider")
     public void testMultiCipher(List<String> ciphers) {
         TestProviders.Tuple<List<solution.Cipher>, List<Cipher>> converted = CipherTest.cipherListConverter(ciphers);
@@ -85,7 +85,7 @@ public class CipherTest {
 
     @DisplayName("Base Exceptions Test")
     @Test
-    @Tag("Score:0")
+    @Tag("score:0")
     public void testExceptions() {
         testCaesarBaseExceptions();
         testCaesarShiftExceptions();

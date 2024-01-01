@@ -14,7 +14,7 @@ public class ExtensionTest {
 
     @DisplayName("Concealment Test All")
     @Test
-    @Tag("Score:0")
+    @Tag("score:0")
     public void testConcealment() {
         // Base
         TestProviders.concealmentProvider().forEach(position -> {
@@ -45,7 +45,7 @@ public class ExtensionTest {
 
     @DisplayName("Vigenere Test All")
     @Test
-    @Tag("Score:0")
+    @Tag("score:0")
     public void testVigenere() {
         // Base
         TestProviders.vigenereProvider().forEach(key -> {
@@ -62,7 +62,7 @@ public class ExtensionTest {
 
     @DisplayName("Transposition Test All")
     @Test
-    @Tag("Score:0")
+    @Tag("score:0")
     public void testTransposition() {
         // Base
         TestProviders.transpositionProvider().forEach(width -> {
@@ -95,7 +95,7 @@ public class ExtensionTest {
 
     @DisplayName("CaesarRandom Test All")
     @Test
-    @Tag("Score:0")
+    @Tag("score:0")
     public void testCaesarRandom() {
         // Base
         TestProviders.randomProvider().forEach(digits -> {
