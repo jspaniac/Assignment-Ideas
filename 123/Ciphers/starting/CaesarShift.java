@@ -2,8 +2,8 @@ package starting;
 
 import java.util.*;
 
-public class CaeserShift extends Cipher {
-    public CaeserShift(int shift) {
+public class CaesarShift extends Cipher {
+    public CaesarShift(int shift) {
         throw new UnsupportedOperationException("Not implemented yet!");
     }
 
