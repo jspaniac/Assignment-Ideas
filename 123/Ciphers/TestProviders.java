@@ -4,34 +4,34 @@ import java.util.stream.Stream;
 
 public class TestProviders {
     // Inputs to encrypt and decrypt across all ciphers
-    public static final List<CipherTest.Tuple<String, String>> INPUTS = List.of(
-        new CipherTest.Tuple<>("", "No input"),
-        new CipherTest.Tuple<>("abcdefghijklmnopqrstuvwxyz", "alphabetic lowercase"),
-        new CipherTest.Tuple<>("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "alphabetic uppercase"),
-        new CipherTest.Tuple<>("MiXiNgTwO", "Mixing uppercase and lowercase"),
-        new CipherTest.Tuple<>("0123456789", "Numbers incrementing"),
-        new CipherTest.Tuple<>("9876543210", "Numbers decrementing"),
-        new CipherTest.Tuple<>(" !\"#$", "Characters near Cipher.MIN_CHAR"),
-        new CipherTest.Tuple<>("yz{|}", "Characters near Cipher.MAX_CHAR"),
-        new CipherTest.Tuple<>(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`bacdefghijklmnopqrstuvwxyz{|}", "All chars")
+    public static final List<Tuple<String, String>> INPUTS = List.of(
+        new Tuple<>("", "No input"),
+        new Tuple<>("abcdefghijklmnopqrstuvwxyz", "alphabetic lowercase"),
+        new Tuple<>("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "alphabetic uppercase"),
+        new Tuple<>("MiXiNgTwO", "Mixing uppercase and lowercase"),
+        new Tuple<>("0123456789", "Numbers incrementing"),
+        new Tuple<>("9876543210", "Numbers decrementing"),
+        new Tuple<>(" !\"#$", "Characters near Cipher.MIN_CHAR"),
+        new Tuple<>("yz{|}", "Characters near Cipher.MAX_CHAR"),
+        new Tuple<>(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`bacdefghijklmnopqrstuvwxyz{|}", "All chars")
     );
 
     // Caeser.java - Shifter strings provided to constructor with explanation
-    public static Stream<CipherTest.Tuple<String, String>> shifterProvider() {
+    public static Stream<Tuple<String, String>> shifterProvider() {
         return Stream.of(
-            new CipherTest.Tuple<>(
+            new Tuple<>(
                 " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`bacdefghijklmnopqrstuvwxyz{|}",
                 "Swapping a<->b"
             ),
-            new CipherTest.Tuple<>(
+            new Tuple<>(
                 " !\"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}",
                 "Swapping upper and lowercase letters"
             ),
-            new CipherTest.Tuple<>(
+            new Tuple<>(
                 " !\"#$%&'()*+,-./9876543210:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}",
                 "Decrementing numbers"
             ),
-            new CipherTest.Tuple<>(
+            new Tuple<>(
                 "j+]g,xH0 d)(*io#O!&?}1;|YR{L/^CZcV4TsAEf'e`_=h<%[w\\5Wv-Mt\"nF>a2X6:BuIN3KPQ8.$zGySl79kq@mrUJpDb",
                 "Scrambled randomly"
             )
@@ -78,5 +78,19 @@ public class TestProviders {
     public static final int MAX_DIGITS = (int)(Math.floor(Math.log10(Integer.MAX_VALUE)));
     public static Stream<Integer> randomProvider() {
         return IntStream.range(1, MAX_DIGITS + 1).boxed();
+    }
+
+    public static class Tuple<A, B> {
+        public final A one;
+        public final B two;
+
+        public Tuple(A one, B two) {
+            this.one = one; this.two = two;
+        }
+
+        @Override
+        public String toString() {
+            return String.format("(%s, %s)", two.toString(), one.toString());
+        }
     }
 }

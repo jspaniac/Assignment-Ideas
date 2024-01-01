@@ -39,6 +39,9 @@ public class Transposition extends Cipher {
     }
 
     public String handleInput(String input, boolean encode) {
+        if (!encode && input.length() % width != 0) {
+            throw new IllegalArgumentException("Unable to decode input, invalid length");
+        }
         char[][] matrix = toMatrix(input, encode);
         String result = traverse(matrix, !encode);
         int lastIndex = result.indexOf((char)(Cipher.MAX_CHAR + 1));
