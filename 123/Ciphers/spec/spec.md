@@ -135,6 +135,8 @@ Below is the appropriate constructor signature for your solution:
 public Transposition(int width)
 ```
 An `IllegalArgumentException` should be thrown if the width is <= 0 (not possible) or == 1 (as no encryption will occur).
+
+Additionally, when decrypting, you should throw an `IllegalArgumentException` when the length of the input is not a multiple of width (meaning it is not possible to fully populate the grid with / it isn't a valid encryption).
 ___
 ### 4. CaesarRandom
 Here, you'll implement another variation of a Caesar Cipher that uses a randomly shuffled shifter string. This initially sounds impossible as if we randomly create the shifter string, how do we possibly decrypt? The answer lies in being able to control a Random object in java via a seed value. Any two Random objects constructd with the same seed will produce random values in the same order as one another. Below is an example:

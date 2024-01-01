@@ -45,6 +45,11 @@ public class ExceptionProviders {
     public static Stream<Integer> invalidTranspositionProvider() {
         return Stream.concat(invalidPositionProvider(), Stream.of(1));
     }
+    
+    public static final int INVALID_WIDTH = 3;
+    public static Stream<String> invalidTranspositionDecryptProvider() {
+        return Stream.of("a", "ab", "abcd", "abcde", "abcdefg", "abcdefgh", "abcdefghij", "abcdefghijk");
+    }
 
     // CaesarRandom.java - Tries values outside the range [1, TestProviders.MAX_DIGITS]
     public static final int MAX_DIGITS = 100;

@@ -55,8 +55,8 @@ public class CipherTest {
     public void testConcealment() {
         // Base
         TestProviders.concealmentProvider().forEach(position -> {
+            Cipher c = new Concealment(position);
             for (Tuple<String, String> input : TestProviders.INPUTS) {
-                Cipher c = new Concealment(position);
                 String encoded = c.handleInput(input.one, true);
                 assertTrue(encoded.length() / (position + 1) == input.one.length(),
                            String.format("Encoded string has incorrect length for input %s and filler [%d], expected in range: [%d < length < %d], actual: %d. Result: [%s]",
@@ -103,14 +103,30 @@ public class CipherTest {
     public void testTransposition() {
         // Base
         TestProviders.transpositionProvider().forEach(width -> {
-            testCiphers(new solution.Transposition(width), new Transposition(width), "");
+            Cipher c = new Transposition(width);
+            solution.Cipher sc = new solution.Transposition(width);
+            for (Tuple<String, String> input : TestProviders.INPUTS) {
+                String encoded = c.handleInput(input.one, true);
+                assertEquals(sc.handleInput(input.one, true), encoded,
+                             String.format("Input incorrectly encoded. Originally %s, Encoded [%s]",
+                                           input.toString(), encoded));
+                String decoded = c.handleInput(encoded, false);
+                assertEquals(decoded, input.one,
+                             String.format("Encoded input incorrect decoded. Originally %s, Encoded [%s], Decoded [%s]",
+                                           input.toString(), encoded, decoded));
+            }
         });
 
         // Exceptions
         ExceptionProviders.invalidTranspositionProvider().forEach(width -> {
             assertThrows(IllegalArgumentException.class, () -> new Transposition(width),
-                         String.format("Appropriate exception not thrown for width value [%d] in Tranpsoition.java constructor",
+                         String.format("Appropriate exception not thrown for width value [%d] in Transposition.java constructor",
                                        width));
+        });
+        Cipher c = new Transposition(ExceptionProviders.INVALID_WIDTH);
+        ExceptionProviders.invalidTranspositionDecryptProvider().forEach(encoded -> {
+            assertThrows(IllegalArgumentException.class, () -> c.handleInput(encoded, false),
+                         "Appropriate exception not thrown when decoding string with length not a multiple of width in Transposition.java handleInput");
         });
     }
 
@@ -124,8 +140,8 @@ public class CipherTest {
             for (Tuple<String, String> input : TestProviders.INPUTS) {
                 String encoded = c.handleInput(input.one, true);
                 String decoded = c.handleInput(encoded, false);
-                assertEquals(input.one, decoded, String.format("Decoded string mismatches original with digits [%d]",
-                                                               digits));
+                assertEquals(input.one, decoded, String.format("Decoded string mismatches original with digits [%d]. Original %s Encoded [%s], Decoded [%s]",
+                                                               digits, input.toString(), encoded, decoded));
             }
         });
 
