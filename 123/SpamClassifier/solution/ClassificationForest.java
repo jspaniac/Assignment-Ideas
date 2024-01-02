@@ -9,7 +9,6 @@ public class ClassificationForest extends Classifier {
             throw new IllegalArgumentException();
         }
         forest = new ArrayList<>(n);
-        Random rand = new Random();
         for (int i = 0; i < n; i++) {
             DataLoader.shuffle(data, labels);
             forest.add(new ClassificationTree(data, labels));
