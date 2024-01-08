@@ -1,3 +1,4 @@
+package test;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -5,7 +6,7 @@ public class ExceptionProviders {
     // Caeser.java - Invalid shifter strings with explanation
     public static Stream<TestProviders.Tuple<String, String>> invalidShifterProvider() {
         return Stream.of(
-            new TestProviders.Tuple<>(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}", "No encryption"),
+            new TestProviders.Tuple<String, String>(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}", "No encryption"),
             new TestProviders.Tuple<>(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ", "Too few characters"),
             new TestProviders.Tuple<>(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|} ", "Too many characters"),
             new TestProviders.Tuple<>(" !\"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`abcdefghijklmnopqrstuvwxyz{|}", "Duplicate characters"),

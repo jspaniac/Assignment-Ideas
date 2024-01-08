@@ -1,3 +1,4 @@
+package test;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -20,7 +21,7 @@ public class ExtensionTest {
         TestProviders.concealmentProvider().forEach(position -> {
             Cipher c = new Concealment(position);
             for (TestProviders.Tuple<String, String> input : TestProviders.INPUTS) {
-                String encoded = c.handleInput(input.one, true);
+                String encoded = c.encrypt(input.one);
                 assertTrue(encoded.length() / (position + 1) == input.one.length(),
                            String.format("Encoded string has incorrect length for input %s and filler [%d], expected in range: [%d < length < %d], actual: %d. Result: [%s]",
                                          input.toString(), position, input.one.length() * (position + 1), input.one.length() * (position + 2), encoded.length(), encoded));
@@ -29,7 +30,7 @@ public class ExtensionTest {
                                  String.format("Encoded string has incorrect character at index [%d] for input %s and filler [%d]. Result: [%s]",
                                                i, input.toString(), position, encoded));
                 }
-                assertEquals(input.one, c.handleInput(encoded, false), 
+                assertEquals(input.one, c.decrypt(encoded), 
                              String.format("Decoding failed for encoded input [%s] and filler [%d]. Original input %s",
                                            encoded, position, input.toString()));
             }
@@ -69,11 +70,11 @@ public class ExtensionTest {
             Cipher c = new Transposition(width);
             solution.Cipher sc = new solution.Transposition(width);
             for (TestProviders.Tuple<String, String> input : TestProviders.INPUTS) {
-                String encoded = c.handleInput(input.one, true);
-                assertEquals(sc.handleInput(input.one, true), encoded,
+                String encoded = c.encrypt(input.one);
+                assertEquals(sc.encrypt(input.one), encoded,
                              String.format("Input incorrectly encoded. Originally %s, Encoded [%s]",
                                            input.toString(), encoded));
-                String decoded = c.handleInput(encoded, false);
+                String decoded = c.decrypt(encoded);
                 assertEquals(decoded, input.one,
                              String.format("Encoded input incorrect decoded. Originally %s, Encoded [%s], Decoded [%s]",
                                            input.toString(), encoded, decoded));
@@ -88,7 +89,7 @@ public class ExtensionTest {
         });
         Cipher c = new Transposition(ExceptionProviders.INVALID_WIDTH);
         ExceptionProviders.invalidTranspositionDecryptProvider().forEach(encoded -> {
-            assertThrows(IllegalArgumentException.class, () -> c.handleInput(encoded, false),
+            assertThrows(IllegalArgumentException.class, () -> c.decrypt(encoded),
                          "Appropriate exception not thrown when decoding string with length not a multiple of width in Transposition.java handleInput");
         });
     }
@@ -99,10 +100,10 @@ public class ExtensionTest {
     public void testCaesarRandom() {
         // Base
         TestProviders.randomProvider().forEach(digits -> {
-            Cipher c = new CaesarRandom(digits);
+            Cipher c = new SubstitutionRandom(digits);
             for (TestProviders.Tuple<String, String> input : TestProviders.INPUTS) {
-                String encoded = c.handleInput(input.one, true);
-                String decoded = c.handleInput(encoded, false);
+                String encoded = c.encrypt(input.one);
+                String decoded = c.decrypt(encoded);
                 assertEquals(input.one, decoded, String.format("Decoded string mismatches original with digits [%d]. Original %s Encoded [%s], Decoded [%s]",
                                                                digits, input.toString(), encoded, decoded));
             }
@@ -110,7 +111,7 @@ public class ExtensionTest {
 
         // Exceptions
         ExceptionProviders.invalidRandomProvider().forEach(digits -> {
-            assertThrows(IllegalArgumentException.class, () -> new CaesarRandom(digits),
+            assertThrows(IllegalArgumentException.class, () -> new SubstitutionRandom(digits),
                          String.format("Appropriate exception not thrown for digits value [%d] in CaesarRandom.java constructor",
                                        digits));
         });
@@ -120,8 +121,8 @@ public class ExtensionTest {
         for (int i = 0; i < 2; i++) {
             boolean encode = i == 0;
             for (TestProviders.Tuple<String, String> input : TestProviders.INPUTS) {
-                String expected = solution.handleInput(input.one, encode);
-                String actual = student.handleInput(input.one, encode);
+                String expected = encode ? solution.encrypt(input.one) : solution.decrypt(input.one);
+                String actual = encode ? student.encrypt(input.one) : student.decrypt(input.one);
                 assertEquals(expected, actual,
                             String.format("%s failed with [%s] and input %s", 
                                           (encode ? "Encode" : "Decode"),

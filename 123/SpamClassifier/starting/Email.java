@@ -1,3 +1,4 @@
+package starting;
 import java.util.*;
 
 public class Email extends Classifiable {

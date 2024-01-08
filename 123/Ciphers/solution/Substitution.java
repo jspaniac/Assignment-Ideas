@@ -1,13 +1,13 @@
 package solution;
 
-public class Caesar extends Cipher {
+public class Substitution extends Cipher {
     private String shifter;
     
-    public Caesar() {
+    public Substitution() {
         this.shifter = null;
     }
 
-    public Caesar(String shifter) {
+    public Substitution(String shifter) {
         setShifter(shifter);
     }
 
@@ -38,7 +38,17 @@ public class Caesar extends Cipher {
         this.shifter = shifter;
     }
 
-    public String handleInput(String input, boolean encode) {
+    @Override
+    public String encrypt(String input) {
+        return handleInput(input, true);
+    }
+
+    @Override
+    public String decrypt(String input) {
+        return handleInput(input, false);
+    }
+
+    private String handleInput(String input, boolean encode) {
         if (this.shifter == null) {
             throw new IllegalStateException("Shifter never set after empty construction");
         }

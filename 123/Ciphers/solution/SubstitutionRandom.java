@@ -2,13 +2,13 @@ package solution;
 
 import java.util.*;
 
-public class CaesarRandom extends Caesar {
+public class SubstitutionRandom extends Substitution {
     public static final Random RAND = new Random();
     public static final int MAX_DIGITS = (int)(Math.floor(Math.log10(Integer.MAX_VALUE)));
     
     private int digits;
 
-    public CaesarRandom(int digits) {
+    public SubstitutionRandom(int digits) {
         if (digits <= 0 || digits > MAX_DIGITS) {
             throw new IllegalArgumentException("Digits value < 0 or > " + MAX_DIGITS);
         }
@@ -32,11 +32,21 @@ public class CaesarRandom extends Caesar {
         return String.format("%0" + digits + "d", val);
     }
 
-    public String handleInput(String input, boolean encode) {
+    @Override
+    public String encrypt(String input) {
+        return handleInput(input, true);
+    }
+
+    @Override
+    public String decrypt(String input) {
+        return handleInput(input, false);
+    }
+
+    private String handleInput(String input, boolean encode) {
         int seed = encode ? RAND.nextInt((int)(Math.pow(10, digits))) : Integer.parseInt(input.substring(0, digits));
         super.setShifter(getShifter(seed));
-        return encode ? toDigits(digits, seed) + super.handleInput(input, encode) :
-                        super.handleInput(input.substring(digits), encode);
+        return encode ? toDigits(digits, seed) + super.encrypt(input) :
+                        super.decrypt(input.substring(digits));
     }
 
     @Override

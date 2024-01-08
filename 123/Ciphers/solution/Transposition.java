@@ -38,7 +38,17 @@ public class Transposition extends Cipher {
         return new String(ret);
     }
 
-    public String handleInput(String input, boolean encode) {
+    @Override
+    public String encrypt(String input) {
+        return handleInput(input, true);
+    }
+
+    @Override
+    public String decrypt(String input) {
+        return handleInput(input, false);
+    }
+
+    private String handleInput(String input, boolean encode) {
         if (!encode && input.length() % width != 0) {
             throw new IllegalArgumentException("Unable to decode input, invalid length");
         }

@@ -1,3 +1,4 @@
+package starting;
 public class Split {
     private double threshold;
     private String feature;

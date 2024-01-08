@@ -17,7 +17,17 @@ public class Concealment extends Cipher {
         this.position = position;
     }
 
-    public String handleInput(String input, boolean encode) {
+    @Override
+    public String encrypt(String input) {
+        return handleInput(input, true);
+    }
+
+    @Override
+    public String decrypt(String input) {
+        return handleInput(input, false);
+    }
+
+    private String handleInput(String input, boolean encode) {
         String ret = "";
         for (int i = 0; i < input.length(); i++) {
             if (encode) {

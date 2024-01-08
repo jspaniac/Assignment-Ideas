@@ -19,6 +19,16 @@ public class Vigenere extends Cipher {
         this.key = key;
     }
 
+    @Override
+    public String encrypt(String input) {
+        return handleInput(input, true);
+    }
+
+    @Override
+    public String decrypt(String input) {
+        return handleInput(input, false);
+    }
+
     public String handleInput(String input, boolean encode) {
         String ret = "";
         for (int i = 0; i < input.length(); i++) {

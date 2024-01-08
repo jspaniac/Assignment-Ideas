@@ -1,4 +1,9 @@
+package starting_extension;
 import java.util.*;
+
+import starting.Classifiable;
+import starting.Classifier;
+
 import java.io.*;
 
 public class ClassificationForest extends Classifier {

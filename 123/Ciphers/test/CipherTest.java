@@ -1,3 +1,4 @@
+package test;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
@@ -19,15 +20,15 @@ public class CipherTest {
     @DisplayName("Caesar Test Encode/Decode")
     @ParameterizedTest
     @Tag("score:0")
-    @MethodSource("TestProviders#shifterProvider")
-    public void testCaesarBase(TestProviders.Tuple<String, String> shifter) {
-        testCiphers(new solution.Caesar(shifter.one), new Caesar(shifter.one), shifter.toString());
+    @MethodSource("test.TestProviders#shifterProvider")
+    public void testCaesarBase(test.TestProviders.Tuple<String, String> shifter) {
+        testCiphers(new solution.Substitution(shifter.one), new Substitution(shifter.one), shifter.toString());
     }
 
     @DisplayName("CaesarShift Test Encode/Decode")
     @ParameterizedTest
     @Tag("score:0")
-    @MethodSource("TestProviders#shiftProvider")
+    @MethodSource("test.TestProviders#shiftProvider")
     public void testCaesarShift(int shift) {
         testCiphers(new solution.CaesarShift(shift), new CaesarShift(shift), "");
     }
@@ -35,7 +36,7 @@ public class CipherTest {
     @DisplayName("CaesarKey Test Encode/Decode")
     @ParameterizedTest
     @Tag("score:0")
-    @MethodSource("TestProviders#keyProvider")
+    @MethodSource("test.TestProviders#keyProvider")
     public void testCaesarKey(String key) {
         testCiphers(new solution.CaesarKey(key), new CaesarKey(key), "");
     }
@@ -43,19 +44,19 @@ public class CipherTest {
     @DisplayName("MultiCipher Test Encode/Decode")
     @ParameterizedTest
     @Tag("score:0")
-    @MethodSource("TestProviders#cipherListProvider")
+    @MethodSource("test.TestProviders#cipherListProvider")
     public void testMultiCipher(List<String> ciphers) {
-        TestProviders.Tuple<List<solution.Cipher>, List<Cipher>> converted = CipherTest.cipherListConverter(ciphers);
+        test.TestProviders.Tuple<List<solution.Cipher>, List<Cipher>> converted = CipherTest.cipherListConverter(ciphers);
         testCiphers(new solution.MultiCipher(converted.one), new MultiCipher(converted.two), "");
     }
 
-    public static TestProviders.Tuple<List<solution.Cipher>, List<Cipher>> cipherListConverter(List<String> input) {
+    public static test.TestProviders.Tuple<List<solution.Cipher>, List<Cipher>> cipherListConverter(List<String> input) {
         List<Cipher> studentCiphers = new ArrayList<>();
         List<solution.Cipher> solutionCiphers = new ArrayList<>();
         for (String cipher : input) {
             if (cipher.charAt(0) == 'c') {
-                studentCiphers.add(new Caesar(cipher.substring(1)));
-                solutionCiphers.add(new solution.Caesar(cipher.substring(1)));
+                studentCiphers.add(new Substitution(cipher.substring(1)));
+                solutionCiphers.add(new solution.Substitution(cipher.substring(1)));
             } else if (cipher.charAt(0) == 's') {
                 studentCiphers.add(new CaesarShift(Integer.valueOf(cipher.substring(1))));
                 solutionCiphers.add(new solution.CaesarShift(Integer.valueOf(cipher.substring(1))));
@@ -64,15 +65,15 @@ public class CipherTest {
                 solutionCiphers.add(new solution.CaesarKey(cipher.substring(1)));
             }
         }
-        return new TestProviders.Tuple<>(solutionCiphers, studentCiphers);
+        return new test.TestProviders.Tuple<List<solution.Cipher>, List<Cipher>>(solutionCiphers, studentCiphers);
     }
 
     public void testCiphers(solution.Cipher solution, Cipher student, String additionalDescription) {
         for (int i = 0; i < 2; i++) {
             boolean encode = i == 0;
-            for (TestProviders.Tuple<String, String> input : TestProviders.INPUTS) {
-                String expected = solution.handleInput(input.one, encode);
-                String actual = student.handleInput(input.one, encode);
+            for (test.TestProviders.Tuple<String, String> input : test.TestProviders.INPUTS) {
+                String expected = encode ? solution.encrypt(input.one) : solution.decrypt(input.one);
+                String actual = encode ? student.encrypt(input.one) : student.decrypt(input.one);
                 assertEquals(expected, actual,
                             String.format("%s failed with [%s] and input %s", 
                                           (encode ? "Encode" : "Decode"),
@@ -96,18 +97,18 @@ public class CipherTest {
     public void testCaesarBaseExceptions() {
         ExceptionProviders.invalidShifterProvider().forEach(tuple -> {
             assertThrows(IllegalArgumentException.class, () -> {
-                new Caesar(tuple.one);
+                new Substitution(tuple.one);
             }, String.format("Appropriate exception not thrown for shifter type [%s] in Caesar.java constructor", tuple.two));
 
             assertThrows(IllegalArgumentException.class, () -> {
-                Caesar c = new Caesar();
+                Substitution c = new Substitution();
                 c.setShifter(tuple.one);
             }, String.format("Appropriate exception not thrown for shifter type [%s] in Caesar.java setShifter", tuple.two));
         });
 
         assertThrows(IllegalStateException.class, () -> {
-            Caesar c = new Caesar();
-            c.handleInput("a", true);
+            Substitution c = new Substitution();
+            c.encrypt("a");
         }, "Appropriate exception not thrown for handling input without setting shifter in Caesar.java");
     }
 
@@ -131,6 +132,10 @@ public class CipherTest {
     }
 
     public void testMultiExceptions() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            new MultiCipher(null);
+        }, "Appropriate exception not thrown for null encryption list");
+
         assertThrows(IllegalArgumentException.class, () -> {
             new MultiCipher(new ArrayList<>());
         }, "Appropriate exception not thrown for empty encryption list");

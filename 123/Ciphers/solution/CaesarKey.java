@@ -1,6 +1,6 @@
 package solution;
 
-public class CaesarKey extends Caesar {
+public class CaesarKey extends Substitution {
     private String key;
 
     public CaesarKey(String key) {

@@ -1,11 +1,15 @@
 package starting;
 
 import java.util.*;
+
 import java.io.*;
 
 public class Client {
     // TODO: Change this line once you've implemented a cipher!
-    public static final Cipher CHOSEN_CIPHER = new CaesarShift(1);
+    public static final Cipher CHOSEN_CIPHER = null;
+    // public static final Cipher CHOSEN_CIPHER = new MultiCipher(List.of(
+    //     new CaesarShift(4), new CaesarKey("123"),
+    //     new CaesarShift(12), new CaesarKey("lemon")));
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner console = new Scanner(System.in);
@@ -29,12 +33,17 @@ public class Client {
                 System.out.println("Please enter the string you'd like to " +
                                     (chosen == 1 ? "encode" : "decode") + ": ");
                 String input = console.nextLine();
-                System.out.println(CHOSEN_CIPHER.handleInput(input, chosen == 1));
+                System.out.println(chosen == 1 ? CHOSEN_CIPHER.encrypt(input) :
+                                                 CHOSEN_CIPHER.decrypt(input));
             } else if (chosen == 3 || chosen == 4) {
                 System.out.print("Please enter the name of the file you'd like to " +
                                     (chosen == 3 ? "encode" : "decode") + ": ");
                 String fileName = console.nextLine();
-                CHOSEN_CIPHER.handleFile(fileName, chosen == 3);
+                if (chosen == 3) {
+                    CHOSEN_CIPHER.encryptFile(fileName);
+                } else {
+                    CHOSEN_CIPHER.decryptFile(fileName);
+                }      
             }
         } while (chosen != 5);
     }

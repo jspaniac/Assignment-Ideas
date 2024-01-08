@@ -1,9 +1,9 @@
 package solution;
 
-public class CaesarShift extends Caesar {
+public class CaesarShift extends Substitution {
     private int shift;
     public CaesarShift(int shift) {
-        this.shift = shift;
+        this.shift = -shift;
         String shifter = "";
         for (int i = 0; i < Cipher.TOTAL_CHARS; i++) {
             int currShift =  (i + shift) % Cipher.TOTAL_CHARS;

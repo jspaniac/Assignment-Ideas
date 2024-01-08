@@ -4,9 +4,8 @@ import java.util.*;
 import java.io.*;
 
 public class Client {
-    public static final Cipher CHOSEN_CIPHER = new MultiCipher(List.of(
-        new CaesarShift(1), new Transposition(2)
-    ));
+    // TODO: Change this line once you've implemented a cipher!
+    public static final Cipher CHOSEN_CIPHER = new Vigenere("CSE");
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner console = new Scanner(System.in);
@@ -30,12 +29,17 @@ public class Client {
                 System.out.println("Please enter the string you'd like to " +
                                     (chosen == 1 ? "encode" : "decode") + ": ");
                 String input = console.nextLine();
-                System.out.println(CHOSEN_CIPHER.handleInput(input, chosen == 1));
+                System.out.println(chosen == 1 ? CHOSEN_CIPHER.encrypt(input) :
+                                                 CHOSEN_CIPHER.decrypt(input));
             } else if (chosen == 3 || chosen == 4) {
                 System.out.print("Please enter the name of the file you'd like to " +
                                     (chosen == 3 ? "encode" : "decode") + ": ");
                 String fileName = console.nextLine();
-                CHOSEN_CIPHER.handleFile(fileName, chosen == 3);
+                if (chosen == 3) {
+                    CHOSEN_CIPHER.encryptFile(fileName);
+                } else {
+                    CHOSEN_CIPHER.decryptFile(fileName);
+                }      
             }
         } while (chosen != 5);
     }
